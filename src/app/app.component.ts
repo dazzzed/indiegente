@@ -22,8 +22,9 @@ export class AppComponent implements OnInit {
     this.msaapPlaylist = pods.map(pod => {
       return {
         title: pod.title,
-        link: links.find(l => (l.id = pod.id)).link
+        link: links.find(l => l.id === pod.id).link
       };
     });
+    console.log(this.msaapPlaylist);
   }
 }

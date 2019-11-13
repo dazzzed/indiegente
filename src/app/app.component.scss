@@ -1,3 +1,18 @@
 h2 {
   text-align: center;
 }
+
+.cont {
+  background-image: url('../assets/pages.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: -20px 0;
+  height: 100%;
+
+  div {
+    background-color: #fff;
+    opacity: 0.90;
+    height: 100%;
+  }
+}
