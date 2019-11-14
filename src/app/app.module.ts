@@ -4,10 +4,16 @@ import { NgxAudioPlayerModule } from 'ngx-audio-player';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, NgxAudioPlayerModule, BrowserAnimationsModule],
+  imports: [
+    BrowserModule,
+    NgxAudioPlayerModule,
+    BrowserAnimationsModule,
+    FontAwesomeModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

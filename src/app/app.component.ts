@@ -4,6 +4,8 @@ import { Track } from 'ngx-audio-player';
 import { pods } from './podcasts/pods.json';
 import { links } from './podcasts/mp3.json';
 
+import { faSortAmountDownAlt } from '@fortawesome/free-solid-svg-icons';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -17,14 +19,21 @@ export class AppComponent implements OnInit {
 
   // Material Style Advance Audio Player Playlist
   msaapPlaylist: Track[] = [];
-
+  faSortAmountDownAlt = faSortAmountDownAlt;
   ngOnInit() {
-    this.msaapPlaylist = pods.map(pod => {
-      return {
-        title: pod.title,
-        link: links.find(l => l.id === pod.id).link
-      };
-    });
+    this.msaapPlaylist = pods
+      .map(pod => {
+        return {
+          title: pod.title,
+          link: links.find(l => l.id === pod.id).link
+        };
+      })
+      .reverse();
     console.log(this.msaapPlaylist);
+  }
+
+  revertOrder() {
+    this.msaapPlaylist = [];
+    this.msaapPlaylist = this.msaapPlaylist.reverse();
   }
 }
