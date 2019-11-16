@@ -25,7 +25,9 @@ export class AppComponent implements OnInit {
       .map(pod => {
         return {
           title: pod.title,
-          link: links.find(l => l.id === pod.id).link
+          link: links.find(l => l.id === pod.id)
+            ? links.find(l => l.id === pod.id).link
+            : ''
         };
       })
       .reverse();
