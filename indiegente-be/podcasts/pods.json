@@ -1,0 +1,3701 @@
+{
+  "pods": [
+    { "title": "07 Nov. 2019", "duration": "58m", "id": "e438541" },
+    { "title": "06 Nov. 2019", "duration": "59", "id": "e437446" },
+    {
+      "title": "05 Nov. 2019 entrevista Ela É Uma Musica Tour ",
+      "duration": "59",
+      "id": "e437444"
+    },
+    {
+      "title": "04 Nov. 2019 com participação de José Anjos ",
+      "duration": "57",
+      "id": "e437443"
+    },
+    {
+      "title": "30 Out. 2019 especial Dirty Coal Train ",
+      "duration": "58",
+      "id": "e437439"
+    },
+    { "title": "29 Out. 2019", "duration": "58", "id": "e436509" },
+    {
+      "title": "28 Out. 2019 com participação de José Anjos ",
+      "duration": "59",
+      "id": "e436508"
+    },
+    { "title": "24 Out. 2019", "duration": "58", "id": "e436506" },
+    { "title": "23 Out. 2019", "duration": "57", "id": "e435114" },
+    {
+      "title": "22 Out. 2019 Especial NIN ",
+      "duration": "59",
+      "id": "e435111"
+    },
+    {
+      "title": "22 Out. 2019 Com participação de José Anjos ",
+      "duration": "59",
+      "id": "e435113"
+    },
+    {
+      "title": "17 Out. 2019 Entrevista Dead Club ",
+      "duration": "57",
+      "id": "e435112"
+    },
+    {
+      "title": "16 Out. 2019 Entreevista Cancro ",
+      "duration": "59",
+      "id": "e435110"
+    },
+    { "title": "15 Out. 2019", "duration": "58", "id": "e435108" },
+    {
+      "title": "14 Out. 2019 Com participação de José Anjos ",
+      "duration": "59",
+      "id": "e435109"
+    },
+    { "title": "10 Out. 2019", "duration": "59", "id": "e435107" },
+    { "title": "09 Out. 2019", "duration": "59", "id": "e432565" },
+    { "title": "08 Out. 2019", "duration": "58", "id": "e432563" },
+    {
+      "title": "07 Out. 2019 com participação de José Anjos ",
+      "duration": "58",
+      "id": "e432564"
+    },
+    {
+      "title": "03 Out. 2019 especial Dirty Coal Train ",
+      "duration": "58",
+      "id": "e431543"
+    },
+    {
+      "title": "02 Out. 2019 entrevista com os Pista ",
+      "duration": "58",
+      "id": "e431541"
+    },
+    { "title": "01 Out. 2019", "duration": "59", "id": "e431542" },
+    {
+      "title": "30 Set. 2019 com participação de José Anjos e André Gago ",
+      "duration": "59",
+      "id": "e431540"
+    },
+    { "title": "26 Set. 2019", "duration": "58", "id": "e429969" },
+    {
+      "title": "25 Set. 2019 entrevista Black Wizards ",
+      "duration": "58",
+      "id": "e429947"
+    },
+    {
+      "title": "24 Set. 2019 entrevista Phantom Vision ",
+      "duration": "59",
+      "id": "e429946"
+    },
+    {
+      "title": "23 Set. 2019 com participação de José Anjos ",
+      "duration": "58",
+      "id": "e429944"
+    },
+    { "title": "18 Set. 2019", "duration": "59", "id": "e428655" },
+    {
+      "title": "17 Set. 2019 com Richard Strange ",
+      "duration": "59",
+      "id": "e428651"
+    },
+    {
+      "title": "16 Set. 2019 Com participação de José Anjos e Miguel Sopas ",
+      "duration": "59",
+      "id": "e428650"
+    },
+    { "title": "12 Set. 2019", "duration": "59", "id": "e427443" },
+    { "title": "11 Set. 2019", "duration": "58", "id": "e427440" },
+    { "title": "10 Set. 2019", "duration": "59", "id": "e427439" },
+    {
+      "title": "09 Set. 2019 com participação de José Anjos ",
+      "duration": "60",
+      "id": "e427438"
+    },
+    { "title": "05 Set. 2019", "duration": "58", "id": "e427436" },
+    {
+      "title": "04 Set. 2019 Entrevista a Raquel Castro sobre o Lisboa Soa ",
+      "duration": "59",
+      "id": "e427435"
+    },
+    {
+      "title": "03 Set. 2019 Entrevista Charles Sangnoir ",
+      "duration": "58",
+      "id": "e425931"
+    },
+    {
+      "title": "02 Set. 2019 com participação de José Anjos e Alex Cortez ",
+      "duration": "59",
+      "id": "e425785"
+    },
+    { "title": "28 Ago. 2019", "duration": "58", "id": "e425225" },
+    {
+      "title": "27 Ago. 2019 com participação de José Anjos ",
+      "duration": "57",
+      "id": "e425049"
+    },
+    { "title": "26 Ago. 2019", "duration": "59", "id": "e424760" },
+    { "title": "22 Ago. 2019", "duration": "57", "id": "e424759" },
+    { "title": "21 Ago. 2019", "duration": "56", "id": "e424757" },
+    {
+      "title": "20 Ago. 2019 com participação de José Anjos ",
+      "duration": "59",
+      "id": "e424004"
+    },
+    {
+      "title": "19 Ago. 2019 Entrevista com Nuno Carromeu de Benguela Blues Connection ",
+      "duration": "59",
+      "id": "e424000"
+    },
+    { "title": "15 Ago. 2019", "duration": "59", "id": "e424001" },
+    {
+      "title": "14 Ago. 2019 Programa de Richard Strange feito para o Indiegente ",
+      "duration": "59",
+      "id": "e423998"
+    },
+    { "title": "13 Ago. 2019", "duration": "58", "id": "e423995" },
+    { "title": "12 Ago. 2019", "duration": "58", "id": "e423996" },
+    { "title": "07 Ago. 2019", "duration": "60", "id": "e423994" },
+    {
+      "title": "06 Ago. 2019 com participação de José Anjos ",
+      "duration": "59",
+      "id": "e421991"
+    },
+    { "title": "05 Ago. 2019", "duration": "58", "id": "e421992" },
+    { "title": "01 Ago. 2019", "duration": "58", "id": "e421990" },
+    { "title": "31 Jul. 2019", "duration": "59", "id": "e421219" },
+    {
+      "title": "30 Jul. 2019 com participação de José Anjos ",
+      "duration": "58",
+      "id": "e421220"
+    },
+    { "title": "29 Jul. 2019", "duration": "59", "id": "e421218" },
+    {
+      "title": "24 Jul. 2019 com Vaarwell na Porta 253 ",
+      "duration": "58",
+      "id": "e421217"
+    },
+    { "title": "22 Jul. 2019", "duration": "58", "id": "e419960" },
+    { "title": "21 Jul. 2019", "duration": "58", "id": "e419958" },
+    { "title": "18 Jul. 2019", "duration": "58", "id": "e419959" },
+    { "title": "17 Jul. 2019", "duration": "59", "id": "e419957" },
+    {
+      "title": "16 Jul. 2019 com participação de José Anjos e Vitor Alves da Silva ",
+      "duration": "58",
+      "id": "e419955"
+    },
+    { "title": "15 Jul. 2019", "duration": "58", "id": "e419956" },
+    { "title": "11 Jul. 2019", "duration": "59", "id": "e417699" },
+    { "title": "10 Jul. 2019", "duration": "59", "id": "e417689" },
+    {
+      "title": "09 Jul. 2019 com José Anjos ",
+      "duration": "59",
+      "id": "e417687"
+    },
+    { "title": "08 Jul. 2019", "duration": "58", "id": "e417685" },
+    { "title": "04 Jul. 2019", "duration": "57", "id": "e416812" },
+    { "title": "03 Jul. 2019", "duration": "58", "id": "e416631" },
+    {
+      "title": "02 Jul. 2019 com José Anjos ",
+      "duration": "58",
+      "id": "e416630"
+    },
+    {
+      "title": "01 Jul. 2019 entrevista com Cook Your Life or You will Be Cooked ",
+      "duration": "59",
+      "id": "e416185"
+    },
+    { "title": "27 Jun. 2019", "duration": "58", "id": "e415399" },
+    { "title": "26 Jun. 2019", "duration": "59", "id": "e415396" },
+    {
+      "title": "25 Jun. 2019 com participação de José Anjos ",
+      "duration": "57",
+      "id": "e415395"
+    },
+    { "title": "20 Jun. 2019", "duration": "59", "id": "e414273" },
+    { "title": "19 Jun. 2019", "duration": "58", "id": "e414274" },
+    {
+      "title": "18 Jun. 2019 com participação de José Anjos e Valerio Romão ",
+      "duration": "58",
+      "id": "e414277"
+    },
+    { "title": "17 Jun. 2019", "duration": "60", "id": "e414276" },
+    { "title": "13 Jun. 2019", "duration": "59", "id": "e414278" },
+    {
+      "title": "12 Jun. 2019 com participação de Margarida Cardeal ",
+      "duration": "59",
+      "id": "e414279"
+    },
+    {
+      "title": "11 Jun. 2019 com participação de José Anjos ",
+      "duration": "58",
+      "id": "e412323"
+    },
+    {
+      "title": "06 Jun. 2019 Entrevista Labaq ",
+      "duration": "58",
+      "id": "e412320"
+    },
+    {
+      "title": "05 Jun. 2019 Programa enviado de Londres pelo mítico Richard Strange ",
+      "duration": "59",
+      "id": "e411034"
+    },
+    {
+      "title": "04 Jun. 2019 com participação de José Anjos ",
+      "duration": "58",
+      "id": "e411032"
+    },
+    {
+      "title": "03 Jun. 2019 Entrevista com O Gajo ",
+      "duration": "59",
+      "id": "e410789"
+    },
+    {
+      "title": "30 Mai. 2019 entrevista Mr. Gallini ",
+      "duration": "59",
+      "id": "e410344"
+    },
+    { "title": "29 Mai. 2019", "duration": "59", "id": "e409855" },
+    {
+      "title": "28 Mai. 2019 com José Anjos ",
+      "duration": "59",
+      "id": "e409853"
+    },
+    {
+      "title": "27 Mai. 2019 entrevista com BWGW ",
+      "duration": "59",
+      "id": "e409387"
+    },
+    {
+      "title": "23 Mai. 2019 Entrevista com Distance Runners ",
+      "duration": "58",
+      "id": "e408734"
+    },
+    { "title": "22 Mai. 2019", "duration": "57", "id": "e408732" },
+    { "title": "21 Mai. 2019", "duration": "58", "id": "e408268" },
+    {
+      "title": "20 Mai. 2019 entrevista com Democrash ",
+      "duration": "59",
+      "id": "e408266"
+    },
+    {
+      "title": "16 Mai. 2019 entrevista com Solar Corona ",
+      "duration": "59",
+      "id": "e407404"
+    },
+    {
+      "title": "15 Mai. 2019 entrevista com Edgar Raposo sobre os 15 anos da Groovie records ",
+      "duration": "59",
+      "id": "e407403"
+    },
+    { "title": "09 Mai. 2019", "duration": "59", "id": "e406009" },
+    { "title": "08 Mai. 2019", "duration": "58", "id": "e406007" },
+    {
+      "title": "07 Mai. 2019 entrevista com Anarchicks ",
+      "duration": "58",
+      "id": "e405769"
+    },
+    {
+      "title": "06 Mai. 2019 entrevista com Dirty Coal Train ",
+      "duration": "59",
+      "id": "e405770"
+    },
+    { "title": "02 Mai. 2019", "duration": "59", "id": "e404563" },
+    {
+      "title": "01 Mai. 2019 entrevista Homem em Catarse ",
+      "duration": "59",
+      "id": "e404317"
+    },
+    { "title": "01 Mai. 2019", "duration": "59", "id": "e404562" },
+    {
+      "title": "30 Abr. 2019 entrevista Aniversário do Sabotage ",
+      "duration": "59",
+      "id": "e404319"
+    },
+    { "title": "25 Abr. 2019", "duration": "59", "id": "e404318" },
+    { "title": "24 Abr. 2019", "duration": "59", "id": "e404315" },
+    {
+      "title": "23 Abr. 2019 Festival Karma e Keep Razors Sharp ",
+      "duration": "59",
+      "id": "e404316"
+    },
+    { "title": "22 Abr. 2019", "duration": "58", "id": "e404314" },
+    { "title": "18 Abr. 2019", "duration": "58", "id": "e404312" },
+    {
+      "title": "17 Abr. 2019 entrevista com IVY ",
+      "duration": "58",
+      "id": "e401847"
+    },
+    { "title": "16 Abr. 2019", "duration": "56", "id": "e401826" },
+    {
+      "title": "15 Abr. 2019 entrevista Lusitanian Ghosts ",
+      "duration": "60",
+      "id": "e401373"
+    },
+    {
+      "title": "11 Abr. 2019 Programa realizado por Richard Strange para o Indiegente ",
+      "duration": "60",
+      "id": "e401371"
+    },
+    {
+      "title": "10 Abr. 2019 Entrevista Museum Museum ",
+      "duration": "59",
+      "id": "e400469"
+    },
+    {
+      "title": "09 Abr. 2019 Entrevista com Peter Hook ",
+      "duration": "59",
+      "id": "e400468"
+    },
+    { "title": "08 Abr. 2019", "duration": "59", "id": "e400466" },
+    {
+      "title": "04 Abr. 2019 Entrevista com Gareth Dickson ",
+      "duration": "59",
+      "id": "e399609"
+    },
+    {
+      "title": "03 Abr. 2019 Entrevista Fast Eddie Nelson ",
+      "duration": "59",
+      "id": "e399607"
+    },
+    {
+      "title": "01 Abr. 2019 Entrevista Nancy knox ",
+      "duration": "59",
+      "id": "e398393"
+    },
+    { "title": "28 Mar. 2019", "duration": "59", "id": "e398392" },
+    {
+      "title": "27 Mar. 2019 Entrevista Bike ",
+      "duration": "58",
+      "id": "e398391"
+    },
+    { "title": "26 Mar. 2019", "duration": "57", "id": "e398390" },
+    {
+      "title": "25 Mar. 2019 entrevista a Pedro Azevedo do Festival Mil ",
+      "duration": "60",
+      "id": "e398389"
+    },
+    {
+      "title": "21 Mar. 2019 Entrevista Mundo Cão ",
+      "duration": "58",
+      "id": "e398388"
+    },
+    { "title": "20 Mar. 2019", "duration": "58", "id": "e398386" },
+    { "title": "19 Mar. 2019", "duration": "58", "id": "e395844" },
+    { "title": "18 Mar. 2019", "duration": "57", "id": "e395842" },
+    {
+      "title": "14 Mar. 2019 entrevista Budda Power Blues ",
+      "duration": "59",
+      "id": "e394803"
+    },
+    { "title": "13 Mar. 2019", "duration": "60", "id": "e395840" },
+    {
+      "title": "12 Mar. 2019 entrevista com Richard Strange ",
+      "duration": "59",
+      "id": "e394800"
+    },
+    {
+      "title": "11 Mar. 2019 especial 25 anos The Downward Spiral de Nine Inch Nails ",
+      "duration": "60",
+      "id": "e394801"
+    },
+    {
+      "title": "08 Mar. 2019 Entrevista com André Fernandes e Sara Badalo dos The Spill ",
+      "duration": "57",
+      "id": "e394156"
+    },
+    { "title": "07 Mar. 2019", "duration": "59", "id": "e394154" },
+    { "title": "06 Mar. 2019", "duration": "59", "id": "e394152" },
+    { "title": "05 Mar. 2019", "duration": "57", "id": "e394153" },
+    { "title": "28 Fev. 2019", "duration": "58", "id": "e394151" },
+    {
+      "title": "27 Fev. 2019 Entrevista com João Correia dos Tape Junk ",
+      "duration": "59",
+      "id": "e394150"
+    },
+    { "title": "26 Fev. 2019", "duration": "57", "id": "e394148" },
+    { "title": "25 Fev. 2019", "duration": "58", "id": "e394149" },
+    { "title": "21 Fev. 2019", "duration": "58", "id": "e390768" },
+    { "title": "19 Fev. 2019", "duration": "59", "id": "e390985" },
+    { "title": "18 Fev. 2019", "duration": "59", "id": "e390767" },
+    {
+      "title": "14 Fev. 2019 entrevista Dakota Suite ",
+      "duration": "58",
+      "id": "e389928"
+    },
+    { "title": "14 Fev. 2019", "duration": "58", "id": "e390766" },
+    { "title": "12 Fev. 2019", "duration": "57", "id": "e389703" },
+    {
+      "title": "11 Fev. 2019 entrevista com Flak ",
+      "duration": "58",
+      "id": "e389704"
+    },
+    {
+      "title": "05 Fev. 2019 entrevista Adolfo Luxuria Canibal ",
+      "duration": "59",
+      "id": "e388424"
+    },
+    {
+      "title": "04 Fev. 2019 entrevista The Walks ",
+      "duration": "58",
+      "id": "e388420"
+    },
+    { "title": "31 Jan. 2019", "duration": "58", "id": "e388421" },
+    { "title": "30 Jan. 2019", "duration": "58", "id": "e388417" },
+    {
+      "title": "29 Jan. 2019 entrevista Scott Matthews ",
+      "duration": "59",
+      "id": "e387040"
+    },
+    { "title": "28 Jan. 2019", "duration": "58", "id": "e387041" },
+    { "title": "24 Jan. 2019", "duration": "58", "id": "e387039" },
+    { "title": "23 Jan. 2019", "duration": "60", "id": "e386051" },
+    {
+      "title": "22 Jan. 2019 entrevista Micah P. Hinson ",
+      "duration": "59",
+      "id": "e385815"
+    },
+    {
+      "title": "21 Jan. 2019 entrevista The Fellow Man ",
+      "duration": "58",
+      "id": "e385589"
+    },
+    { "title": "17 Jan. 2019", "duration": "57", "id": "e385592" },
+    {
+      "title": "16 Jan. 2019 Entrevista com Cave Story ",
+      "duration": "58",
+      "id": "e385590"
+    },
+    { "title": "15 Jan. 2019", "duration": "59", "id": "e384582" },
+    {
+      "title": "14 Jan. 2019 entrevista Beautify Junkyards ",
+      "duration": "58",
+      "id": "e384580"
+    },
+    { "title": "10 Jan. 2019", "duration": "58", "id": "e384581" },
+    {
+      "title": "09 Jan. 2019 entrevista Galo Cant as Duas ",
+      "duration": "59",
+      "id": "e383604"
+    },
+    { "title": "08 Jan. 2019", "duration": "57", "id": "e383603" },
+    { "title": "07 Jan. 2019", "duration": "59", "id": "e383387" },
+    { "title": "03 Jan. 2019", "duration": "58", "id": "e383214" },
+    { "title": "02 Jan. 2019", "duration": "59", "id": "e383210" },
+    { "title": "01 Jan. 2019", "duration": "56", "id": "e383209" },
+    { "title": "25 Dez. 2018", "duration": "65", "id": "e383205" },
+    { "title": "24 Dez. 2018", "duration": "59", "id": "e383206" },
+    { "title": "20 Dez. 2018", "duration": "58", "id": "e383204" },
+    { "title": "19 Dez. 2018", "duration": "57", "id": "e383202" },
+    { "title": "18 Dez. 2018", "duration": "57", "id": "e383203" },
+    { "title": "17 Dez. 2018", "duration": "58", "id": "e383201" },
+    { "title": "13 Dez. 2018", "duration": "44m", "id": "e379176" },
+    { "title": "12 Dez. 2018", "duration": "58", "id": "e379177" },
+    { "title": "11 Dez. 2018", "duration": "58", "id": "e379175" },
+    { "title": "10 Dez. 2018", "duration": "58", "id": "e379173" },
+    { "title": "05 Dez. 2018", "duration": "57", "id": "e377998" },
+    {
+      "title": "04 Dez. 2018 entrevista com Keep Razors Sharp ",
+      "duration": "59",
+      "id": "e377999"
+    },
+    { "title": "03 Dez. 2018", "duration": "58", "id": "e377997" },
+    {
+      "title": "28 Nov. 2018 entrevista com jiboia ",
+      "duration": "57",
+      "id": "e376912"
+    },
+    { "title": "27 Nov. 2018", "duration": "59", "id": "e376911" },
+    {
+      "title": "26 Nov. 2018 entrevista com Dick Taylor dos Pretty Things ",
+      "duration": "57",
+      "id": "e376479"
+    },
+    { "title": "22 Nov. 2018", "duration": "58", "id": "e375894" },
+    {
+      "title": "21 Nov. 2018 entrevista com os Indignu ",
+      "duration": "60",
+      "id": "e375891"
+    },
+    { "title": "19 Nov. 2018", "duration": "57", "id": "e375315" },
+    {
+      "title": "15 Nov. 2018 entrevista com Rodrigo Vaiapraia e as Rainhas do Baile ",
+      "duration": "58",
+      "id": "e374704"
+    },
+    { "title": "14 Nov. 2018", "duration": "58", "id": "e374703" },
+    {
+      "title": "13 Nov. 2018 entrevista com João Modas da Pointlist sobre o Black Bass Fest ",
+      "duration": "57",
+      "id": "e374352"
+    },
+    {
+      "title": "12 Nov. 2018 entrevista com organização do Bifes Fest ",
+      "duration": "57",
+      "id": "e374351"
+    },
+    { "title": "08 Nov. 2018", "duration": "58", "id": "e374349" },
+    {
+      "title": "07 Nov. 2018 entrevista com Rodrigo Cavalheiro ",
+      "duration": "57",
+      "id": "e372900"
+    },
+    { "title": "06 Nov. 2018", "duration": "59", "id": "e374350" },
+    { "title": "05 Nov. 2018", "duration": "58", "id": "e373108" },
+    { "title": "01 Nov. 2018", "duration": "60", "id": "e373109" },
+    { "title": "31 Out. 2018", "duration": "59", "id": "e372897" },
+    {
+      "title": "30 Out. 2018 entrevista com Jonzip dos the zips ",
+      "duration": "59",
+      "id": "e372894"
+    },
+    { "title": "29 Out. 2018", "duration": "59", "id": "e372895" },
+    {
+      "title": "24 Out. 2018 com atuações de Surma e Señoritas no Indiegente Live ",
+      "duration": "59",
+      "id": "e371129"
+    },
+    {
+      "title": "23 Out. 2018 com atuações de Saturnia e O Gajo no Indiegente Live ",
+      "duration": "58",
+      "id": "e371128"
+    },
+    {
+      "title": "22 Out. 2018 entrevista We Bless This Mess ",
+      "duration": "60",
+      "id": "e371127"
+    },
+    { "title": "18 Out. 2018", "duration": "58", "id": "e370418" },
+    {
+      "title": "17 Out. 2018 entrevista Old Jerusalem ",
+      "duration": "63",
+      "id": "e369797"
+    },
+    { "title": "16 Out. 2018", "duration": "58", "id": "e369798" },
+    { "title": "15 Out. 2018", "duration": "57", "id": "e369796" },
+    {
+      "title": "11 Out. 2018 entrevista Palas ",
+      "duration": "59",
+      "id": "e369795"
+    },
+    { "title": "10 Out. 2018", "duration": "59", "id": "e368906" },
+    { "title": "09 Out. 2018", "duration": "58", "id": "e368905" },
+    {
+      "title": "08 Out. 2018 Conversa com Ana Teresa Ventura ",
+      "duration": "59",
+      "id": "e368517"
+    },
+    { "title": "04 Out. 2018", "duration": "59", "id": "e368516" },
+    {
+      "title": "03 Out. 2018 conversa com Inês Magalhães sobre o Maga Fest ",
+      "duration": "58",
+      "id": "e368515"
+    },
+    {
+      "title": "02 Out. 2018 entrevista Plastic People ",
+      "duration": "59",
+      "id": "e367595"
+    },
+    { "title": "01 Out. 2018", "duration": "59", "id": "e367594" },
+    { "title": "26 Set. 2018", "duration": "57", "id": "e366688" },
+    { "title": "25 Set. 2018", "duration": "57", "id": "e366496" },
+    { "title": "24 Set. 2018", "duration": "58", "id": "e366306" },
+    { "title": "20 Set. 2018", "duration": "58", "id": "e366307" },
+    { "title": "19 Set. 2018", "duration": "57", "id": "e365401" },
+    { "title": "18 Set. 2018", "duration": "58", "id": "e365399" },
+    { "title": "17 Set. 2018", "duration": "59", "id": "e365397" },
+    { "title": "13 Set. 2018", "duration": "56", "id": "e364698" },
+    { "title": "12 Set. 2018", "duration": "59", "id": "e364539" },
+    { "title": "11 Set. 2018", "duration": "58", "id": "e364538" },
+    {
+      "title": "10 Set. 2018 entrevista com Jeff Rosenstock ",
+      "duration": "58",
+      "id": "e364175"
+    },
+    { "title": "06 Set. 2018", "duration": "57", "id": "e363654" },
+    {
+      "title": "05 Set. 2018 entrevista com Labaq ",
+      "duration": "59",
+      "id": "e363653"
+    },
+    { "title": "04 Set. 2018", "duration": "58", "id": "e363651" },
+    { "title": "03 Set. 2018", "duration": "58", "id": "e363354" },
+    { "title": "30 Ago. 2018", "duration": "57", "id": "e362603" },
+    { "title": "29 Ago. 2018", "duration": "59", "id": "e362604" },
+    { "title": "28 Ago. 2018", "duration": "58", "id": "e362437" },
+    { "title": "27 Ago. 2018", "duration": "58", "id": "e362439" },
+    { "title": "23 Ago. 2018", "duration": "57", "id": "e362445" },
+    { "title": "22 Ago. 2018", "duration": "59", "id": "e362444" },
+    { "title": "21 Ago. 2018", "duration": "57", "id": "e362442" },
+    { "title": "20 Ago. 2018", "duration": "58", "id": "e362440" },
+    { "title": "16 Ago. 2018", "duration": "58", "id": "e362441" },
+    { "title": "15 Ago. 2018", "duration": "57", "id": "e362435" },
+    { "title": "14 Ago. 2018", "duration": "45m", "id": "e362436" },
+    { "title": "13 Ago. 2018", "duration": "57", "id": "e360643" },
+    { "title": "08 Ago. 2018", "duration": "59", "id": "e360107" },
+    { "title": "07 Ago. 2018", "duration": "58", "id": "e360056" },
+    {
+      "title": "06 Ago. 2018 entrevista Soviet Soviet ",
+      "duration": "58",
+      "id": "e360055"
+    },
+    { "title": "02 Ago. 2018", "duration": "56", "id": "e359438" },
+    { "title": "01 Ago. 2018", "duration": "56", "id": "e359439" },
+    { "title": "30 Jul. 2018", "duration": "59", "id": "e358978" },
+    { "title": "24 Jul. 2018", "duration": "58", "id": "e358213" },
+    { "title": "23 Jul. 2018", "duration": "58", "id": "e358212" },
+    { "title": "18 Jul. 2018", "duration": "58", "id": "e357176" },
+    { "title": "17 Jul. 2018", "duration": "59", "id": "e357177" },
+    { "title": "16 Jul. 2018", "duration": "59", "id": "e357175" },
+    { "title": "11 Jul. 2018", "duration": "58", "id": "e356194" },
+    { "title": "10 Jul. 2018", "duration": "58", "id": "e356195" },
+    { "title": "05 Jul. 2018", "duration": "57", "id": "e355270" },
+    { "title": "04 Jul. 2018", "duration": "58", "id": "e355032" },
+    { "title": "03 Jul. 2018", "duration": "59", "id": "e355031" },
+    { "title": "02 Jul. 2018", "duration": "57", "id": "e354665" },
+    { "title": "28 Jun. 2018", "duration": "59", "id": "e354664" },
+    {
+      "title": "26 Jun. 2018 entrevista The Brooms ",
+      "duration": "57",
+      "id": "e353696"
+    },
+    { "title": "25 Jun. 2018", "duration": "58", "id": "e353488" },
+    { "title": "21 Jun. 2018", "duration": "58", "id": "e352922" },
+    { "title": "20 Jun. 2018", "duration": "57", "id": "e352687" },
+    { "title": "19 Jun. 2018", "duration": "57", "id": "e352500" },
+    { "title": "18 Jun. 2018", "duration": "58", "id": "e352499" },
+    { "title": "14 Jun. 2018", "duration": "56", "id": "e351713" },
+    { "title": "13 Jun. 2018", "duration": "58", "id": "e351390" },
+    { "title": "13 Jun. 2018", "duration": "58", "id": "e351391" },
+    { "title": "11 Jun. 2018", "duration": "58", "id": "e351204" },
+    { "title": "07 Jun. 2018", "duration": "59", "id": "e351205" },
+    { "title": "06 Jun. 2018", "duration": "58", "id": "e351207" },
+    {
+      "title": "05 Jun. 2018 entrevista com Big Church of Fire ",
+      "duration": "58",
+      "id": "e351206"
+    },
+    { "title": "04 Jun. 2018", "duration": "58", "id": "e349996" },
+    { "title": "31 Mai. 2018", "duration": "58", "id": "e349006" },
+    {
+      "title": "29 Mai. 2018 entrevista com Paus ",
+      "duration": "57",
+      "id": "e349005"
+    },
+    {
+      "title": "28 Mai. 2018 entrevista com Lulu Blind ",
+      "duration": "59",
+      "id": "e349003"
+    },
+    {
+      "title": "24 Mai. 2018 Entrevista Lusitanian Ghosts e Jo Dog & Desperados ",
+      "duration": "59",
+      "id": "e348208"
+    },
+    {
+      "title": "23 Mai. 2018 entrevista com Imploding Stars ",
+      "duration": "58",
+      "id": "e348207"
+    },
+    {
+      "title": "22 Mai. 2018 entrevista com Kaló dos Twist Connection ",
+      "duration": "58",
+      "id": "e347814"
+    },
+    { "title": "21 Mai. 2018", "duration": "56", "id": "e347812" },
+    {
+      "title": "17 Mai. 2018 entrevista com Joana Serrat ",
+      "duration": "57",
+      "id": "e347051"
+    },
+    { "title": "16 Mai. 2018", "duration": "59", "id": "e346863" },
+    { "title": "15 Mai. 2018", "duration": "58", "id": "e346684" },
+    { "title": "14 Mai. 2018", "duration": "58", "id": "e346485" },
+    { "title": "10 Mai. 2018", "duration": "59", "id": "e345917" },
+    { "title": "09 Mai. 2018", "duration": "58", "id": "e345723" },
+    {
+      "title": "08 Mai. 2018 Entrevista Com Sean Riley ",
+      "duration": "57",
+      "id": "e345548"
+    },
+    { "title": "07 Mai. 2018", "duration": "59", "id": "e345365" },
+    {
+      "title": "03 Mai. 2018 entrevista Dirty Coal Train ",
+      "duration": "59",
+      "id": "e344769"
+    },
+    { "title": "02 Mai. 2018", "duration": "58", "id": "e344767" },
+    { "title": "30 Abr. 2018", "duration": "57", "id": "e344242" },
+    { "title": "25 Abr. 2018", "duration": "58", "id": "e343283" },
+    { "title": "24 Abr. 2018", "duration": "58", "id": "e343281" },
+    { "title": "23 Abr. 2018", "duration": "58", "id": "e343280" },
+    { "title": "19 Abr. 2018", "duration": "58", "id": "e342288" },
+    {
+      "title": "18 Abr. 2018 entrevista Beautify Junkyards ",
+      "duration": "59",
+      "id": "e341913"
+    },
+    { "title": "18 Abr. 2018", "duration": "58", "id": "e342287" },
+    {
+      "title": "16 Abr. 2018 Entrevista com John Parish ",
+      "duration": "57",
+      "id": "e341686"
+    },
+    { "title": "12 Abr. 2018", "duration": "59", "id": "e341097" },
+    {
+      "title": "11 Abr. 2018 entrevistacom Luis Simões dos Saturnia ",
+      "duration": "59",
+      "id": "e340868"
+    },
+    { "title": "10 Abr. 2018", "duration": "55", "id": "e340688" },
+    { "title": "09 Abr. 2018", "duration": "57", "id": "e340468" },
+    { "title": "03 Abr. 2018", "duration": "58", "id": "e339495" },
+    { "title": "02 Abr. 2018", "duration": "59", "id": "e339496" },
+    { "title": "28 Mar. 2018", "duration": "59", "id": "e338543" },
+    { "title": "27 Mar. 2018", "duration": "59", "id": "e338333" },
+    {
+      "title": "26 Mar. 2018 entrevista com The Fellow Man ",
+      "duration": "59",
+      "id": "e338035"
+    },
+    {
+      "title": "22 Mar. 2018 entrevista com os Moon Preachers ",
+      "duration": "58",
+      "id": "e338028"
+    },
+    { "title": "21 Mar. 2018", "duration": "59", "id": "e337146" },
+    {
+      "title": "20 Mar. 2018 entrevista com Tio Rex ",
+      "duration": "59",
+      "id": "e336923"
+    },
+    { "title": "19 Mar. 2018", "duration": "58", "id": "e336922" },
+    { "title": "15 Mar. 2018", "duration": "59", "id": "e335832" },
+    { "title": "14 Mar. 2018", "duration": "57", "id": "e335831" },
+    { "title": "13 Mar. 2018", "duration": "57", "id": "e335642" },
+    { "title": "12 Mar. 2018", "duration": "59", "id": "e335641" },
+    {
+      "title": "07 Mar. 2018 entrevista All the Way to Venus ",
+      "duration": "59",
+      "id": "e334682"
+    },
+    { "title": "06 Mar. 2018", "duration": "57", "id": "e334480" },
+    { "title": "05 Mar. 2018", "duration": "58", "id": "e334479" },
+    { "title": "01 Mar. 2018", "duration": "57", "id": "e333738" },
+    { "title": "28 Fev. 2018", "duration": "57", "id": "e333736" },
+    { "title": "27 Fev. 2018", "duration": "59", "id": "e333277" },
+    { "title": "26 Fev. 2018", "duration": "57", "id": "e333276" },
+    {
+      "title": "22 Fev. 2018 entrevista The Sunflowers ",
+      "duration": "59",
+      "id": "e332457"
+    },
+    { "title": "21 Fev. 2018", "duration": "58", "id": "e332298" },
+    {
+      "title": "20 Fev. 2018 entrevista Moonshiners ",
+      "duration": "57",
+      "id": "e332075"
+    },
+    { "title": "19 Fev. 2018", "duration": "58", "id": "e331877" },
+    { "title": "15 Fev. 2018", "duration": "59", "id": "e331311" },
+    {
+      "title": "14 Fev. 2018 entrevista com Dapunksportif ",
+      "duration": "57",
+      "id": "e330805"
+    },
+    { "title": "13 Fev. 2018", "duration": "58", "id": "e330486" },
+    { "title": "12 Fev. 2018", "duration": "58", "id": "e330804" },
+    { "title": "08 Fev. 2018", "duration": "58", "id": "e330484" },
+    { "title": "07 Fev. 2018", "duration": "59", "id": "e330485" },
+    { "title": "06 Fev. 2018", "duration": "59", "id": "e329833" },
+    { "title": "05 Fev. 2018", "duration": "57", "id": "e329589" },
+    { "title": "31 Jan. 2018", "duration": "59", "id": "e329590" },
+    { "title": "30 Jan. 2018", "duration": "56", "id": "e329588" },
+    {
+      "title": "24 Jan. 2018 entrevista This Pinguin Can Fly ",
+      "duration": "59",
+      "id": "e327333"
+    },
+    {
+      "title": "23 Jan. 2018 entrevista Legendary Tigerman ",
+      "duration": "59",
+      "id": "e327331"
+    },
+    {
+      "title": "22 Jan. 2018 Entrevista Quartet of Whoa ",
+      "duration": "59",
+      "id": "e327330"
+    },
+    {
+      "title": "18 Jan. 2018 conversa com Mr. Gallini ",
+      "duration": "59",
+      "id": "e326780"
+    },
+    { "title": "17 Jan. 2018", "duration": "59", "id": "e326376" },
+    { "title": "16 Jan. 2018", "duration": "59", "id": "e326375" },
+    { "title": "15 Jan. 2018", "duration": "58", "id": "e326000" },
+    { "title": "11 Jan. 2018", "duration": "57", "id": "e325408" },
+    { "title": "10 Jan. 2018", "duration": "58", "id": "e325407" },
+    {
+      "title": "09 Jan. 2018 entrevista com os Fugly ",
+      "duration": "58",
+      "id": "e325405"
+    },
+    { "title": "08 Jan. 2018", "duration": "59", "id": "e324842" },
+    { "title": "04 Jan. 2018", "duration": "57", "id": "e324189" },
+    { "title": "03 Jan. 2018", "duration": "56", "id": "e324188" },
+    { "title": "26 Dez. 2017", "duration": "56", "id": "e322176" },
+    { "title": "25 Dez. 2017", "duration": "58", "id": "e322177" },
+    { "title": "21 Dez. 2017", "duration": "57", "id": "e322175" },
+    { "title": "20 Dez. 2017", "duration": "57", "id": "e321920" },
+    { "title": "19 Dez. 2017", "duration": "57", "id": "e321790" },
+    {
+      "title": "18 Dez. 2017 entrevista The Parkinsons ",
+      "duration": "58",
+      "id": "e321581"
+    },
+    { "title": "13 Dez. 2017", "duration": "57", "id": "e320651" },
+    {
+      "title": "12 Dez. 2017 entrevista The Poppers ",
+      "duration": "59",
+      "id": "e320649"
+    },
+    {
+      "title": "11 Dez. 2017 entrevista com os D3O ",
+      "duration": "58",
+      "id": "e320650"
+    },
+    { "title": "07 Dez. 2017", "duration": "57", "id": "e320648" },
+    {
+      "title": "06 Dez. 2017 entrevista com O Bom, O Mau e o Azevedo ",
+      "duration": "57",
+      "id": "e319655"
+    },
+    {
+      "title": "05 Dez. 2017 entrevita She Pleasures Herself ",
+      "duration": "59",
+      "id": "e319656"
+    },
+    {
+      "title": "04 Dez. 2017 Entrevista com George Marvinson ",
+      "duration": "57",
+      "id": "e319183"
+    },
+    {
+      "title": "30 Nov. 2017 entrevista com We Bless This Mess, Ducking Punches e To All My Friends ",
+      "duration": "57",
+      "id": "e318728"
+    },
+    {
+      "title": "28 Nov. 2017 entrevista Her Name Was Fire ",
+      "duration": "57",
+      "id": "e318277"
+    },
+    { "title": "27 Nov. 2017", "duration": "59", "id": "e318084" },
+    { "title": "23 Nov. 2017", "duration": "57", "id": "e317303" },
+    { "title": "22 Nov. 2017", "duration": "59", "id": "e317302" },
+    { "title": "21 Nov. 2017", "duration": "59", "id": "e317122" },
+    { "title": "20 Nov. 2017", "duration": "58", "id": "e317121" },
+    {
+      "title": "16 Nov. 2017 conversa com Fast Eddie Nelson e The Government ",
+      "duration": "61",
+      "id": "e316349"
+    },
+    {
+      "title": "15 Nov. 2017 entrevista Ash is a Robot ",
+      "duration": "59",
+      "id": "e316040"
+    },
+    {
+      "title": "14 Nov. 2017 conversa com Adolfo Luxuria Canibal ",
+      "duration": "58",
+      "id": "e315826"
+    },
+    { "title": "13 Nov. 2017", "duration": "58", "id": "e315825" },
+    { "title": "09 Nov. 2017", "duration": "59", "id": "e315024" },
+    {
+      "title": "08 Nov. 2017 entrevista com Vítor Bacalhau ",
+      "duration": "58",
+      "id": "e315023"
+    },
+    { "title": "07 Nov. 2017", "duration": "58", "id": "e314647" },
+    { "title": "06 Nov. 2017", "duration": "59", "id": "e314646" },
+    {
+      "title": "02 Nov. 2017 conversa com Nick Nicotine sobre o Barreiro Rocks 2017 ",
+      "duration": "59",
+      "id": "e313537"
+    },
+    { "title": "01 Nov. 2017", "duration": "59", "id": "e313538" },
+    {
+      "title": "31 Out. 2017 conversa com os Norton sobre os 15 anos e os concertos de celebração ",
+      "duration": "59",
+      "id": "e313536"
+    },
+    { "title": "30 Out. 2017", "duration": "58", "id": "e313371" },
+    { "title": "26 Out. 2017", "duration": "59", "id": "e313370" },
+    { "title": "25 Out. 2017", "duration": "13m", "id": "e313368" },
+    { "title": "24 Out. 2017", "duration": "59", "id": "e312359" },
+    { "title": "23 Out. 2017", "duration": "58", "id": "e312353" },
+    { "title": "19 Out. 2017", "duration": "56", "id": "e311602" },
+    { "title": "18 Out. 2017", "duration": "58", "id": "e311395" },
+    { "title": "17 Out. 2017", "duration": "58", "id": "e311237" },
+    { "title": "16 Out. 2017", "duration": "58", "id": "e311083" },
+    {
+      "title": "12 Out. 2017 entrevista com Mark Steiner ",
+      "duration": "61",
+      "id": "e310262"
+    },
+    { "title": "11 Out. 2017", "duration": "58", "id": "e310264" },
+    { "title": "10 Out. 2017", "duration": "58", "id": "e310263" },
+    { "title": "09 Out. 2017", "duration": "57", "id": "e309832" },
+    {
+      "title": "05 Out. 2017 Conversa com José Luis Peixoto sobre o livro O Caminho Imperfeito ",
+      "duration": "59",
+      "id": "e309225"
+    },
+    { "title": "04 Out. 2017", "duration": "58", "id": "e309224" },
+    { "title": "03 Out. 2017", "duration": "58", "id": "e308907" },
+    {
+      "title": "02 Out. 2017 Conversa com os Dr. Frankenstein sobre o novo disco Santo André e os Maus Rapazes ",
+      "duration": "58",
+      "id": "e308905"
+    },
+    { "title": "28 Set. 2017", "duration": "57", "id": "e308903" },
+    { "title": "27 Set. 2017", "duration": "59", "id": "e307981" },
+    { "title": "26 Set. 2017", "duration": "57", "id": "e307980" },
+    {
+      "title": "25 Set. 2017 entrevista com Mazgani ",
+      "duration": "58",
+      "id": "e307815"
+    },
+    {
+      "title": "21 Set. 2017 Entrevista com Filipe Monteiro sobre o projeto Tomara ",
+      "duration": "59",
+      "id": "e307120"
+    },
+    {
+      "title": "20 Set. 2017 Conversa com Marcus Veiga de Scúru Fitchadu ",
+      "duration": "59",
+      "id": "e306965"
+    },
+    { "title": "19 Set. 2017", "duration": "59", "id": "e306805" },
+    { "title": "18 Set. 2017", "duration": "58", "id": "e306803" },
+    { "title": "14 Set. 2017", "duration": "57", "id": "e306125" },
+    {
+      "title": "13 Set. 2017 entrevista com Grandfather's House ",
+      "duration": "58",
+      "id": "e306124"
+    },
+    { "title": "12 Set. 2017", "duration": "58", "id": "e305774" },
+    { "title": "11 Set. 2017", "duration": "58", "id": "e305113" },
+    { "title": "07 Set. 2017", "duration": "58", "id": "e305110" },
+    { "title": "06 Set. 2017", "duration": "58", "id": "e305111" },
+    { "title": "04 Set. 2017", "duration": "59", "id": "e304808" },
+    { "title": "31 Ago. 2017", "duration": "58", "id": "e304138" },
+    { "title": "30 Ago. 2017", "duration": "58", "id": "e304137" },
+    {
+      "title": "29 Ago. 2017 entrevista com Patrícia Andrade dos Sinistro ",
+      "duration": "59",
+      "id": "e304003"
+    },
+    { "title": "28 Ago. 2017", "duration": "59", "id": "e303678" },
+    { "title": "24 Ago. 2017", "duration": "58", "id": "e303677" },
+    { "title": "23 Ago. 2017", "duration": "57", "id": "e303376" },
+    { "title": "22 Ago. 2017", "duration": "57", "id": "e303375" },
+    { "title": "21 Ago. 2017", "duration": "59", "id": "e303150" },
+    { "title": "17 Ago. 2017", "duration": "59", "id": "e301817" },
+    { "title": "16 Ago. 2017", "duration": "57", "id": "e301818" },
+    {
+      "title": "15 Ago. 2017 entrevista com Charles Sangnoir ",
+      "duration": "58",
+      "id": "e303149"
+    },
+    { "title": "14 Ago. 2017", "duration": "62", "id": "e301574" },
+    {
+      "title": "10 Ago. 2017 Entrevista com Tiago Alexandre Queiroz dos Thee Eviltones e Putaman ",
+      "duration": "58",
+      "id": "e303676"
+    },
+    { "title": "09 Ago. 2017", "duration": "58", "id": "e301816" },
+    { "title": "08 Ago. 2017", "duration": "56", "id": "e301815" },
+    {
+      "title": "07 Ago. 2017 entrevista com Blaak Heat ",
+      "duration": "58",
+      "id": "e301572"
+    },
+    { "title": "03 Ago. 2017", "duration": "57", "id": "e301202" },
+    { "title": "02 Ago. 2017", "duration": "59", "id": "e301050" },
+    { "title": "01 Ago. 2017", "duration": "59", "id": "e300931" },
+    { "title": "31 Jul. 2017", "duration": "57", "id": "e300930" },
+    { "title": "27 Jul. 2017", "duration": "56", "id": "e300365" },
+    { "title": "26 Jul. 2017", "duration": "57", "id": "e300363" },
+    {
+      "title": "25 Jul. 2017 conversa e live session de Folk Collective (Fast Eddie Nelson, We Bless this Mess e Tio Rex) ",
+      "duration": "59",
+      "id": "e300071"
+    },
+    { "title": "24 Jul. 2017", "duration": "56", "id": "e299922" },
+    { "title": "20 Jul. 2017", "duration": "57", "id": "e299152" },
+    {
+      "title": "19 Jul. 2017 com Alexandre Travessas do festival Reverence Santarem ",
+      "duration": "57",
+      "id": "e299151"
+    },
+    { "title": "18 Jul. 2017", "duration": "57", "id": "e298978" },
+    { "title": "17 Jul. 2017", "duration": "57", "id": "e298979" },
+    { "title": "13 Jul. 2017", "duration": "58", "id": "e298085" },
+    { "title": "12 Jul. 2017", "duration": "57", "id": "e298086" },
+    {
+      "title": "11 Jul. 2017 conversa sobre o festival Sons à Margem ",
+      "duration": "58",
+      "id": "e297923"
+    },
+    {
+      "title": "10 Jul. 2017 entrevista com Sex Swing ",
+      "duration": "59",
+      "id": "e297924"
+    },
+    { "title": "06 Jul. 2017", "duration": "58", "id": "e296874" },
+    { "title": "05 Jul. 2017", "duration": "58", "id": "e296872" },
+    {
+      "title": "04 Jul. 2017 entrevista 10 000 Russos ",
+      "duration": "58",
+      "id": "e296873"
+    },
+    { "title": "03 Jul. 2017", "duration": "58", "id": "e296871" },
+    { "title": "29 Jun. 2017", "duration": "58", "id": "e296113" },
+    { "title": "28 Jun. 2017", "duration": "59", "id": "e296112" },
+    { "title": "27 Jun. 2017", "duration": "57", "id": "e295636" },
+    { "title": "26 Jun. 2017", "duration": "58", "id": "e295635" },
+    { "title": "22 Jun. 2017", "duration": "57", "id": "e294893" },
+    { "title": "21 Jun. 2017", "duration": "57", "id": "e294892" },
+    { "title": "20 Jun. 2017", "duration": "56", "id": "e294454" },
+    { "title": "19 Jun. 2017", "duration": "58", "id": "e294453" },
+    { "title": "15 Jun. 2017", "duration": "58", "id": "e293623" },
+    { "title": "14 Jun. 2017", "duration": "58", "id": "e293621" },
+    {
+      "title": "13 Jun. 2017 entrevista com Stone Dead ",
+      "duration": "58",
+      "id": "e293619"
+    },
+    { "title": "12 Jun. 2017", "duration": "57", "id": "e293620" },
+    { "title": "08 Jun. 2017", "duration": "58", "id": "e293618" },
+    { "title": "06 Jun. 2017", "duration": "58", "id": "e292367" },
+    { "title": "05 Jun. 2017", "duration": "57", "id": "e292366" },
+    {
+      "title": "31 Mai. 2017 entrevista com Frankie Chavez ",
+      "duration": "59",
+      "id": "e291343"
+    },
+    { "title": "30 Mai. 2017", "duration": "58", "id": "e291344" },
+    { "title": "29 Mai. 2017", "duration": "56", "id": "e291342" },
+    { "title": "25 Mai. 2017", "duration": "57", "id": "e290367" },
+    { "title": "24 Mai. 2017", "duration": "59", "id": "e290366" },
+    {
+      "title": "23 Mai. 2017 conversa com Pedro Azevedo sobre o MIL ",
+      "duration": "59",
+      "id": "e289972"
+    },
+    { "title": "22 Mai. 2017", "duration": "59", "id": "e289971" },
+    {
+      "title": "18 Mai. 2017 conversa com O Gajo ",
+      "duration": "58",
+      "id": "e288879"
+    },
+    {
+      "title": "17 Mai. 2017 conversa com os Wait Until Dark ",
+      "duration": "58",
+      "id": "e289261"
+    },
+    {
+      "title": "16 Mai. 2017 concersa com os Riding Panico ",
+      "duration": "58",
+      "id": "e288877"
+    },
+    {
+      "title": "15 Mai. 2017 especial Clash - Combat Rock com João Morais ",
+      "duration": "59",
+      "id": "e288364"
+    },
+    { "title": "11 Mai. 2017", "duration": "57", "id": "e288365" },
+    {
+      "title": "10 Mai. 2017 com participação de Nuno Castedo ",
+      "duration": "58",
+      "id": "e288016"
+    },
+    {
+      "title": "09 Mai. 2017 conversa com Barry White Gone Wrong ",
+      "duration": "59",
+      "id": "e287826"
+    },
+    {
+      "title": "08 Mai. 2017 com Dj A Boy Named Sue ",
+      "duration": "60",
+      "id": "e287825"
+    },
+    {
+      "title": "04 Mai. 2017 com Nuno Castedo ",
+      "duration": "56",
+      "id": "e286999"
+    },
+    { "title": "03 Mai. 2017", "duration": "59", "id": "e286826" },
+    { "title": "02 Mai. 2017", "duration": "59", "id": "e286825" },
+    {
+      "title": "01 Mai. 2017 com DJ a Boy Named Sue ",
+      "duration": "56",
+      "id": "e287000"
+    },
+    {
+      "title": "25 Abr. 2017 entrevista com os Quartet of Whoa! ",
+      "duration": "59",
+      "id": "e285448"
+    },
+    { "title": "24 Abr. 2017", "duration": "58", "id": "e285456" },
+    { "title": "20 Abr. 2017", "duration": "58", "id": "e285454" },
+    { "title": "19 Abr. 2017", "duration": "59", "id": "e285451" },
+    {
+      "title": "18 Abr. 2017 conversa com John Gonçalves dos The Gift sobre os álbum Altar",
+      "duration": "59",
+      "id": "e284483"
+    },
+    { "title": "17 Abr. 2017", "duration": "58", "id": "e284484" },
+    { "title": "13 Abr. 2017", "duration": "57", "id": "e284485" },
+    { "title": "12 Abr. 2017", "duration": "58", "id": "e284486" },
+    {
+      "title": "10 Abr. 2017 Conversa com Luis Varatojo sobre os 40 anos do primeiro do disco dos Clash ",
+      "duration": "58",
+      "id": "e281907"
+    },
+    { "title": "06 Abr. 2017", "duration": "57", "id": "e282592" },
+    { "title": "05 Abr. 2017", "duration": "58", "id": "e282291" },
+    {
+      "title": "04 Abr. 2017 conversa com os Paraguaii ",
+      "duration": "60",
+      "id": "e281905"
+    },
+    {
+      "title": "03 Abr. 2017 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "58",
+      "id": "e281906"
+    },
+    {
+      "title": "30 Mar. 2017 conversa com os She Pleasures Herself e temas tocados ao vivo em estúdio em formato acústico ",
+      "duration": "56",
+      "id": "e281284"
+    },
+    {
+      "title": "29 Mar. 2017 com participação de Nuno Castedo ",
+      "duration": "56",
+      "id": "e281283"
+    },
+    { "title": "28 Mar. 2017", "duration": "55", "id": "e280870" },
+    {
+      "title": "27 Mar. 2017 com bau do sue de DJ a Boy Named Sue ",
+      "duration": "57",
+      "id": "e280871"
+    },
+    {
+      "title": "23 Mar. 2017 conversa com Fast Eddie Nelson e Burt Byler e actuações em estudio",
+      "duration": "30",
+      "id": "e280869"
+    },
+    { "title": "21 Mar. 2017", "duration": "56", "id": "e279620" },
+    { "title": "20 Mar. 2017", "duration": "58", "id": "e279439" },
+    { "title": "16 Mar. 2017", "duration": "58", "id": "e279438" },
+    { "title": "15 Mar. 2017", "duration": "59", "id": "e279437" },
+    { "title": "14 Mar. 2017", "duration": "57", "id": "e278526" },
+    {
+      "title": "13 Mar. 2017 com Bau do Sue ",
+      "duration": "57",
+      "id": "e278525"
+    },
+    { "title": "09 Mar. 2017", "duration": "58", "id": "e276939" },
+    {
+      "title": "08 Mar. 2017 conversa com o Galo Canta às Duas ",
+      "duration": "59",
+      "id": "e286998"
+    },
+    { "title": "07 Mar. 2017", "duration": "57", "id": "e276940" },
+    { "title": "06 Mar. 2017", "duration": "58", "id": "e276938" },
+    { "title": "02 Mar. 2017", "duration": "59", "id": "e276937" },
+    { "title": "01 Mar. 2017", "duration": "58", "id": "e276936" },
+    { "title": "28 Fev. 2017", "duration": "58", "id": "e276051" },
+    {
+      "title": "27 Fev. 2017 com Bau do Sue de DJ a Boy Named Sue ",
+      "duration": "59",
+      "id": "e276050"
+    },
+    {
+      "title": "23 Fev. 2017 conversa com os N:UN ",
+      "duration": "58",
+      "id": "e275424"
+    },
+    {
+      "title": "22 Fev. 2017 com escolhas de Nuno Castedo ",
+      "duration": "58",
+      "id": "e275253"
+    },
+    { "title": "21 Fev. 2017", "duration": "58", "id": "e275255" },
+    {
+      "title": "20 Fev. 2017 com Bau do Sue de DJ a Boy Named Sue ",
+      "duration": "57",
+      "id": "e275252"
+    },
+    {
+      "title": "16 Fev. 2017 entrevista com Sweet Nico ",
+      "duration": "56",
+      "id": "e274234"
+    },
+    {
+      "title": "15 Fev. 2017 com escolhas de Nuno Castedo ",
+      "duration": "59",
+      "id": "e274233"
+    },
+    { "title": "14 Fev. 2017", "duration": "57", "id": "e273697" },
+    {
+      "title": "13 Fev. 2017 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "58",
+      "id": "e273696"
+    },
+    {
+      "title": "09 Fev. 2017 com participação de Nuno Castedo ",
+      "duration": "58",
+      "id": "e272954"
+    },
+    {
+      "title": "08 Fev. 2017 conversa com Fast Eddie Nelson, We Bless This Mess e Tio Rex ",
+      "duration": "58",
+      "id": "e272953"
+    },
+    {
+      "title": "07 Fev. 2017 conversa com Noiserv ",
+      "duration": "59",
+      "id": "e272951"
+    },
+    {
+      "title": "06 Fev. 2017 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "57",
+      "id": "e272562"
+    },
+    {
+      "title": "31 Jan. 2017 conversa com Terry Lee Hale ",
+      "duration": "56",
+      "id": "e272561"
+    },
+    { "title": "26 Jan. 2017", "duration": "57", "id": "e270619" },
+    {
+      "title": "25 Jan. 2017 com as escolhas de Nuno Castedo ",
+      "duration": "58",
+      "id": "e270613"
+    },
+    { "title": "24 Jan. 2017", "duration": "58", "id": "e270612" },
+    { "title": "23 Jan. 2017", "duration": "58", "id": "e269916" },
+    {
+      "title": "19 Jan. 2017 entrevista com os The Sunflowers ",
+      "duration": "58",
+      "id": "e269603"
+    },
+    { "title": "18 Jan. 2017", "duration": "59", "id": "e269601" },
+    {
+      "title": "17 Jan. 2017 entrevista com Ghost Hunt ",
+      "duration": "57",
+      "id": "e269048"
+    },
+    {
+      "title": "16 Jan. 2017 com Bau do sue com Dj a Boy Named Sue ",
+      "duration": "59",
+      "id": "e269047"
+    },
+    {
+      "title": "10 Jan. 2017 conversa com Steve Smyth ",
+      "duration": "60",
+      "id": "e268136"
+    },
+    {
+      "title": "09 Jan. 2017 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "59",
+      "id": "e268137"
+    },
+    { "title": "05 Jan. 2017", "duration": "59", "id": "e267520" },
+    {
+      "title": "04 Jan. 2017 com participação de Nuno Castedo ",
+      "duration": "59",
+      "id": "e267519"
+    },
+    { "title": "03 Jan. 2017", "duration": "57", "id": "e266980" },
+    {
+      "title": "02 Jan. 2017 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "58",
+      "id": "e266981"
+    },
+    { "title": "29 Dez. 2016", "duration": "59", "id": "e266978" },
+    { "title": "28 Dez. 2016", "duration": "58", "id": "e266977" },
+    { "title": "27 Dez. 2016", "duration": "59", "id": "e266976" },
+    { "title": "26 Dez. 2016", "duration": "59", "id": "e266975" },
+    { "title": "22 Dez. 2016", "duration": "58", "id": "e266974" },
+    { "title": "21 Dez. 2016", "duration": "59", "id": "e266973" },
+    {
+      "title": "20 Dez. 2016 com Bau do Sue de DJ a Boy Named Sue ",
+      "duration": "58",
+      "id": "e265066"
+    },
+    { "title": "19 Dez. 2016", "duration": "59", "id": "e265065" },
+    { "title": "15 Dez. 2016", "duration": "59", "id": "e265064" },
+    { "title": "14 Dez. 2016", "duration": "56", "id": "e265063" },
+    {
+      "title": "06 Dez. 2016 conversa com Pedro Galhoz de Pedro e os Lobos ",
+      "duration": "58",
+      "id": "e263231"
+    },
+    { "title": "05 Dez. 2016", "duration": "59", "id": "e263232" },
+    { "title": "01 Dez. 2016", "duration": "55", "id": "e263233" },
+    {
+      "title": "29 Nov. 2016 conversa com Nick Nicotine sobre os Barreiro Rocks 2017 ",
+      "duration": "55",
+      "id": "e261899"
+    },
+    { "title": "28 Nov. 2016", "duration": "56", "id": "e261898" },
+    { "title": "23 Nov. 2016", "duration": "56", "id": "e261616" },
+    { "title": "22 Nov. 2016", "duration": "58", "id": "e261615" },
+    { "title": "21 Nov. 2016", "duration": "57", "id": "e261613" },
+    { "title": "17 Nov. 2016", "duration": "57", "id": "e261614" },
+    { "title": "16 Nov. 2016", "duration": "58", "id": "e261612" },
+    {
+      "title": "15 Nov. 2016 conversa com os Smartini ",
+      "duration": "59",
+      "id": "e259750"
+    },
+    {
+      "title": "14 Nov. 2016 com bau do Sue de Dja a Boy named Sue ",
+      "duration": "58",
+      "id": "e259749"
+    },
+    {
+      "title": "10 Nov. 2016 Conversa com os Ninja Kore ",
+      "duration": "60",
+      "id": "e258651"
+    },
+    { "title": "09 Nov. 2016", "duration": "59", "id": "e258505" },
+    {
+      "title": "08 Nov. 2016 conversa com os Cave Story ",
+      "duration": "59",
+      "id": "e258506"
+    },
+    {
+      "title": "07 Nov. 2016 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "59",
+      "id": "e258504"
+    },
+    {
+      "title": "03 Nov. 2016 Conversa com Kaló dos The Twist Connection ",
+      "duration": "58",
+      "id": "e257882"
+    },
+    {
+      "title": "02 Nov. 2016 Crianças devem ter acesso controlado aos Media digitais",
+      "duration": "1",
+      "id": "e256798"
+    },
+    {
+      "title": "02 Nov. 2016 conversa com Camões da organização do Bastard Rock ",
+      "duration": "58",
+      "id": "e257880"
+    },
+    { "title": "31 Out. 2016", "duration": "57", "id": "e257881" },
+    { "title": "27 Out. 2016", "duration": "57", "id": "e256830" },
+    {
+      "title": "26 Out. 2016 concerto de Fast Eddie Nelson no Festival Reverence Valada 2016 ",
+      "duration": "58",
+      "id": "e256828"
+    },
+    {
+      "title": "25 Out. 2016 concerto de Mecanosphere no festival Reverence Valada 2016 ",
+      "duration": "57",
+      "id": "e256831"
+    },
+    {
+      "title": "24 Out. 2016 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "59",
+      "id": "e256033"
+    },
+    { "title": "20 Out. 2016", "duration": "59", "id": "e256032" },
+    {
+      "title": "19 Out. 2016 com participação de Nuno Castedo ",
+      "duration": "58",
+      "id": "e255283"
+    },
+    { "title": "18 Out. 2016", "duration": "58", "id": "e255277" },
+    {
+      "title": "17 Out. 2016 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "59",
+      "id": "e254925"
+    },
+    { "title": "13 Out. 2016", "duration": "59", "id": "e254394" },
+    {
+      "title": "12 Out. 2016 com participação de Nuno Castedo ",
+      "duration": "59",
+      "id": "e254244"
+    },
+    { "title": "11 Out. 2016", "duration": "58", "id": "e254089" },
+    { "title": "10 Out. 2016", "duration": "58", "id": "e253911" },
+    { "title": "05 Out. 2016", "duration": "57", "id": "e252978" },
+    {
+      "title": "05 Out. 2016 concerto The Damned do Reverece Valada ",
+      "duration": "60",
+      "id": "e253124"
+    },
+    {
+      "title": "04 Out. 2016 conversa com Miguel Newton dos Mata-Ratos ",
+      "duration": "58",
+      "id": "e253125"
+    },
+    {
+      "title": "03 Out. 2016 com Bau do Sue ",
+      "duration": "59",
+      "id": "e252977"
+    },
+    {
+      "title": "29 Set. 2016 entrevista a Kid Richards sobre o livro Let's get Lost Here ",
+      "duration": "59",
+      "id": "e252405"
+    },
+    { "title": "28 Set. 2016", "duration": "59", "id": "e252404" },
+    {
+      "title": "27 Set. 2016 conversa com Señoritas ",
+      "duration": "59",
+      "id": "e252023"
+    },
+    {
+      "title": "26 Set. 2016 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "58",
+      "id": "e252022"
+    },
+    { "title": "22 Set. 2016", "duration": "57", "id": "e251146" },
+    { "title": "21 Set. 2016", "duration": "58", "id": "e251144" },
+    { "title": "20 Set. 2016", "duration": "58", "id": "e250764" },
+    {
+      "title": "19 Set. 2016 com Bau do sue de DJ a Boy Named Sue ",
+      "duration": "59",
+      "id": "e250763"
+    },
+    {
+      "title": "15 Set. 2016 com participação de Nuno Castedo ",
+      "duration": "59",
+      "id": "e250138"
+    },
+    { "title": "14 Set. 2016", "duration": "58", "id": "e250139" },
+    {
+      "title": "13 Set. 2016 entrevista com Rainy Days Factory ",
+      "duration": "57",
+      "id": "e249772"
+    },
+    {
+      "title": "12 Set. 2016 entrevista com The Folk Collective ",
+      "duration": "58",
+      "id": "e249773"
+    },
+    {
+      "title": "07 Set. 2016 entrevista com Flak ",
+      "duration": "56",
+      "id": "e249085"
+    },
+    {
+      "title": "06 Set. 2016 com participação de Dj a Boy Named Sue no Bau do Sue ",
+      "duration": "57",
+      "id": "e248861"
+    },
+    {
+      "title": "05 Set. 2016 especial Sisters of Mercy ",
+      "duration": "58",
+      "id": "e248859"
+    },
+    {
+      "title": "01 Set. 2016 conversa com Inês Magalhães do Magafest ",
+      "duration": "57",
+      "id": "e248611"
+    },
+    { "title": "31 Ago. 2016", "duration": "59", "id": "e248466" },
+    { "title": "30 Ago. 2016", "duration": "57", "id": "e248257" },
+    {
+      "title": "29 Ago. 2016 com Bau do Sue de Dj a Boy named Sue ",
+      "duration": "57",
+      "id": "e248256"
+    },
+    {
+      "title": "25 Ago. 2016 conversa com Alexandre Travessas do festival Reverence Valada ",
+      "duration": "59",
+      "id": "e247686"
+    },
+    {
+      "title": "25 Ago. 2016 conversa com Alexandre Travessas e Nick Alport do festival Reverence ",
+      "duration": "56",
+      "id": "e247799"
+    },
+    {
+      "title": "24 Ago. 2016 com participação de Nuno Castedo ",
+      "duration": "59",
+      "id": "e247687"
+    },
+    {
+      "title": "22 Ago. 2016 com Bau do Sue ",
+      "duration": "58",
+      "id": "e247685"
+    },
+    { "title": "18 Ago. 2016", "duration": "58", "id": "e246523" },
+    { "title": "17 Ago. 2016", "duration": "58", "id": "e246332" },
+    { "title": "16 Ago. 2016", "duration": "58", "id": "e246331" },
+    { "title": "15 Ago. 2016", "duration": "58", "id": "e246212" },
+    { "title": "11 Ago. 2016", "duration": "56", "id": "e246521" },
+    { "title": "10 Ago. 2016", "duration": "58", "id": "e246419" },
+    {
+      "title": "09 Ago. 2016 com escolhas de Nuno Castedo ",
+      "duration": "58",
+      "id": "e246330"
+    },
+    { "title": "08 Ago. 2016", "duration": "59", "id": "e246213" },
+    { "title": "04 Ago. 2016", "duration": "57", "id": "e245742" },
+    { "title": "03 Ago. 2016", "duration": "59", "id": "e245741" },
+    { "title": "02 Ago. 2016", "duration": "60", "id": "e245518" },
+    {
+      "title": "01 Ago. 2016 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "56",
+      "id": "e245432"
+    },
+    { "title": "28 Jul. 2016", "duration": "60", "id": "e245045" },
+    { "title": "27 Jul. 2016", "duration": "58", "id": "e245043" },
+    { "title": "26 Jul. 2016", "duration": "57", "id": "e244781" },
+    {
+      "title": "25 Jul. 2016 com participação de Dj a Boy Named Sue ",
+      "duration": "58",
+      "id": "e244779"
+    },
+    { "title": "21 Jul. 2016", "duration": "57", "id": "e243831" },
+    {
+      "title": "18 Jul. 2016 com Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "58",
+      "id": "e243830"
+    },
+    { "title": "13 Jul. 2016", "duration": "59", "id": "e243350" },
+    {
+      "title": "12 Jul. 2016 entrevista com Luis simões dos Saturnia ",
+      "duration": "57",
+      "id": "e243227"
+    },
+    { "title": "11 Jul. 2016", "duration": "59", "id": "e243226" },
+    {
+      "title": "06 Jul. 2016 com participação de Nuno Castedo ",
+      "duration": "58",
+      "id": "e242515"
+    },
+    { "title": "05 Jul. 2016", "duration": "58", "id": "e242426" },
+    {
+      "title": "04 Jul. 2016 com participação de Dj a Boy Named Sue ",
+      "duration": "59",
+      "id": "e242425"
+    },
+    { "title": "30 Jun. 2016", "duration": "58", "id": "e241834" },
+    { "title": "29 Jun. 2016", "duration": "59", "id": "e241833" },
+    { "title": "28 Jun. 2016", "duration": "57", "id": "e241832" },
+    {
+      "title": "27 Jun. 2016 Com participação de DJ a Boy Named Sue ",
+      "duration": "59",
+      "id": "e241340"
+    },
+    { "title": "23 Jun. 2016", "duration": "58", "id": "e241339" },
+    {
+      "title": "22 Jun. 2016 com participação de Nuno Castedo ",
+      "duration": "59",
+      "id": "e241338"
+    },
+    {
+      "title": "21 Jun. 2016 conversa com Big Red Panda ",
+      "duration": "59",
+      "id": "e240660"
+    },
+    {
+      "title": "20 Jun. 2016 com participação de Dj a Boy Named Sue ",
+      "duration": "57",
+      "id": "e240659"
+    },
+    {
+      "title": "16 Jun. 2016 participação de Nuno Castedo e conversa com Nick Nicotine ",
+      "duration": "60",
+      "id": "e239875"
+    },
+    {
+      "title": "15 Jun. 2016 conversa com Tiago Afonso ",
+      "duration": "59",
+      "id": "e239874"
+    },
+    {
+      "title": "14 Jun. 2016 conversa com Poli Correia a Mike Ghost por causa do Album de Correia Act One ",
+      "duration": "60",
+      "id": "e239689"
+    },
+    {
+      "title": "13 Jun. 2016 com o Bau do Sue de Dj a Boy Named Sue ",
+      "duration": "58",
+      "id": "e239691"
+    },
+    { "title": "09 Jun. 2016", "duration": "57", "id": "e238867" },
+    { "title": "09 Jun. 2016", "duration": "57", "id": "e239690" },
+    { "title": "07 Jun. 2016", "duration": "59", "id": "e238868" },
+    {
+      "title": "06 Jun. 2016 com participação de Dj Boy Named Sue ",
+      "duration": "59",
+      "id": "e238865"
+    },
+    {
+      "title": "30 Mai. 2016 com Baú do Sue ",
+      "duration": "58",
+      "id": "e237805"
+    },
+    { "title": "26 Mai. 2016", "duration": "59", "id": "e237264" },
+    {
+      "title": "25 Mai. 2016 com participação de Nuno Castedo em destaque os Seaweed ",
+      "duration": "59",
+      "id": "e237265"
+    },
+    { "title": "24 Mai. 2016", "duration": "13m", "id": "e237048" },
+    {
+      "title": "23 Mai. 2016 com Bau do Sue com DJ a Boy Named Sue ",
+      "duration": "57",
+      "id": "e236906"
+    },
+    {
+      "title": "19 Mai. 2016 conversa com Mira um Lobo! ",
+      "duration": "57",
+      "id": "e236349"
+    },
+    {
+      "title": "18 Mai. 2016 com participação de Nuno Castedo ",
+      "duration": "58",
+      "id": "e236348"
+    },
+    {
+      "title": "17 Mai. 2016 com o Bau do Sue de Dj a Boy Named Sue e conversa com os Ghost Hunt e Eduardo Morais sobre o documentário Tecla Tónica ",
+      "duration": "59",
+      "id": "e236063"
+    },
+    {
+      "title": "16 Mai. 2016 conversa com os twin Transistors ",
+      "duration": "57",
+      "id": "e235908"
+    },
+    {
+      "title": "12 Mai. 2016 conversa com We Bless This Mess e Fellow Man ",
+      "duration": "59",
+      "id": "e235468"
+    },
+    {
+      "title": "11 Mai. 2016 com participação de Nuno Castedo ",
+      "duration": "58",
+      "id": "e235452"
+    },
+    {
+      "title": "10 Mai. 2016 entrevista aos Miss Lava ",
+      "duration": "58",
+      "id": "e235286"
+    },
+    {
+      "title": "09 Mai. 2016 com Baú do Sue  de Dj a Boy Named Sue ",
+      "duration": "58",
+      "id": "e235003"
+    },
+    {
+      "title": "05 Mai. 2016 entrevista com os Youthless ",
+      "duration": "58",
+      "id": "e234710"
+    },
+    { "title": "04 Mai. 2016", "duration": "57", "id": "e234192" },
+    { "title": "03 Mai. 2016", "duration": "58", "id": "e234191" },
+    {
+      "title": "02 Mai. 2016 com a participação de Dj a boy named sue no bau do sue em observação o tema Baby Please don't go ",
+      "duration": "59",
+      "id": "e234011"
+    },
+    { "title": "28 Abr. 2016", "duration": "60", "id": "e233571" },
+    {
+      "title": "27 Abr. 2016 com participação de Nuno Castedo em destaque os Husker Du ",
+      "duration": "57",
+      "id": "e233444"
+    },
+    {
+      "title": "26 Abr. 2016 com Bau do Sue e entrevista a AJ and the Rockin' Trio ",
+      "duration": "58",
+      "id": "e233301"
+    },
+    { "title": "21 Abr. 2016", "duration": "57", "id": "e232794" },
+    { "title": "20 Abr. 2016", "duration": "59", "id": "e232632" },
+    { "title": "19 Abr. 2016", "duration": "58", "id": "e232323" },
+    {
+      "title": "18 Abr. 2016 com participação de DJ a boy named Sue ",
+      "duration": "58",
+      "id": "e232322"
+    },
+    {
+      "title": "14 Abr. 2016 entrevista com Grandfather's House ",
+      "duration": "58",
+      "id": "e231859"
+    },
+    {
+      "title": "13 Abr. 2016 com Nuno Castedo em destaque os The House of Love ",
+      "duration": "57",
+      "id": "e231715"
+    },
+    {
+      "title": "12 Abr. 2016 com Bau do Sue de Dj a boy Named Sue com uma viagem pelo universo de Louie Louie ",
+      "duration": "57",
+      "id": "e231714"
+    },
+    {
+      "title": "11 Abr. 2016 Entrevista com Afonso Rodrigues de Sean Riley & The Slowriders ",
+      "duration": "58",
+      "id": "e231441"
+    },
+    {
+      "title": "07 Abr. 2016 conversa com Adolfo Luxuria Canibal sobre os concertos de Mão Morta com a Remix Ensamble ",
+      "duration": "58",
+      "id": "e230966"
+    },
+    {
+      "title": "06 Abr. 2016 com participação de Nuno Castedo em destaque os Adolecent ",
+      "duration": "57",
+      "id": "e230831"
+    },
+    { "title": "05 Abr. 2016", "duration": "59", "id": "e230688" },
+    {
+      "title": "04 Abr. 2016 com Bau do Sue de Dj a boy named Sue ",
+      "duration": "59",
+      "id": "e230543"
+    },
+    { "title": "31 Mar. 2016", "duration": "59", "id": "e230109" },
+    {
+      "title": "30 Mar. 2016 com participação de Nuno Castedo em destaque Teardrop Explodes ",
+      "duration": "58",
+      "id": "e229958"
+    },
+    { "title": "29 Mar. 2016", "duration": "59", "id": "e229959" },
+    { "title": "24 Mar. 2016", "duration": "57", "id": "e229412" },
+    { "title": "23 Mar. 2016", "duration": "59", "id": "e229413" },
+    { "title": "22 Mar. 2016", "duration": "58", "id": "e229088" },
+    { "title": "21 Mar. 2016", "duration": "59", "id": "e228935" },
+    { "title": "17 Mar. 2016", "duration": "58", "id": "e228467" },
+    { "title": "16 Mar. 2016", "duration": "57", "id": "e228316" },
+    { "title": "15 Mar. 2016", "duration": "58", "id": "e228315" },
+    { "title": "14 Mar. 2016", "duration": "57", "id": "e228012" },
+    { "title": "10 Mar. 2016", "duration": "57", "id": "e227601" },
+    { "title": "08 Mar. 2016", "duration": "59", "id": "e227357" },
+    { "title": "07 Mar. 2016", "duration": "57", "id": "e227212" },
+    { "title": "03 Mar. 2016", "duration": "57", "id": "e226807" },
+    { "title": "02 Mar. 2016", "duration": "56", "id": "e226666" },
+    {
+      "title": "01 Mar. 2016 entrevista com Sam Alone ",
+      "duration": "57",
+      "id": "e226525"
+    },
+    { "title": "29 Fev. 2016", "duration": "57", "id": "e226522" },
+    { "title": "25 Fev. 2016", "duration": "59", "id": "e226085" },
+    { "title": "24 Fev. 2016", "duration": "59", "id": "e225683" },
+    { "title": "23 Fev. 2016", "duration": "59", "id": "e225682" },
+    { "title": "22 Fev. 2016", "duration": "58", "id": "e225524" },
+    {
+      "title": "18 Fev. 2016 entrevista com Budda Power Blues ",
+      "duration": "60",
+      "id": "e225271"
+    },
+    { "title": "17 Fev. 2016", "duration": "57", "id": "e224970" },
+    { "title": "16 Fev. 2016", "duration": "59", "id": "e224968" },
+    { "title": "15 Fev. 2016", "duration": "57", "id": "e224969" },
+    { "title": "12 Fev. 2016", "duration": "58", "id": "e223037" },
+    {
+      "title": "11 Fev. 2016 entrevista com Vitor Bacalhau ",
+      "duration": "56",
+      "id": "e224239"
+    },
+    {
+      "title": "10 Fev. 2016 com participação de Nuno Castedo ",
+      "duration": "57",
+      "id": "e224240"
+    },
+    { "title": "09 Fev. 2016", "duration": "59", "id": "e224238" },
+    { "title": "08 Fev. 2016", "duration": "59", "id": "e224237" },
+    { "title": "04 Fev. 2016", "duration": "59", "id": "e223443" },
+    {
+      "title": "03 Fev. 2016 os Curve em destaque com Nuno Castedo ",
+      "duration": "56",
+      "id": "e223297"
+    },
+    { "title": "02 Fev. 2016", "duration": "59", "id": "e223296" },
+    { "title": "28 Jan. 2016", "duration": "58", "id": "e223036" },
+    { "title": "27 Jan. 2016", "duration": "58", "id": "e222454" },
+    { "title": "26 Jan. 2016", "duration": "57", "id": "e222343" },
+    { "title": "25 Jan. 2016", "duration": "57", "id": "e222342" },
+    {
+      "title": "20 Jan. 2016 com participação de Nuno Castedo em destaque os Slowdive ",
+      "duration": "58",
+      "id": "e221663"
+    },
+    { "title": "19 Jan. 2016", "duration": "58", "id": "e221528" },
+    { "title": "18 Jan. 2016", "duration": "58", "id": "e221527" },
+    { "title": "14 Jan. 2016", "duration": "57", "id": "e221000" },
+    { "title": "13 Jan. 2016", "duration": "59", "id": "e220998" },
+    { "title": "12 Jan. 2016", "duration": "58", "id": "e220997" },
+    { "title": "11 Jan. 2016", "duration": "59", "id": "e220515" },
+    { "title": "07 Jan. 2016", "duration": "58", "id": "e220143" },
+    { "title": "06 Jan. 2016", "duration": "60", "id": "e219852" },
+    { "title": "06 Jan. 2016", "duration": "58", "id": "e220141" },
+    { "title": "05 Jan. 2016", "duration": "57", "id": "e219853" },
+    { "title": "05 Jan. 2016", "duration": "60", "id": "e220142" },
+    { "title": "04 Jan. 2016", "duration": "57", "id": "e220144" },
+    { "title": "31 Dez. 2015", "duration": "57", "id": "e219033" },
+    { "title": "30 Dez. 2015", "duration": "58", "id": "e219314" },
+    { "title": "29 Dez. 2015", "duration": "59", "id": "e219162" },
+    { "title": "28 Dez. 2015", "duration": "59", "id": "e219032" },
+    { "title": "24 Dez. 2015", "duration": "57", "id": "e218545" },
+    {
+      "title": "23 Dez. 2015 com participação de Nuno Castedo com Lush em destaque ",
+      "duration": "57",
+      "id": "e218709"
+    },
+    {
+      "title": "22 Dez. 2015 entrevista com Nick Alport e Alexandre Travessas do Festival Reverence ",
+      "duration": "58",
+      "id": "e218552"
+    },
+    {
+      "title": "21 Dez. 2015 entrevista com as Anarchicks ",
+      "duration": "56",
+      "id": "e218390"
+    },
+    { "title": "17 Dez. 2015", "duration": "58", "id": "e218389" },
+    { "title": "16 Dez. 2015", "duration": "58", "id": "e217801" },
+    { "title": "15 Dez. 2015", "duration": "59", "id": "e217508" },
+    { "title": "15 Dez. 2015", "duration": "57", "id": "e217799" },
+    { "title": "10 Dez. 2015", "duration": "58", "id": "e217090" },
+    { "title": "09 Dez. 2015", "duration": "59", "id": "e216941" },
+    { "title": "08 Dez. 2015", "duration": "59", "id": "e216225" },
+    { "title": "07 Dez. 2015", "duration": "57", "id": "e216224" },
+    {
+      "title": "03 Dez. 2015 conversa com Poli Correia e Mike Ghost sobre o projecto Correia ",
+      "duration": "59",
+      "id": "e216102"
+    },
+    {
+      "title": "02 Dez. 2015 conversa com Pedro Pedreiro e João Silva dos Albatroz ",
+      "duration": "59",
+      "id": "e216101"
+    },
+    {
+      "title": "01 Dez. 2015 Conversa com John Gonçalves e Nuno Galopim sobre os 20 anos dos Gift ",
+      "duration": "59",
+      "id": "e215966"
+    },
+    {
+      "title": "30 Nov. 2015 com participação de Nick Nicotine sobre o Barreiro Rocks ",
+      "duration": "58",
+      "id": "e215743"
+    },
+    { "title": "25 Nov. 2015", "duration": "58", "id": "e215078" },
+    { "title": "24 Nov. 2015", "duration": "57", "id": "e214948" },
+    { "title": "23 Nov. 2015", "duration": "58", "id": "e214797" },
+    { "title": "19 Nov. 2015", "duration": "58", "id": "e214794" },
+    { "title": "18 Nov. 2015", "duration": "58", "id": "e214792" },
+    { "title": "17 Nov. 2015", "duration": "59", "id": "e214789" },
+    { "title": "16 Nov. 2015", "duration": "57", "id": "e214790" },
+    { "title": "12 Nov. 2015", "duration": "59", "id": "e213465" },
+    {
+      "title": "11 Nov. 2015 com participação de Nuno Castedo em destaque os Pale Saints ",
+      "duration": "58",
+      "id": "e213452"
+    },
+    { "title": "10 Nov. 2015", "duration": "57", "id": "e213046" },
+    { "title": "09 Nov. 2015", "duration": "58", "id": "e213047" },
+    { "title": "05 Nov. 2015", "duration": "59", "id": "e213045" },
+    { "title": "04 Nov. 2015", "duration": "58", "id": "e212425" },
+    { "title": "03 Nov. 2015", "duration": "56", "id": "e212424" },
+    { "title": "02 Nov. 2015", "duration": "58", "id": "e212120" },
+    { "title": "29 Out. 2015", "duration": "58", "id": "e211791" },
+    {
+      "title": "28 Out. 2015 com participação de Nuno Castedo em destaque os The shins ",
+      "duration": "59",
+      "id": "e211618"
+    },
+    { "title": "27 Out. 2015", "duration": "56", "id": "e211617" },
+    { "title": "26 Out. 2015", "duration": "58", "id": "e211317" },
+    {
+      "title": "21 Out. 2015 com participação de Nuno Castedo em destaque os Sunny Day Real Estate ",
+      "duration": "58",
+      "id": "e210840"
+    },
+    {
+      "title": "20 Out. 2015 conversa com Carlos Camões sobre o Bastard Rock em castelo Branco ",
+      "duration": "58",
+      "id": "e210706"
+    },
+    { "title": "19 Out. 2015", "duration": "57", "id": "e210567" },
+    { "title": "15 Out. 2015", "duration": "57", "id": "e210274" },
+    { "title": "14 Out. 2015", "duration": "58", "id": "e210124" },
+    { "title": "13 Out. 2015", "duration": "58", "id": "e209859" },
+    { "title": "12 Out. 2015", "duration": "58", "id": "e209858" },
+    { "title": "08 Out. 2015", "duration": "58", "id": "e209309" },
+    {
+      "title": "07 Out. 2015 com participação de Nuno Castedo em destaque os Ride ",
+      "duration": "58",
+      "id": "e209167"
+    },
+    { "title": "06 Out. 2015", "duration": "58", "id": "e209036" },
+    {
+      "title": "05 Out. 2015 conversa com Sam Alone, Fast Eddie Nelson, Storm and the Sun, we Bless this Mess, Roy Duke eThe Fellow Man a prepósito da restless tour de 2015 ",
+      "duration": "57",
+      "id": "e208919"
+    },
+    { "title": "01 Out. 2015", "duration": "60", "id": "e208532" },
+    {
+      "title": "30 Set. 2015 com participação de Nuno Castedo em destaque Big Black ",
+      "duration": "59",
+      "id": "e208533"
+    },
+    { "title": "29 Set. 2015", "duration": "58", "id": "e208423" },
+    {
+      "title": "25 Set. 2015 com participação de Pedro Costa em Socas, Missangas e Cristais em destaque PJ Harvey ",
+      "duration": "58",
+      "id": "e207740"
+    },
+    { "title": "24 Set. 2015", "duration": "59", "id": "e207638" },
+    {
+      "title": "23 Set. 2015 entrevista com o Tiago Castro sobre o projecto Acid acid ",
+      "duration": "58",
+      "id": "e207636"
+    },
+    { "title": "22 Set. 2015", "duration": "59", "id": "e207634" },
+    { "title": "18 Set. 2015", "duration": "59", "id": "e207635" },
+    {
+      "title": "17 Set. 2015 com participação de Pedro Costa em Socas, Missangas e Cristais em destaque Patti Smithe entrevista com Howe Gelb dos Giant Sand ",
+      "duration": "59",
+      "id": "e206916"
+    },
+    { "title": "16 Set. 2015", "duration": "58", "id": "e206801" },
+    { "title": "15 Set. 2015", "duration": "58", "id": "e206802" },
+    {
+      "title": "11 Set. 2015 concerto de 10 000 Russos no Reverence ",
+      "duration": "59",
+      "id": "e205490"
+    },
+    {
+      "title": "10 Set. 2015 concerto de Jack Shits no Reverence ",
+      "duration": "57",
+      "id": "e205489"
+    },
+    {
+      "title": "09 Set. 2015 concerto de Act-Ups e excerto de Acid Acid no Reverence ",
+      "duration": "57",
+      "id": "e205487"
+    },
+    {
+      "title": "08 Set. 2015 concerto Fast Eddie Nelson e excerto do concerto de Ghost Hunt  no Reverence ",
+      "duration": "58",
+      "id": "e205488"
+    },
+    { "title": "04 Set. 2015", "duration": "59", "id": "e205603" },
+    {
+      "title": "03 Set. 2015 com Pedro Costa em Socas, Missangas e Cristais em destaque os Beirut ",
+      "duration": "59",
+      "id": "e205486"
+    },
+    { "title": "02 Set. 2015", "duration": "59", "id": "e205396" },
+    { "title": "01 Set. 2015", "duration": "60", "id": "e205329" },
+    {
+      "title": "27 Ago. 2015 com conversa com Nick Alport do festival Reverence ",
+      "duration": "59",
+      "id": "e204986"
+    },
+    {
+      "title": "26 Ago. 2015 enntrevista Phantom Visio sobre o novo album Ghosts ",
+      "duration": "59",
+      "id": "e204985"
+    },
+    { "title": "25 Ago. 2015", "duration": "60", "id": "e204984" },
+    { "title": "21 Ago. 2015", "duration": "57", "id": "e204301" },
+    { "title": "20 Ago. 2015", "duration": "59", "id": "e204141" },
+    { "title": "19 Ago. 2015", "duration": "58", "id": "e204070" },
+    { "title": "18 Ago. 2015", "duration": "59", "id": "e204302" },
+    { "title": "14 Ago. 2015", "duration": "58", "id": "e204300" },
+    { "title": "13 Ago. 2015", "duration": "58", "id": "e204140" },
+    { "title": "12 Ago. 2015", "duration": "59", "id": "e204067" },
+    { "title": "11 Ago. 2015", "duration": "58", "id": "e204068" },
+    { "title": "05 Ago. 2015", "duration": "59", "id": "e203578" },
+    { "title": "04 Ago. 2015", "duration": "59", "id": "e203577" },
+    { "title": "31 Jul. 2015", "duration": "59", "id": "e203213" },
+    {
+      "title": "30 Jul. 2015 com participação de Pedro Costa em Soca, Missangas e Cristais ",
+      "duration": "59",
+      "id": "e203212"
+    },
+    { "title": "29 Jul. 2015", "duration": "59", "id": "e202981" },
+    { "title": "28 Jul. 2015", "duration": "58", "id": "e202979" },
+    { "title": "24 Jul. 2015", "duration": "59", "id": "e202484" },
+    {
+      "title": "23 Jul. 2015 com participação de Pedro Costa em Socas Missangas e Cristais em destaque Neil Young ",
+      "duration": "59",
+      "id": "e202485"
+    },
+    { "title": "22 Jul. 2015", "duration": "59", "id": "e202486" },
+    {
+      "title": "21 Jul. 2015 entrevista com We Bless This Mess ",
+      "duration": "60",
+      "id": "e202127"
+    },
+    { "title": "16 Jul. 2015", "duration": "57", "id": "e202126" },
+    { "title": "15 Jul. 2015", "duration": "59", "id": "e201599" },
+    { "title": "14 Jul. 2015", "duration": "58", "id": "e201598" },
+    { "title": "10 Jul. 2015", "duration": "58", "id": "e201123" },
+    { "title": "08 Jul. 2015", "duration": "59", "id": "e201122" },
+    { "title": "07 Jul. 2015", "duration": "58", "id": "e200819" },
+    { "title": "03 Jul. 2015", "duration": "67", "id": "e200386" },
+    {
+      "title": "02 Jul. 2015 com participação de Pedro Costa em destaque os greatful Dead ",
+      "duration": "60",
+      "id": "e200385"
+    },
+    {
+      "title": "01 Jul. 2015 com participação de Nuno Castedo em destaque os Helmet ",
+      "duration": "59",
+      "id": "e200144"
+    },
+    { "title": "30 Jun. 2015", "duration": "59", "id": "e200136" },
+    { "title": "26 Jun. 2015", "duration": "58", "id": "e199628" },
+    {
+      "title": "25 Jun. 2015 entrevista com Fast Eddie Nelson ",
+      "duration": "58",
+      "id": "e199626"
+    },
+    { "title": "24 Jun. 2015", "duration": "59", "id": "e198715" },
+    { "title": "23 Jun. 2015", "duration": "58", "id": "e198713" },
+    {
+      "title": "19 Jun. 2015 entrevista com os ((ASA)) ",
+      "duration": "59",
+      "id": "e198845"
+    },
+    { "title": "18 Jun. 2015", "duration": "59", "id": "e198714" },
+    {
+      "title": "17 Jun. 2015 com participação de Nuno Castedo em destaque os Replacements ",
+      "duration": "57",
+      "id": "e198612"
+    },
+    { "title": "16 Jun. 2015", "duration": "57", "id": "e198611" },
+    { "title": "12 Jun. 2015", "duration": "59", "id": "e198014" },
+    { "title": "11 Jun. 2015", "duration": "59", "id": "e197725" },
+    { "title": "10 Jun. 2015", "duration": "59", "id": "e197855" },
+    { "title": "09 Jun. 2015", "duration": "59", "id": "e197724" },
+    { "title": "05 Jun. 2015", "duration": "59", "id": "e197263" },
+    { "title": "05 Jun. 2015", "duration": "59", "id": "e197723" },
+    {
+      "title": "04 Jun. 2015 com participação de Pedro Costa em Socas Missangas e Cristais em destaque os Replacements e Patti smith ",
+      "duration": "58",
+      "id": "e197262"
+    },
+    {
+      "title": "03 Jun. 2015 com participação de Nuno Castedo em destaque Grant lee Buffalo ",
+      "duration": "59",
+      "id": "e197144"
+    },
+    { "title": "02 Jun. 2015", "duration": "59", "id": "e197142" },
+    { "title": "29 Mai. 2015", "duration": "59", "id": "e196587" },
+    {
+      "title": "28 Mai. 2015 com participação de Pedro Costa em Socas, Missangas e Cristais em destaque Giant Sand ",
+      "duration": "58",
+      "id": "e196586"
+    },
+    {
+      "title": "27 Mai. 2015 com participação de Nuno Castedo em destaque os Discharge ",
+      "duration": "59",
+      "id": "e196365"
+    },
+    { "title": "26 Mai. 2015", "duration": "59", "id": "e196364" },
+    {
+      "title": "21 Mai. 2015 entrevista com Chris Eckman ",
+      "duration": "59",
+      "id": "e195705"
+    },
+    {
+      "title": "20 Mai. 2015 Conversa com Fellow Man a proposito do tema Love Hurts e participação de Nuno Castedo em destaque os NoMeansNo ",
+      "duration": "59",
+      "id": "e195588"
+    },
+    {
+      "title": "19 Mai. 2015 entrevista com King Dude ",
+      "duration": "59",
+      "id": "e195458"
+    },
+    { "title": "15 Mai. 2015", "duration": "59", "id": "e195040" },
+    {
+      "title": "14 Mai. 2015 com participação de Pedro Costa em Socas, Missangas e Cristais em destaque os Giant Sand ",
+      "duration": "59",
+      "id": "e195039"
+    },
+    {
+      "title": "13 Mai. 2015 com participação de Nuno Castedo em destaque os Mission of Burma ",
+      "duration": "59",
+      "id": "e194880"
+    },
+    {
+      "title": "12 Mai. 2015 entrevista a João Correia dos Tape Junk ",
+      "duration": "59",
+      "id": "e194275"
+    },
+    {
+      "title": "12 Mai. 2015 entrevista com João Correia Sobre os segundo disco dos Tape Junk ",
+      "duration": "59",
+      "id": "e194881"
+    },
+    {
+      "title": "08 Mai. 2015 com participação de Pedro Costa em Socas,Missangas e Cristais em destaque Death Cab For Cutie ",
+      "duration": "59",
+      "id": "e194276"
+    },
+    {
+      "title": "07 Mai. 2015 entrevista White Hills ",
+      "duration": "59",
+      "id": "e194114"
+    },
+    { "title": "06 Mai. 2015", "duration": "59", "id": "e194116" },
+    {
+      "title": "05 Mai. 2015 entrevista com NUN:N ",
+      "duration": "60",
+      "id": "e194115"
+    },
+    { "title": "01 Mai. 2015", "duration": "58", "id": "e194112" },
+    {
+      "title": "30 Abr. 2015 com participação de Pedro Costa em Socas, Missangas e Cristais em destaque os Calexico ",
+      "duration": "58",
+      "id": "e193377"
+    },
+    {
+      "title": "29 Abr. 2015 conversa com João Rolo sobre o 2º aniversario do Sabotage e sobre o Festival Reverence ",
+      "duration": "58",
+      "id": "e193251"
+    },
+    {
+      "title": "28 Abr. 2015 entrevista com João Branco Kyron dos Beautify Junkyards ",
+      "duration": "61",
+      "id": "e193084"
+    },
+    {
+      "title": "24 Abr. 2015 entrevista com Miguel Fonseca dos Bizarra Locomotiva ",
+      "duration": "61",
+      "id": "e192659"
+    },
+    {
+      "title": "23 Abr. 2015 particpação de Pedro Costa em socas missangas e cristais ",
+      "duration": "57",
+      "id": "e192522"
+    },
+    { "title": "21 Abr. 2015", "duration": "58", "id": "e192263" },
+    { "title": "17 Abr. 2015", "duration": "58", "id": "e192262" },
+    {
+      "title": "15 Abr. 2015 entrevista com Luis Simões dos Saturnia ",
+      "duration": "58",
+      "id": "e191577"
+    },
+    {
+      "title": "15 Abr. 2015 com participação de Nuno Castedo em destaque os Byrds ",
+      "duration": "58",
+      "id": "e191578"
+    },
+    {
+      "title": "15 Abr. 2015 entrevista com Luis Simões dos Saturnia ",
+      "duration": "58",
+      "id": "e192660"
+    },
+    { "title": "14 Abr. 2015", "duration": "59", "id": "e191416" },
+    {
+      "title": "10 Abr. 2015 conversa com os Cave Story ",
+      "duration": "61",
+      "id": "e191415"
+    },
+    {
+      "title": "09 Abr. 2015 com participação de Pedro Costa em Socas, Missangas e Cristais ",
+      "duration": "59",
+      "id": "e190832"
+    },
+    {
+      "title": "08 Abr. 2015 com participação de Nuno Castedo em destaque os X ",
+      "duration": "59",
+      "id": "e190831"
+    },
+    {
+      "title": "07 Abr. 2015 com participação de Letícia Contreiras ",
+      "duration": "58",
+      "id": "e190693"
+    },
+    { "title": "03 Abr. 2015", "duration": "59", "id": "e190084" },
+    { "title": "02 Abr. 2015", "duration": "59", "id": "e190167" },
+    { "title": "01 Abr. 2015", "duration": "58", "id": "e190083" },
+    { "title": "31 Mar. 2015", "duration": "59", "id": "e189924" },
+    {
+      "title": "27 Mar. 2015 conversa com Fast Eddie Nelson e Becky Lee ",
+      "duration": "58",
+      "id": "e189105"
+    },
+    {
+      "title": "26 Mar. 2015 conversa com Nuno Moreira do Festival Barrinha, Socas, Missangas e Cristais com Pedro Costa ",
+      "duration": "59",
+      "id": "e189339"
+    },
+    {
+      "title": "25 Mar. 2015 comparticipação de nuno castedo em destaque os Killing Joke ",
+      "duration": "58",
+      "id": "e189112"
+    },
+    { "title": "24 Mar. 2015", "duration": "54", "id": "e189104" },
+    { "title": "20 Mar. 2015", "duration": "59", "id": "e189103" },
+    { "title": "13 Mar. 2015", "duration": "60", "id": "e187647" },
+    { "title": "12 Mar. 2015", "duration": "57", "id": "e187631" },
+    { "title": "11 Mar. 2015", "duration": "59", "id": "e187629" },
+    { "title": "10 Mar. 2015", "duration": "59", "id": "e187627" },
+    { "title": "06 Mar. 2015", "duration": "60", "id": "e187626" },
+    { "title": "05 Mar. 2015", "duration": "59", "id": "e187625" },
+    { "title": "04 Mar. 2015", "duration": "58", "id": "e187624" },
+    { "title": "03 Mar. 2015", "duration": "58", "id": "e187623" },
+    { "title": "27 Fev. 2015", "duration": "59", "id": "e187621" },
+    { "title": "26 Fev. 2015", "duration": "59", "id": "e185639" },
+    { "title": "25 Fev. 2015", "duration": "59", "id": "e185637" },
+    { "title": "24 Fev. 2015", "duration": "58", "id": "e185636" },
+    { "title": "20 Fev. 2015", "duration": "59", "id": "e184984" },
+    {
+      "title": "19 Fev. 2015 com participação de Pedro Costa em Socas, Missangas e Cristais em destaque os Wilco ",
+      "duration": "59",
+      "id": "e184983"
+    },
+    { "title": "18 Fev. 2015", "duration": "57", "id": "e184982" },
+    { "title": "17 Fev. 2015", "duration": "59", "id": "e184981" },
+    {
+      "title": "13 Fev. 2015 conversa com Eduardo Morais e Ghost Hunt ",
+      "duration": "59",
+      "id": "e184980"
+    },
+    { "title": "11 Fev. 2015", "duration": "59", "id": "e183872" },
+    {
+      "title": "10 Fev. 2015 com participação de Letícia Contreiras ",
+      "duration": "58",
+      "id": "e183737"
+    },
+    { "title": "06 Fev. 2015", "duration": "59", "id": "e183303" },
+    {
+      "title": "05 Fev. 2015 com participação de Pedro Costa em Socas, missangas e Cristais em destaque os Wilco ",
+      "duration": "58",
+      "id": "e183160"
+    },
+    {
+      "title": "04 Fev. 2015 com participação de Nuno Castedo em destaque os the pop group ",
+      "duration": "57",
+      "id": "e183051"
+    },
+    { "title": "03 Fev. 2015", "duration": "59", "id": "e183045" },
+    { "title": "30 Jan. 2015", "duration": "59", "id": "e181957" },
+    {
+      "title": "29 Jan. 2015 com participação de Pedro Costa em Socas, Missangas e Cristais ",
+      "duration": "59",
+      "id": "e181606"
+    },
+    {
+      "title": "28 Jan. 2015 com participação de Nuno Castedo em destaque os belgas dEUS ",
+      "duration": "58",
+      "id": "e181334"
+    },
+    { "title": "27 Jan. 2015", "duration": "58", "id": "e180787" },
+    {
+      "title": "23 Jan. 2015 entrevista com os Fishtails ",
+      "duration": "60",
+      "id": "e179961"
+    },
+    {
+      "title": "22 Jan. 2015 entrevista com Salgado do o salgado faz anos fest! e participação de Pedro Costa em Socas, Missangas e Cristais em destaque os Waterboys ",
+      "duration": "60",
+      "id": "e179960"
+    },
+    {
+      "title": "21 Jan. 2015 com participação de Nuno Castedo ",
+      "duration": "60",
+      "id": "e179836"
+    },
+    {
+      "title": "20 Jan. 2015 entrevista com os Old Yellow Jack sobre o disco Magnus ",
+      "duration": "59",
+      "id": "e179712"
+    },
+    { "title": "16 Jan. 2015", "duration": "58", "id": "e179380" },
+    {
+      "title": "15 Jan. 2015 Com participação de Pedro Costa em Socas, Missangas e Cristais em destaque os Guster ",
+      "duration": "59",
+      "id": "e179155"
+    },
+    {
+      "title": "14 Jan. 2015 entrevista com Los Saguaros ",
+      "duration": "60",
+      "id": "e179022"
+    },
+    { "title": "13 Jan. 2015", "duration": "59", "id": "e179021" },
+    { "title": "09 Jan. 2015", "duration": "59", "id": "e178398" },
+    {
+      "title": "08 Jan. 2015 com participação de pedro Costa em Socas, Missangas e Cristais em destaque Pietta Brown ",
+      "duration": "59",
+      "id": "e178388"
+    },
+    { "title": "07 Jan. 2015", "duration": "59", "id": "e178072" },
+    { "title": "06 Jan. 2015", "duration": "57", "id": "e178071" },
+    { "title": "02 Jan. 2015", "duration": "57", "id": "e177901" },
+    { "title": "31 Dez. 2014", "duration": "57", "id": "e177384" },
+    { "title": "30 Dez. 2014", "duration": "58", "id": "e177281" },
+    { "title": "26 Dez. 2014", "duration": "58", "id": "e176861" },
+    { "title": "25 Dez. 2014", "duration": "58", "id": "e176860" },
+    { "title": "24 Dez. 2014", "duration": "57", "id": "e176862" },
+    { "title": "23 Dez. 2014", "duration": "57", "id": "e176859" },
+    {
+      "title": "19 Dez. 2014 entrevista com Samuel Palitos ex-baterista dos Censurados sobre a edição dos dois primeiros discos censurados e confusão ",
+      "duration": "60",
+      "id": "e176477"
+    },
+    {
+      "title": "18 Dez. 2014 com participação de Pedro Costa em Socas, Missangas e Cristais em destaque as Basement Tapes de Bob Dylan ",
+      "duration": "59",
+      "id": "e176357"
+    },
+    {
+      "title": "17 Dez. 2014 com participação de Nuno Castedo, os At The Drive In em destaque ",
+      "duration": "57",
+      "id": "e176117"
+    },
+    {
+      "title": "16 Dez. 2014 entrevista com Los waves ",
+      "duration": "59",
+      "id": "e175955"
+    },
+    {
+      "title": "12 Dez. 2014 entrevista com os A jigsaw sobre o album No True Magic ",
+      "duration": "60",
+      "id": "e175549"
+    },
+    { "title": "11 Dez. 2014", "duration": "58", "id": "e175548" },
+    {
+      "title": "10 Dez. 2014 com participaçãod e Nuno Castedo os Stereolab em destaque ",
+      "duration": "58",
+      "id": "e175547"
+    },
+    { "title": "09 Dez. 2014", "duration": "59", "id": "e175546" },
+    {
+      "title": "03 Dez. 2014 com participação de Nuno Castedo em destaque Superchunk ",
+      "duration": "59",
+      "id": "e174539"
+    },
+    {
+      "title": "02 Dez. 2014 com participação de Leticia Contreiras ",
+      "duration": "59",
+      "id": "e174434"
+    },
+    {
+      "title": "28 Nov. 2014 Entrevista com Nick Nicotine sobre o barreiro Rocks 2014 ",
+      "duration": "59",
+      "id": "e174433"
+    },
+    { "title": "27 Nov. 2014", "duration": "58", "id": "e174035" },
+    {
+      "title": "26 Nov. 2014 com participação de Nuno Castedo em destaque os Wilco ",
+      "duration": "59",
+      "id": "e173832"
+    },
+    { "title": "25 Nov. 2014", "duration": "59", "id": "e173688" },
+    {
+      "title": "21 Nov. 2014 entrevista com os The Walks ",
+      "duration": "58",
+      "id": "e173825"
+    },
+    {
+      "title": "20 Nov. 2014 Com Pedro Costa em Socas, Missangas e Cristais. Festival Fast Foward ",
+      "duration": "58",
+      "id": "e173095"
+    },
+    {
+      "title": "19 Nov. 2014 entrevista com os Meu Outro Tanto ",
+      "duration": "59",
+      "id": "e172983"
+    },
+    { "title": "18 Nov. 2014", "duration": "58", "id": "e172872" },
+    { "title": "14 Nov. 2014", "duration": "59", "id": "e172579" },
+    {
+      "title": "12 Nov. 2014 entrevista com Grandfather's House ",
+      "duration": "59",
+      "id": "e172340"
+    },
+    {
+      "title": "11 Nov. 2014 com participação de Letícia Contreiras ",
+      "duration": "58",
+      "id": "e172063"
+    },
+    {
+      "title": "07 Nov. 2014 entrevista com Sam Alone sobre o novo album Thougher than leather ",
+      "duration": "60",
+      "id": "e171711"
+    },
+    {
+      "title": "05 Nov. 2014 com participação de Nuno Castedo em destaque os Echo & The Bunnyman ",
+      "duration": "59",
+      "id": "e171359"
+    },
+    { "title": "04 Nov. 2014", "duration": "58", "id": "e171358" },
+    { "title": "31 Out. 2014", "duration": "58", "id": "e170767" },
+    {
+      "title": "30 Out. 2014 com participação de Pedro Costa em destaque os Led Zepplin ",
+      "duration": "58",
+      "id": "e170638"
+    },
+    {
+      "title": "29 Out. 2014 com participação de Leticia Contreiras ",
+      "duration": "59",
+      "id": "e170636"
+    },
+    {
+      "title": "28 Out. 2014 Conversa com Eduardo Morais sobre o documentário Uivo",
+      "duration": "59",
+      "id": "e170391"
+    },
+    {
+      "title": "24 Out. 2014 Com participação de Pedro Costa em Socas, Missangas e Cristais em destaque Led Zepplin ",
+      "duration": "59",
+      "id": "e169972"
+    },
+    {
+      "title": "23 Out. 2014 Entrevista com Pedro Galhoz de Pedro e os Lobos ",
+      "duration": "61",
+      "id": "e169722"
+    },
+    {
+      "title": "22 Out. 2014 com participação de Nuno Castedo em destaque os The The ",
+      "duration": "58",
+      "id": "e169721"
+    },
+    {
+      "title": "21 Out. 2014 Entrevista com Keep Razor's Sharp ",
+      "duration": "58",
+      "id": "e169720"
+    },
+    { "title": "17 Out. 2014", "duration": "58", "id": "e169161" },
+    {
+      "title": "16 Out. 2014 Com participação de Pedro Costa em Socas, Missangas e Cristais com o destaque para Mark Bell dos LFO ",
+      "duration": "58",
+      "id": "e169146"
+    },
+    {
+      "title": "15 Out. 2014 com participação de Nuno Castedo em destaque os Devo ",
+      "duration": "57",
+      "id": "e168929"
+    },
+    { "title": "14 Out. 2014", "duration": "58", "id": "e168928" },
+    {
+      "title": "10 Out. 2014 com participação de Pedro Costa ",
+      "duration": "57",
+      "id": "e168397"
+    },
+    {
+      "title": "09 Out. 2014 Entrevista com João Peste ",
+      "duration": "59",
+      "id": "e168293"
+    },
+    {
+      "title": "08 Out. 2014 Entrevista com os Murdering Tripping Blues ",
+      "duration": "57",
+      "id": "e168154"
+    },
+    {
+      "title": "07 Out. 2014 destaque Morrissey ao vivo ",
+      "duration": "59",
+      "id": "e168153"
+    },
+    {
+      "title": "03 Out. 2014 entrevista com Tracy Vandal ",
+      "duration": "60",
+      "id": "e167539"
+    },
+    {
+      "title": "02 Out. 2014 com participação de Pedro Costa em Socas, Missangas e Cristais ",
+      "duration": "55",
+      "id": "e167538"
+    },
+    {
+      "title": "01 Out. 2014 com participação de Nuno Castedo em destaque os talking Heads ",
+      "duration": "57",
+      "id": "e167527"
+    },
+    { "title": "30 Set. 2014", "duration": "59", "id": "e167420" },
+    { "title": "26 Set. 2014", "duration": "59", "id": "e166778" },
+    {
+      "title": "25 Set. 2014 Com Socas, Missangas e Cristais de Pedro Costa em destaque Bob Dylan ",
+      "duration": "60",
+      "id": "e166777"
+    },
+    { "title": "24 Set. 2014", "duration": "58", "id": "e166776" },
+    {
+      "title": "23 Set. 2014 entrevista com Dirty Coal Train ",
+      "duration": "59",
+      "id": "e166431"
+    },
+    {
+      "title": "18 Set. 2014 Com Socas, Missangas e Cristais com Pedro Costa em destaque Robert Plant ",
+      "duration": "59",
+      "id": "e165981"
+    },
+    {
+      "title": "17 Set. 2014 com participação de Nuno Castedo os PIL em destaque ",
+      "duration": "59",
+      "id": "e165980"
+    },
+    {
+      "title": "16 Set. 2014 Entrevista com os Ninja Kore ",
+      "duration": "60",
+      "id": "e165880"
+    },
+    { "title": "12 Set. 2014", "duration": "59", "id": "e165881" },
+    {
+      "title": "11 Set. 2014 com participação de Pedro Costa em destaque os U2 ",
+      "duration": "58",
+      "id": "e165882"
+    },
+    {
+      "title": "10 Set. 2014 Com participação de Nuno Castedo ",
+      "duration": "60",
+      "id": "e165883"
+    },
+    { "title": "09 Set. 2014", "duration": "58", "id": "e165884" },
+    {
+      "title": "03 Set. 2014 com participação de Nuno Castedo ",
+      "duration": "58",
+      "id": "e164736"
+    },
+    { "title": "02 Set. 2014", "duration": "59", "id": "e164735" },
+    { "title": "29 Ago. 2014", "duration": "59", "id": "e164261" },
+    {
+      "title": "28 Ago. 2014 com participação de Pedro Costa ",
+      "duration": "58",
+      "id": "e164256"
+    },
+    { "title": "27 Ago. 2014", "duration": "59", "id": "e164195" },
+    { "title": "26 Ago. 2014", "duration": "57", "id": "e164194" },
+    {
+      "title": "21 Ago. 2014 conversa com Carlos Matos sobre a 5ª edição dos festival Entremuralhas ",
+      "duration": "58",
+      "id": "e163473"
+    },
+    { "title": "20 Ago. 2014", "duration": "57", "id": "e163472" },
+    { "title": "19 Ago. 2014", "duration": "58", "id": "e163387" },
+    { "title": "15 Ago. 2014", "duration": "58", "id": "e163386" },
+    { "title": "14 Ago. 2014", "duration": "59", "id": "e163086" },
+    { "title": "13 Ago. 2014", "duration": "58", "id": "e163017" },
+    {
+      "title": "12 Ago. 2014 Conversa com Ricardo Rios sobre a edição 2014 do Sonic Blast ",
+      "duration": "59",
+      "id": "e162947"
+    },
+    {
+      "title": "07 Ago. 2014 Com pariticipação de Pedro Costa em Socas, Missangas e Cristais ",
+      "duration": "59",
+      "id": "e162594"
+    },
+    {
+      "title": "06 Ago. 2014 conversa com Neil Leyton e Mitch Ghost ",
+      "duration": "57",
+      "id": "e162430"
+    },
+    {
+      "title": "05 Ago. 2014 Conversa com os Big Church of Fire ",
+      "duration": "57",
+      "id": "e162429"
+    },
+    {
+      "title": "01 Ago. 2014 Conversa com os Cave Story e com Eduardo Morais ",
+      "duration": "58",
+      "id": "e162290"
+    },
+    { "title": "31 Jul. 2014", "duration": "58", "id": "e162133" },
+    { "title": "31 Jul. 2014", "duration": "58", "id": "e162289" },
+    {
+      "title": "25 Jul. 2014 com Pedro Costa em Socas, Missangas e Cristais ",
+      "duration": "58",
+      "id": "e161513"
+    },
+    {
+      "title": "24 Jul. 2014 Entrevista com os Zimun ",
+      "duration": "58",
+      "id": "e161369"
+    },
+    {
+      "title": "23 Jul. 2014 Com participação de Nuno Castedo em destaque os Love ",
+      "duration": "57",
+      "id": "e161368"
+    },
+    { "title": "22 Jul. 2014", "duration": "56", "id": "e161257" },
+    {
+      "title": "17 Jul. 2014 com participação de Pedro Costa ",
+      "duration": "58",
+      "id": "e160672"
+    },
+    {
+      "title": "16 Jul. 2014 com Nuno Castedo em destaque PJ Harvey ",
+      "duration": "57",
+      "id": "e160574"
+    },
+    { "title": "15 Jul. 2014", "duration": "57", "id": "e160573" },
+    {
+      "title": "11 Jul. 2014 Arctic Monkeys e The Kills ao vivo ",
+      "duration": "58",
+      "id": "e159925"
+    },
+    {
+      "title": "10 Jul. 2014 com participação de Pedro Costa em Socas, Missangas e Cristais em destaque a 2ª parte da reediação dos discos dos Led Zepplin ",
+      "duration": "58",
+      "id": "e159924"
+    },
+    { "title": "09 Jul. 2014", "duration": "58", "id": "e159923" },
+    { "title": "08 Jul. 2014", "duration": "58", "id": "e159702" },
+    { "title": "04 Jul. 2014", "duration": "58", "id": "e159701" },
+    {
+      "title": "03 Jul. 2014 com participação de Pedro Costa ",
+      "duration": "58",
+      "id": "e159700"
+    },
+    {
+      "title": "02 Jul. 2014 com participação de Nuno Castedo ",
+      "duration": "57",
+      "id": "e159101"
+    },
+    {
+      "title": "01 Jul. 2014 com participação de Leticia Contreiras ",
+      "duration": "59",
+      "id": "e159100"
+    },
+    {
+      "title": "27 Jun. 2014 Entrevista com os Vicious Five ",
+      "duration": "58",
+      "id": "e158537"
+    },
+    {
+      "title": "26 Jun. 2014 Com participação de Pedro Costa em Socas, Missangas e Cristais dedicado a Joe Henry e um especial sobre os 10 anos dos Fitacola ",
+      "duration": "58",
+      "id": "e158639"
+    },
+    { "title": "25 Jun. 2014", "duration": "58", "id": "e158536" },
+    { "title": "24 Jun. 2014", "duration": "57", "id": "e158535" },
+    {
+      "title": "19 Jun. 2014 Comparticipação de Pedro Costa ",
+      "duration": "58",
+      "id": "e157872"
+    },
+    {
+      "title": "18 Jun. 2014 participação de Nuno Castedo ",
+      "duration": "58",
+      "id": "e157869"
+    },
+    { "title": "17 Jun. 2014", "duration": "59", "id": "e157672" },
+    {
+      "title": "13 Jun. 2014 Concerto de Lee Ranaldo & The Dust gravado no Nos Primavera Sound ",
+      "duration": "60",
+      "id": "e156933"
+    },
+    {
+      "title": "12 Jun. 2014 Concerto de Slint gravado no Nos Primavera Sound ",
+      "duration": "68",
+      "id": "e156931"
+    },
+    {
+      "title": "11 Jun. 2014 Concerto de Dum Dum Girls gravado no Nos Primavera Sound ",
+      "duration": "60",
+      "id": "e156930"
+    },
+    {
+      "title": "10 Jun. 2014 Concerto de Ty Segall gravado no Nos Primavera Sound ",
+      "duration": "58",
+      "id": "e156932"
+    },
+    {
+      "title": "05 Jun. 2014 com participação de Pedro Costa em Socas, missangas e Cristais em destaque os Television e o album Marquee Moon. Conversa com Charles Sangnoir sobre os 10 anos da net label Necrosymphonic ",
+      "duration": "59",
+      "id": "e156408"
+    },
+    {
+      "title": "04 Jun. 2014 Conversa com The Fellow Man (Bruno Mira) sobre o novo disco ",
+      "duration": "57",
+      "id": "e156409"
+    },
+    {
+      "title": "03 Jun. 2014 com participação de Leticia Contreiras ",
+      "duration": "60",
+      "id": "e156410"
+    },
+    {
+      "title": "30 Mai. 2014 conversa com Adolfo Luxuria Canibal sobre os 30 anos dos Mão Morta e o novo dos Pelo Meu Relogio são Horas de Matar ",
+      "duration": "57",
+      "id": "e155622"
+    },
+    {
+      "title": "29 Mai. 2014 Com participação de Pedro Costa em Socas, Missangas e Cristais ",
+      "duration": "59",
+      "id": "e155621"
+    },
+    {
+      "title": "28 Mai. 2014 com participação de Nuno Castedo ",
+      "duration": "59",
+      "id": "e155512"
+    },
+    {
+      "title": "27 Mai. 2014 com participação de Leticia Contreiras ",
+      "duration": "59",
+      "id": "e155511"
+    },
+    {
+      "title": "23 Mai. 2014 com participação de Pedro Morcego ",
+      "duration": "59",
+      "id": "e155510"
+    },
+    {
+      "title": "22 Mai. 2014 com Socas, Missangas e Cristais de Pedro Costa ",
+      "duration": "58",
+      "id": "e154844"
+    },
+    {
+      "title": "21 Mai. 2014 participação de Nuno Castedo em destaque os REM ",
+      "duration": "58",
+      "id": "e154732"
+    },
+    { "title": "20 Mai. 2014", "duration": "56", "id": "e154627" },
+    { "title": "16 Mai. 2014", "duration": "59", "id": "e154626" },
+    { "title": "15 Mai. 2014", "duration": "58", "id": "e153971" },
+    { "title": "14 Mai. 2014", "duration": "58", "id": "e153970" },
+    { "title": "13 Mai. 2014", "duration": "58", "id": "e153969" },
+    { "title": "09 Mai. 2014", "duration": "57", "id": "e153968" },
+    { "title": "08 Mai. 2014", "duration": "58", "id": "e153967" },
+    { "title": "07 Mai. 2014", "duration": "59", "id": "e153144" },
+    { "title": "06 Mai. 2014", "duration": "58", "id": "e153145" },
+    { "title": "02 Mai. 2014", "duration": "60", "id": "e152710" },
+    { "title": "01 Mai. 2014", "duration": "58", "id": "e152711" },
+    { "title": "30 Abr. 2014", "duration": "60", "id": "e152712" },
+    { "title": "29 Abr. 2014", "duration": "59", "id": "e152713" },
+    { "title": "28 Abr. 2014", "duration": "58", "id": "e152714" },
+    { "title": "24 Abr. 2014", "duration": "59", "id": "e152709" },
+    {
+      "title": "23 Abr. 2014 com participação de Nuno Castedo ",
+      "duration": "59",
+      "id": "e151785"
+    },
+    {
+      "title": "22 Abr. 2014 com os Levities ",
+      "duration": "59",
+      "id": "e151783"
+    },
+    { "title": "18 Abr. 2014", "duration": "57", "id": "e151778" },
+    { "title": "17 Abr. 2014", "duration": "59", "id": "e150999" },
+    { "title": "16 Abr. 2014", "duration": "56", "id": "e150881" },
+    { "title": "15 Abr. 2014", "duration": "58", "id": "e150880" },
+    { "title": "11 Abr. 2014", "duration": "59", "id": "e150752" },
+    { "title": "10 Abr. 2014", "duration": "59", "id": "e150751" },
+    { "title": "09 Abr. 2014", "duration": "59", "id": "e150749" },
+    { "title": "08 Abr. 2014", "duration": "59", "id": "e150750" },
+    {
+      "title": "04 Abr. 2014 com participação de Pedro Morcego ",
+      "duration": "59",
+      "id": "e149565"
+    },
+    {
+      "title": "03 Abr. 2014 com Socas, Missangas e Cristais com Pedro Costa ",
+      "duration": "58",
+      "id": "e149437"
+    },
+    {
+      "title": "02 Abr. 2014 Com participação de Leticia Contreiras ",
+      "duration": "56",
+      "id": "e149333"
+    },
+    {
+      "title": "02 Abr. 2014 com participação de Nuno Castedo ",
+      "duration": "58",
+      "id": "e149334"
+    },
+    {
+      "title": "27 Mar. 2014 com Socas, Missangas e Cristais de Pedro Costa ",
+      "duration": "59",
+      "id": "e148641"
+    },
+    {
+      "title": "26 Mar. 2014 com participação de Nuno Castedo ",
+      "duration": "59",
+      "id": "e148638"
+    },
+    {
+      "title": "25 Mar. 2014 Com Leticia Contreiras ",
+      "duration": "58",
+      "id": "e148503"
+    },
+    {
+      "title": "21 Mar. 2014 com participação de Pedro Morcego ",
+      "duration": "58",
+      "id": "e147949"
+    },
+    {
+      "title": "20 Mar. 2014 com Socas, Missangas e Cristais com Pedro Costa ",
+      "duration": "59",
+      "id": "e147773"
+    },
+    {
+      "title": "19 Mar. 2014 com Socas, Missangas e Cristais de Pedro Costa ",
+      "duration": "57",
+      "id": "e147758"
+    },
+    {
+      "title": "18 Mar. 2014 Conversa com os Souq e escolhas de Leticia contreiras ",
+      "duration": "66",
+      "id": "e147537"
+    },
+    {
+      "title": "14 Mar. 2014 Conversa com Afonso dos Indignu e escolhas de Pedro Morcego ",
+      "duration": "58",
+      "id": "e147122"
+    },
+    {
+      "title": "13 Mar. 2014 Conversa com os Norton ",
+      "duration": "59",
+      "id": "e147023"
+    },
+    { "title": "12 Mar. 2014", "duration": "58", "id": "e146909" },
+    {
+      "title": "11 Mar. 2014 com Leticia Contreiras ",
+      "duration": "58",
+      "id": "e146908"
+    },
+    {
+      "title": "07 Mar. 2014 com Pedro Morcego ",
+      "duration": "58",
+      "id": "e146310"
+    },
+    {
+      "title": "06 Mar. 2014 Entrevista com Born a Lion ",
+      "duration": "59",
+      "id": "e146241"
+    },
+    { "title": "05 Mar. 2014", "duration": "59", "id": "e146054" },
+    {
+      "title": "04 Mar. 2014 com Leticia Contreiras ",
+      "duration": "57",
+      "id": "e146053"
+    },
+    {
+      "title": "28 Fev. 2014 com Pedro Morcego ",
+      "duration": "59",
+      "id": "e145619"
+    },
+    {
+      "title": "27 Fev. 2014 com Pedro Costa em Socas, Missangas e Cristais ",
+      "duration": "59",
+      "id": "e145499"
+    },
+    { "title": "26 Fev. 2014", "duration": "58", "id": "e145365" },
+    {
+      "title": "25 Fev. 2014 com Leticia Contreiras ",
+      "duration": "58",
+      "id": "e145364"
+    },
+    {
+      "title": "21 Fev. 2014 com as escolhas de Pedro Morcego ",
+      "duration": "57",
+      "id": "e144773"
+    },
+    {
+      "title": "20 Fev. 2014 com socas, missangas e cristais com Pedro Costa em destaque os Devo ",
+      "duration": "58",
+      "id": "e144648"
+    },
+    { "title": "19 Fev. 2014", "duration": "52", "id": "e144522" },
+    { "title": "19 Fev. 2014", "duration": "57", "id": "e144647" },
+    { "title": "14 Fev. 2014", "duration": "59", "id": "e143987" },
+    { "title": "13 Fev. 2014", "duration": "59", "id": "e143860" },
+    { "title": "12 Fev. 2014", "duration": "58", "id": "e143736" },
+    { "title": "11 Fev. 2014", "duration": "58", "id": "e143733" },
+    { "title": "07 Fev. 2014", "duration": "56", "id": "e143609" },
+    { "title": "06 Fev. 2014", "duration": "58", "id": "e143608" },
+    {
+      "title": "05 Fev. 2014 Conversa com Filho da Mãe ",
+      "duration": "57",
+      "id": "e142795"
+    },
+    {
+      "title": "04 Fev. 2014 Conversa com Sandy Kilpatrick e Carlos BB do projrcto Pernas de Alicate ",
+      "duration": "67",
+      "id": "e142794"
+    },
+    {
+      "title": "31 Jan. 2014 Conversa com Vera Marmelo ",
+      "duration": "60",
+      "id": "e142523"
+    },
+    { "title": "30 Jan. 2014", "duration": "57", "id": "e142307" },
+    { "title": "29 Jan. 2014", "duration": "57", "id": "e142157" },
+    { "title": "24 Jan. 2014", "duration": "57", "id": "e142158" },
+    { "title": "23 Jan. 2014", "duration": "59", "id": "e141688" },
+    { "title": "22 Jan. 2014", "duration": "58", "id": "e141556" },
+    { "title": "21 Jan. 2014", "duration": "57", "id": "e141557" },
+    {
+      "title": "17 Jan. 2014 com História para Pular de Manuel Halpern dedicada a João Aguadela ",
+      "duration": "58",
+      "id": "e140946"
+    },
+    { "title": "16 Jan. 2014", "duration": "59", "id": "e140850" },
+    {
+      "title": "15 Jan. 2014 conversa com Los Waves ",
+      "duration": "56",
+      "id": "e140849"
+    },
+    {
+      "title": "14 Jan. 2014 Conversa com Eduardo Morais e ana Cristina Ferrrão sobre o documentário sobre António Sergio ",
+      "duration": "58",
+      "id": "e140645"
+    },
+    {
+      "title": "09 Jan. 2014 com Socas, Missangas e Cristais de Pedro Costa com Nick Cave and the Bad Seeds ",
+      "duration": "57",
+      "id": "e140061"
+    },
+    {
+      "title": "08 Jan. 2014 com histórias para pular de Manuel Halpern ",
+      "duration": "58",
+      "id": "e139966"
+    },
+    { "title": "07 Jan. 2014", "duration": "58", "id": "e139876" },
+    { "title": "03 Jan. 2014", "duration": "60", "id": "e139490" },
+    { "title": "02 Jan. 2014", "duration": "60", "id": "e139248" },
+    { "title": "31 Dez. 2013", "duration": "59", "id": "e139268" },
+    { "title": "27 Dez. 2013", "duration": "59", "id": "e139233" },
+    {
+      "title": "26 Dez. 2013 entrevista com Weatherman ",
+      "duration": "56",
+      "id": "e138716"
+    },
+    { "title": "25 Dez. 2013", "duration": "61", "id": "e138715" },
+    { "title": "24 Dez. 2013", "duration": "57", "id": "e138714" },
+    { "title": "20 Dez. 2013", "duration": "57", "id": "e138346" },
+    { "title": "19 Dez. 2013", "duration": "59", "id": "e138251" },
+    { "title": "18 Dez. 2013", "duration": "58", "id": "e138131" },
+    { "title": "17 Dez. 2013", "duration": "59", "id": "e138048" },
+    { "title": "13 Dez. 2013", "duration": "58", "id": "e138047" },
+    {
+      "title": "12 Dez. 2013 com Socas, Missangas e Cristais de Pedro Costa ",
+      "duration": "56",
+      "id": "e137517"
+    },
+    {
+      "title": "11 Dez. 2013 entrevista com Dan Bejar dos Destroyer ",
+      "duration": "57",
+      "id": "e137420"
+    },
+    { "title": "10 Dez. 2013", "duration": "59", "id": "e137289" },
+    { "title": "06 Dez. 2013", "duration": "59", "id": "e136830" },
+    { "title": "05 Dez. 2013", "duration": "58", "id": "e136736" },
+    { "title": "04 Dez. 2013", "duration": "59", "id": "e136611" },
+    { "title": "03 Dez. 2013", "duration": "58", "id": "e136476" },
+    { "title": "29 Nov. 2013", "duration": "58", "id": "e136117" },
+    {
+      "title": "28 Nov. 2013 com Socas, Missangas e Cristais de Pedro Costa em destaque Bruce Springsteen ",
+      "duration": "59",
+      "id": "e136020"
+    },
+    {
+      "title": "27 Nov. 2013 Conversa com Nick Nicotine sobre o Barreiro Rocks 2013 ",
+      "duration": "58",
+      "id": "e135919"
+    },
+    { "title": "26 Nov. 2013", "duration": "59", "id": "e135795" },
+    { "title": "22 Nov. 2013", "duration": "58", "id": "e135368" },
+    { "title": "21 Nov. 2013", "duration": "58", "id": "e135367" },
+    { "title": "20 Nov. 2013", "duration": "60", "id": "e135268" },
+    { "title": "19 Nov. 2013", "duration": "58", "id": "e135267" },
+    { "title": "15 Nov. 2013", "duration": "59", "id": "e134663" },
+    { "title": "14 Nov. 2013", "duration": "58", "id": "e134579" },
+    { "title": "13 Nov. 2013", "duration": "58", "id": "e134563" },
+    { "title": "08 Nov. 2013", "duration": "60", "id": "e133861" },
+    {
+      "title": "07 Nov. 2013 Conversa com Mat Osman dos Suede e Pedro Costa com Socas Missangas e Cristais ",
+      "duration": "54",
+      "id": "e133860"
+    },
+    { "title": "06 Nov. 2013", "duration": "57", "id": "e133846" },
+    { "title": "05 Nov. 2013", "duration": "56", "id": "e133608" },
+    { "title": "01 Nov. 2013", "duration": "59", "id": "e133857" },
+    { "title": "31 Out. 2013", "duration": "58", "id": "e133856" },
+    { "title": "30 Out. 2013", "duration": "58", "id": "e132974" },
+    { "title": "29 Out. 2013", "duration": "58", "id": "e132857" },
+    { "title": "25 Out. 2013", "duration": "58", "id": "e132422" },
+    {
+      "title": "24 Out. 2013 com Socas, missangas e cristais de Pedro Costa dedicada a Elliot Smith ",
+      "duration": "58",
+      "id": "e132339"
+    },
+    {
+      "title": "23 Out. 2013 Estreia do Single dos Born a Lion e conversa com Noiserv ",
+      "duration": "57",
+      "id": "e132208"
+    },
+    { "title": "22 Out. 2013", "duration": "58", "id": "e132206" },
+    { "title": "18 Out. 2013", "duration": "58", "id": "e131830" },
+    {
+      "title": "17 Out. 2013 com Socas, Missangas e Crista de Pedro Costa dedicado a Howe Gelb ",
+      "duration": "60",
+      "id": "e131588"
+    },
+    { "title": "16 Out. 2013", "duration": "60", "id": "e131589" },
+    { "title": "15 Out. 2013", "duration": "58", "id": "e131590" },
+    {
+      "title": "11 Out. 2013 entrevista com Nicotine´s Orchestra ",
+      "duration": "63",
+      "id": "e131591"
+    },
+    {
+      "title": "10 Out. 2013 com Socas, Missangas e Cristais de Pedro Costa ",
+      "duration": "58",
+      "id": "e131592"
+    },
+    {
+      "title": "09 Out. 2013 destaque God is an Astronaut ",
+      "duration": "58",
+      "id": "e130745"
+    },
+    {
+      "title": "08 Out. 2013 entrevista Howe Gelb ",
+      "duration": "59",
+      "id": "e130746"
+    },
+    { "title": "04 Out. 2013", "duration": "59", "id": "e130294" },
+    {
+      "title": "03 Out. 2013 com socas, missangas e cristais de Pedro Costa ",
+      "duration": "59",
+      "id": "e130189"
+    },
+    { "title": "02 Out. 2013", "duration": "59", "id": "e130087" },
+    { "title": "27 Set. 2013", "duration": "59", "id": "e129650" },
+    {
+      "title": "26 Set. 2013 com Socas, ,issangas e Cristais de Pedro Costa dedicado ao album In Utero dos Nirvana ",
+      "duration": "59",
+      "id": "e129562"
+    },
+    { "title": "25 Set. 2013", "duration": "59", "id": "e129432" },
+    { "title": "06 Set. 2013", "duration": "58", "id": "e127806" },
+    { "title": "05 Set. 2013", "duration": "57", "id": "e127726" },
+    { "title": "04 Set. 2013", "duration": "59", "id": "e127654" },
+    {
+      "title": "03 Set. 2013 concerto de Built to spill ",
+      "duration": "58",
+      "id": "e127571"
+    },
+    {
+      "title": "30 Ago. 2013 Entrevista com Mike Ghost ",
+      "duration": "59",
+      "id": "e127309"
+    },
+    {
+      "title": "29 Ago. 2013 Com Socas, Missangas e Cristais de Pedro Costa ",
+      "duration": "57",
+      "id": "e127218"
+    },
+    { "title": "28 Ago. 2013", "duration": "58", "id": "e127147" },
+    { "title": "27 Ago. 2013", "duration": "57", "id": "e127033" },
+    { "title": "23 Ago. 2013", "duration": "57", "id": "e126768" },
+    { "title": "21 Ago. 2013", "duration": "58", "id": "e126620" },
+    { "title": "13 Ago. 2013", "duration": "58", "id": "e125979" },
+    { "title": "09 Ago. 2013", "duration": "57", "id": "e125698" },
+    { "title": "08 Ago. 2013", "duration": "57", "id": "e125679" },
+    { "title": "07 Ago. 2013", "duration": "59", "id": "e125526" },
+    { "title": "06 Ago. 2013", "duration": "59", "id": "e125458" },
+    {
+      "title": "01 Ago. 2013 com Socas, Missangas e Cristais de Pedro Costa ",
+      "duration": "59",
+      "id": "e125079"
+    },
+    {
+      "title": "31 Jul. 2013 entrevista com Beautify Junkyard ",
+      "duration": "58",
+      "id": "e124981"
+    },
+    { "title": "30 Jul. 2013", "duration": "59", "id": "e124871" },
+    { "title": "26 Jul. 2013", "duration": "58", "id": "e124832" },
+    {
+      "title": "25 Jul. 2013 com Socas, Missangas e Cristais de Pedro Costa ",
+      "duration": "60",
+      "id": "e124432"
+    },
+    { "title": "24 Jul. 2013", "duration": "58", "id": "e124420" },
+    { "title": "23 Jul. 2013", "duration": "58", "id": "e124226" },
+    { "title": "18 Jul. 2013", "duration": "57", "id": "e123872" },
+    { "title": "17 Jul. 2013", "duration": "59", "id": "e123696" },
+    { "title": "16 Jul. 2013", "duration": "58", "id": "e123583" },
+    {
+      "title": "12 Jul. 2013 Entrevista com Octa Push ",
+      "duration": "61",
+      "id": "e123561"
+    },
+    { "title": "11 Jul. 2013", "duration": "59", "id": "e123097" },
+    { "title": "10 Jul. 2013", "duration": "58", "id": "e122986" },
+    { "title": "09 Jul. 2013", "duration": "58", "id": "e122870" },
+    {
+      "title": "05 Jul. 2013 Entrevista com Mazgani ",
+      "duration": "62",
+      "id": "e122601"
+    },
+    {
+      "title": "04 Jul. 2013 Emissão dedicada ao 14 aniversário da morte de Mark Sandman dos Morphine, entrevistas com José Pinheiro da Vigilia Filmes destribuidora em Portugal do filme Cure For Pain e Dana Colley Membro dos Morphine. Socas Missangas e Cristais de Pedro Costa Igualm ",
+      "duration": "58",
+      "id": "e122396"
+    },
+    {
+      "title": "03 Jul. 2013 entrevista Queens of the Stone Age ",
+      "duration": "57",
+      "id": "e122304"
+    },
+    { "title": "02 Jul. 2013", "duration": "58", "id": "e122182" },
+    {
+      "title": "28 Jun. 2013 entrevista a João Correia e Nuno Lucas dos Tape Junk, Fart Simpson Band e Julie and the Carjackers ",
+      "duration": "60",
+      "id": "e121718"
+    },
+    {
+      "title": "27 Jun. 2013 com Socas, Missangas e Cristais de Pedro Costa ",
+      "duration": "59",
+      "id": "e121717"
+    },
+    {
+      "title": "25 Jun. 2013 Entrevista com Lululemon ",
+      "duration": "57",
+      "id": "e121615"
+    },
+    {
+      "title": "24 Jun. 2013 Entrevista com Riding Panico ",
+      "duration": "59",
+      "id": "e121503"
+    },
+    {
+      "title": "21 Jun. 2013 3ª parte da entrevista com john Lydon dos PIL ",
+      "duration": "59",
+      "id": "e121121"
+    },
+    {
+      "title": "20 Jun. 2013 2ª parte da entrevista com john Lydon dos Public Image Limited e Socas, missangas e Cristais de Pedro Costa ",
+      "duration": "59",
+      "id": "e121100"
+    },
+    {
+      "title": "19 Jun. 2013 1ª parte da entrevista com John Lydon ",
+      "duration": "58",
+      "id": "e120977"
+    },
+    {
+      "title": "18 Jun. 2013 Entrevista com João Vieira tambem conhecido como DJ Kitten, Guitarrista e vocalista dos X-wife e agora dedicado ao projeto electronico White Haus ",
+      "duration": "58",
+      "id": "e120844"
+    },
+    { "title": "14 Jun. 2013", "duration": "57", "id": "e120261" },
+    { "title": "13 Jun. 2013", "duration": "58", "id": "e120267" },
+    {
+      "title": "12 Jun. 2013 entrevista com Fast Eddie Nelson ",
+      "duration": "59",
+      "id": "e120262"
+    },
+    {
+      "title": "11 Jun. 2013 MArk LAnegan (live) ",
+      "duration": "58",
+      "id": "e120145"
+    },
+    { "title": "07 Jun. 2013", "duration": "59", "id": "e119858" },
+    { "title": "06 Jun. 2013", "duration": "58", "id": "e119571" },
+    {
+      "title": "05 Jun. 2013 Entrevista com os Black leather ",
+      "duration": "59",
+      "id": "e119469"
+    },
+    {
+      "title": "04 Jun. 2013 Entrevista com Bruno Mixtec dos Ninja Kore ",
+      "duration": "59",
+      "id": "e119468"
+    },
+    { "title": "04 Jun. 2013", "duration": "59", "id": "e119476" },
+    { "title": "04 Jun. 2013", "duration": "58", "id": "e119485" },
+    { "title": "30 Mai. 2013", "duration": "59", "id": "e119477" },
+    { "title": "24 Mai. 2013", "duration": "59", "id": "e119475" },
+    { "title": "23 Mai. 2013", "duration": "59", "id": "e119474" },
+    { "title": "22 Mai. 2013", "duration": "59", "id": "e119472" },
+    { "title": "17 Mai. 2013", "duration": "58", "id": "e119471" },
+    { "title": "16 Mai. 2013", "duration": "58", "id": "e119470" },
+    { "title": "09 Mai. 2013", "duration": "56", "id": "e119484" },
+    { "title": "06 Mai. 2013", "duration": "60", "id": "e119482" },
+    { "title": "03 Mai. 2013", "duration": "60", "id": "e119481" },
+    { "title": "01 Mai. 2013", "duration": "58", "id": "e119480" },
+    {
+      "title": "12 Abr. 2013 Entrevista com Stereoboy sobre o novo album OPO ",
+      "duration": "57",
+      "id": "e113716"
+    },
+    {
+      "title": "12 Abr. 2013 Entrevista com os NOIDZ sobre o novo album 2.0.1.2. ",
+      "duration": "60",
+      "id": "e113718"
+    },
+    {
+      "title": "11 Abr. 2013 Com socas, Missangas e Cristais de Pedro Costa ",
+      "duration": "57",
+      "id": "e113717"
+    },
+    { "title": "10 Abr. 2013", "duration": "58", "id": "e113605" },
+    { "title": "09 Abr. 2013", "duration": "58", "id": "e113494" },
+    { "title": "05 Abr. 2013", "duration": "58", "id": "e113043" },
+    { "title": "04 Abr. 2013", "duration": "58", "id": "e112944" },
+    { "title": "03 Abr. 2013", "duration": "57", "id": "e112850" },
+    {
+      "title": "02 Abr. 2013 Entrevista com Thee Eviltones ",
+      "duration": "58",
+      "id": "e112849"
+    },
+    { "title": "29 Mar. 2013", "duration": "58", "id": "e112473" },
+    { "title": "28 Mar. 2013", "duration": "57", "id": "e112274" },
+    { "title": "27 Mar. 2013", "duration": "58", "id": "e112136" },
+    { "title": "26 Mar. 2013", "duration": "57", "id": "e112076" },
+    { "title": "22 Mar. 2013", "duration": "58", "id": "e111635" },
+    { "title": "21 Mar. 2013", "duration": "58", "id": "e111478" },
+    { "title": "20 Mar. 2013", "duration": "58", "id": "e111479" },
+    { "title": "19 Mar. 2013", "duration": "58", "id": "e111249" },
+    { "title": "15 Mar. 2013", "duration": "58", "id": "e110870" },
+    { "title": "14 Mar. 2013", "duration": "60", "id": "e110803" },
+    { "title": "13 Mar. 2013", "duration": "58", "id": "e110650" },
+    { "title": "12 Mar. 2013", "duration": "58", "id": "e110652" },
+    { "title": "08 Mar. 2013", "duration": "59", "id": "e110142" },
+    { "title": "07 Mar. 2013", "duration": "58", "id": "e110035" },
+    { "title": "06 Mar. 2013", "duration": "58", "id": "e110036" },
+    { "title": "05 Mar. 2013", "duration": "59", "id": "e109842" },
+    { "title": "01 Mar. 2013", "duration": "59", "id": "e109511" },
+    { "title": "28 Fev. 2013", "duration": "56", "id": "e109393" },
+    { "title": "27 Fev. 2013", "duration": "57", "id": "e109360" },
+    { "title": "26 Fev. 2013", "duration": "53", "id": "e109179" },
+    { "title": "22 Fev. 2013", "duration": "56", "id": "e108798" },
+    { "title": "21 Fev. 2013", "duration": "58", "id": "e108799" },
+    { "title": "20 Fev. 2013", "duration": "58", "id": "e108800" },
+    { "title": "19 Fev. 2013", "duration": "56", "id": "e108573" },
+    { "title": "15 Fev. 2013", "duration": "53", "id": "e108568" },
+    { "title": "14 Fev. 2013", "duration": "57", "id": "e108569" },
+    { "title": "13 Fev. 2013", "duration": "58", "id": "e108571" },
+    { "title": "12 Fev. 2013", "duration": "57", "id": "e108572" },
+    { "title": "08 Fev. 2013", "duration": "67", "id": "e108322" },
+    { "title": "07 Fev. 2013", "duration": "58", "id": "e107353" },
+    { "title": "06 Fev. 2013", "duration": "58", "id": "e107218" },
+    { "title": "05 Fev. 2013", "duration": "58", "id": "e107220" },
+    { "title": "01 Fev. 2013", "duration": "61", "id": "e106795" },
+    { "title": "31 Jan. 2013", "duration": "58", "id": "e106670" },
+    { "title": "30 Jan. 2013", "duration": "58", "id": "e106606" },
+    { "title": "29 Jan. 2013", "duration": "60", "id": "e106607" },
+    { "title": "28 Jan. 2013", "duration": "58", "id": "e106363" },
+    { "title": "25 Jan. 2013", "duration": "60", "id": "e106126" },
+    { "title": "24 Jan. 2013", "duration": "56", "id": "e106014" },
+    { "title": "23 Jan. 2013", "duration": "57", "id": "e106008" },
+    { "title": "22 Jan. 2013", "duration": "62", "id": "e106009" },
+    { "title": "21 Jan. 2013", "duration": "60", "id": "e105783" },
+    { "title": "18 Jan. 2013", "duration": "57", "id": "e105408" },
+    { "title": "17 Jan. 2013", "duration": "57", "id": "e105288" },
+    { "title": "16 Jan. 2013", "duration": "56", "id": "e105199" },
+    { "title": "14 Jan. 2013", "duration": "58", "id": "e105102" },
+    { "title": "11 Jan. 2013", "duration": "58", "id": "e104957" },
+    { "title": "10 Jan. 2013", "duration": "60", "id": "e104958" },
+    { "title": "09 Jan. 2013", "duration": "58", "id": "e104516" },
+    { "title": "08 Jan. 2013", "duration": "57", "id": "e104512" },
+    { "title": "07 Jan. 2013", "duration": "59", "id": "e104514" },
+    { "title": "04 Jan. 2013", "duration": "57", "id": "e104058" },
+    { "title": "03 Jan. 2013", "duration": "57", "id": "e104059" },
+    { "title": "02 Jan. 2013", "duration": "59", "id": "e104060" },
+    { "title": "31 Dez. 2012", "duration": "59", "id": "e103655" },
+    { "title": "28 Dez. 2012", "duration": "57", "id": "e103501" },
+    { "title": "27 Dez. 2012", "duration": "58", "id": "e103329" },
+    { "title": "26 Dez. 2012", "duration": "59", "id": "e103219" },
+    { "title": "25 Dez. 2012", "duration": "57", "id": "e103220" },
+    { "title": "24 Dez. 2012", "duration": "59", "id": "e103076" },
+    { "title": "21 Dez. 2012", "duration": "59", "id": "e102936" },
+    { "title": "20 Dez. 2012", "duration": "57", "id": "e102765" },
+    { "title": "19 Dez. 2012", "duration": "59", "id": "e102642" },
+    { "title": "18 Dez. 2012", "duration": "56", "id": "e102549" },
+    { "title": "17 Dez. 2012", "duration": "58", "id": "e102388" },
+    { "title": "14 Dez. 2012", "duration": "58", "id": "e102153" },
+    { "title": "13 Dez. 2012", "duration": "58", "id": "e102001" },
+    { "title": "12 Dez. 2012", "duration": "56", "id": "e101910" },
+    { "title": "11 Dez. 2012", "duration": "58", "id": "e101791" },
+    { "title": "10 Dez. 2012", "duration": "57", "id": "e101655" },
+    { "title": "07 Dez. 2012", "duration": "58", "id": "e101416" },
+    { "title": "06 Dez. 2012", "duration": "58", "id": "e101283" },
+    { "title": "05 Dez. 2012", "duration": "58", "id": "e101176" },
+    { "title": "04 Dez. 2012", "duration": "58", "id": "e101076" },
+    { "title": "03 Dez. 2012", "duration": "57", "id": "e100848" },
+    { "title": "30 Nov. 2012", "duration": "60", "id": "e100673" },
+    { "title": "29 Nov. 2012", "duration": "59", "id": "e100619" },
+    { "title": "27 Nov. 2012", "duration": "58", "id": "e100313" },
+    { "title": "26 Nov. 2012", "duration": "56", "id": "e100143" },
+    { "title": "23 Nov. 2012", "duration": "59", "id": "e99893" },
+    { "title": "22 Nov. 2012", "duration": "57", "id": "e99788" },
+    { "title": "21 Nov. 2012", "duration": "59", "id": "e99698" },
+    { "title": "20 Nov. 2012", "duration": "60", "id": "e99602" },
+    { "title": "19 Nov. 2012", "duration": "58", "id": "e99472" },
+    { "title": "16 Nov. 2012", "duration": "59", "id": "e99164" },
+    { "title": "15 Nov. 2012", "duration": "57", "id": "e99045" },
+    { "title": "14 Nov. 2012", "duration": "58", "id": "e98958" },
+    { "title": "13 Nov. 2012", "duration": "59", "id": "e98840" },
+    { "title": "12 Nov. 2012", "duration": "59", "id": "e98721" },
+    { "title": "09 Nov. 2012", "duration": "59", "id": "e98446" },
+    { "title": "08 Nov. 2012", "duration": "59", "id": "e98329" },
+    { "title": "07 Nov. 2012", "duration": "58", "id": "e98236" },
+    { "title": "06 Nov. 2012", "duration": "59", "id": "e98113" },
+    { "title": "05 Nov. 2012", "duration": "58", "id": "e97928" },
+    { "title": "01 Nov. 2012", "duration": "60", "id": "e97619" },
+    { "title": "31 Out. 2012", "duration": "57", "id": "e97473" },
+    { "title": "30 Out. 2012", "duration": "58", "id": "e97368" },
+    { "title": "26 Out. 2012", "duration": "54", "id": "e96923" },
+    { "title": "25 Out. 2012", "duration": "57", "id": "e96924" },
+    { "title": "24 Out. 2012", "duration": "57", "id": "e96739" },
+    { "title": "23 Out. 2012", "duration": "59", "id": "e96643" },
+    { "title": "22 Out. 2012", "duration": "58", "id": "e96502" },
+    { "title": "19 Out. 2012", "duration": "59", "id": "e96206" },
+    { "title": "18 Out. 2012", "duration": "60", "id": "e96204" },
+    { "title": "17 Out. 2012", "duration": "58", "id": "e95993" },
+    { "title": "16 Out. 2012", "duration": "59", "id": "e95984" },
+    { "title": "15 Out. 2012", "duration": "59", "id": "e95918" },
+    { "title": "12 Out. 2012", "duration": "58", "id": "e95482" },
+    { "title": "11 Out. 2012", "duration": "58", "id": "e95307" },
+    { "title": "10 Out. 2012", "duration": "58", "id": "e95231" },
+    { "title": "09 Out. 2012", "duration": "58", "id": "e95105" },
+    { "title": "08 Out. 2012", "duration": "58", "id": "e94973" },
+    { "title": "05 Out. 2012", "duration": "59", "id": "e94975" },
+    { "title": "04 Out. 2012", "duration": "59", "id": "e94664" },
+    { "title": "03 Out. 2012", "duration": "60", "id": "e94552" },
+    { "title": "02 Out. 2012", "duration": "59", "id": "e94407" },
+    { "title": "01 Out. 2012", "duration": "59", "id": "e94234" },
+    { "title": "28 Set. 2012", "duration": "59", "id": "e94030" },
+    { "title": "27 Set. 2012", "duration": "58", "id": "e93898" },
+    { "title": "26 Set. 2012", "duration": "58", "id": "e93783" },
+    { "title": "25 Set. 2012", "duration": "58", "id": "e93693" },
+    { "title": "24 Set. 2012", "duration": "58", "id": "e93552" },
+    { "title": "21 Set. 2012", "duration": "59", "id": "e93340" },
+    { "title": "20 Set. 2012", "duration": "58", "id": "e93201" },
+    { "title": "19 Set. 2012", "duration": "59", "id": "e93103" },
+    { "title": "18 Set. 2012", "duration": "57", "id": "e93000" },
+    { "title": "17 Set. 2012", "duration": "58", "id": "e92877" },
+    { "title": "14 Set. 2012", "duration": "59", "id": "e92654" },
+    { "title": "13 Set. 2012", "duration": "58", "id": "e92553" },
+    { "title": "12 Set. 2012", "duration": "57", "id": "e92404" },
+    { "title": "11 Set. 2012", "duration": "59", "id": "e92309" },
+    { "title": "10 Set. 2012", "duration": "58", "id": "e92183" },
+    { "title": "07 Set. 2012", "duration": "58", "id": "e91991" },
+    { "title": "06 Set. 2012", "duration": "58", "id": "e91883" },
+    { "title": "05 Set. 2012", "duration": "57", "id": "e91791" },
+    { "title": "04 Set. 2012", "duration": "58", "id": "e91704" },
+    { "title": "03 Set. 2012", "duration": "58", "id": "e91519" },
+    { "title": "30 Ago. 2012", "duration": "59", "id": "e91262" },
+    { "title": "29 Ago. 2012", "duration": "59", "id": "e91198" },
+    { "title": "28 Ago. 2012", "duration": "56", "id": "e91130" },
+    { "title": "27 Ago. 2012", "duration": "57", "id": "e91034" },
+    { "title": "24 Ago. 2012", "duration": "58", "id": "e90844" },
+    { "title": "23 Ago. 2012", "duration": "58", "id": "e90783" },
+    { "title": "22 Ago. 2012", "duration": "57", "id": "e90733" },
+    { "title": "21 Ago. 2012", "duration": "57", "id": "e90637" },
+    { "title": "20 Ago. 2012", "duration": "57", "id": "e90589" },
+    { "title": "14 Ago. 2012", "duration": "59", "id": "e90187" },
+    { "title": "10 Ago. 2012", "duration": "57", "id": "e89934" },
+    { "title": "09 Ago. 2012", "duration": "58", "id": "e89883" },
+    { "title": "08 Ago. 2012", "duration": "57", "id": "e89800" },
+    { "title": "07 Ago. 2012", "duration": "58", "id": "e89718" },
+    { "title": "06 Ago. 2012", "duration": "58", "id": "e89637" },
+    { "title": "03 Ago. 2012", "duration": "58", "id": "e89488" },
+    { "title": "02 Ago. 2012", "duration": "59", "id": "e89420" },
+    { "title": "01 Ago. 2012", "duration": "57", "id": "e89337" },
+    { "title": "31 Jul. 2012", "duration": "58", "id": "e89228" },
+    { "title": "30 Jul. 2012", "duration": "58", "id": "e89110" },
+    { "title": "27 Jul. 2012", "duration": "54", "id": "e88921" },
+    { "title": "26 Jul. 2012", "duration": "57", "id": "e88833" },
+    { "title": "25 Jul. 2012", "duration": "58", "id": "e88835" },
+    { "title": "24 Jul. 2012", "duration": "58", "id": "e88831" },
+    { "title": "23 Jul. 2012", "duration": "58", "id": "e88486" },
+    { "title": "20 Jul. 2012", "duration": "58", "id": "e88294" },
+    { "title": "19 Jul. 2012", "duration": "58", "id": "e88179" },
+    { "title": "18 Jul. 2012", "duration": "57", "id": "e88113" },
+    { "title": "17 Jul. 2012", "duration": "58", "id": "e87981" },
+    { "title": "16 Jul. 2012", "duration": "57", "id": "e87889" },
+    { "title": "13 Jul. 2012", "duration": "59", "id": "e87648" },
+    { "title": "12 Jul. 2012", "duration": "58", "id": "e87514" },
+    { "title": "11 Jul. 2012", "duration": "58", "id": "e87404" },
+    { "title": "10 Jul. 2012", "duration": "59", "id": "e87298" },
+    { "title": "09 Jul. 2012", "duration": "59", "id": "e87161" },
+    { "title": "05 Jul. 2012", "duration": "59", "id": "e86829" },
+    { "title": "04 Jul. 2012", "duration": "59", "id": "e86719" },
+    { "title": "03 Jul. 2012", "duration": "57", "id": "e86620" },
+    { "title": "02 Jul. 2012", "duration": "58", "id": "e86472" },
+    { "title": "29 Jun. 2012", "duration": "57", "id": "e86228" },
+    { "title": "28 Jun. 2012", "duration": "58", "id": "e86124" },
+    { "title": "27 Jun. 2012", "duration": "57", "id": "e86032" },
+    { "title": "26 Jun. 2012", "duration": "59", "id": "e85903" },
+    { "title": "25 Jun. 2012", "duration": "60", "id": "e85755" },
+    { "title": "21 Jun. 2012", "duration": "58", "id": "e85457" },
+    { "title": "20 Jun. 2012", "duration": "58", "id": "e85366" },
+    { "title": "19 Jun. 2012", "duration": "60", "id": "e85209" },
+    { "title": "18 Jun. 2012", "duration": "61", "id": "e85045" },
+    { "title": "15 Jun. 2012", "duration": "57", "id": "e84876" },
+    { "title": "14 Jun. 2012", "duration": "57", "id": "e84733" },
+    { "title": "13 Jun. 2012", "duration": "57", "id": "e84734" },
+    { "title": "11 Jun. 2012", "duration": "57", "id": "e84428" },
+    { "title": "07 Jun. 2012", "duration": "61", "id": "e84195" },
+    { "title": "06 Jun. 2012", "duration": "59", "id": "e84034" },
+    { "title": "05 Jun. 2012", "duration": "59", "id": "e83912" },
+    { "title": "04 Jun. 2012", "duration": "58", "id": "e83781" },
+    { "title": "01 Jun. 2012", "duration": "58", "id": "e83553" },
+    { "title": "31 Mai. 2012", "duration": "58", "id": "e83413" },
+    { "title": "30 Mai. 2012", "duration": "57", "id": "e83312" },
+    { "title": "29 Mai. 2012", "duration": "59", "id": "e83183" },
+    { "title": "28 Mai. 2012", "duration": "64", "id": "e83083" },
+    { "title": "25 Mai. 2012", "duration": "60", "id": "e82790" },
+    { "title": "24 Mai. 2012", "duration": "59", "id": "e82681" },
+    { "title": "23 Mai. 2012", "duration": "57", "id": "e82601" },
+    { "title": "22 Mai. 2012", "duration": "59", "id": "e82475" },
+    { "title": "21 Mai. 2012", "duration": "59", "id": "e82279" },
+    { "title": "18 Mai. 2012", "duration": "58", "id": "e82065" },
+    { "title": "17 Mai. 2012", "duration": "56", "id": "e81926" },
+    { "title": "15 Mai. 2012", "duration": "58", "id": "e81704" },
+    { "title": "15 Mai. 2012", "duration": "58", "id": "e81927" },
+    { "title": "14 Mai. 2012", "duration": "58", "id": "e81554" },
+    { "title": "11 Mai. 2012", "duration": "58", "id": "e81337" },
+    { "title": "10 Mai. 2012", "duration": "58", "id": "e81199" },
+    { "title": "09 Mai. 2012", "duration": "58", "id": "e81128" },
+    { "title": "08 Mai. 2012", "duration": "59", "id": "e80999" },
+    { "title": "07 Mai. 2012", "duration": "57", "id": "e80852" },
+    { "title": "04 Mai. 2012", "duration": "57", "id": "e80617" },
+    { "title": "03 Mai. 2012", "duration": "59", "id": "e80519" },
+    { "title": "02 Mai. 2012", "duration": "59", "id": "e80419" },
+    { "title": "01 Mai. 2012", "duration": "57", "id": "e80421" },
+    { "title": "30 Abr. 2012", "duration": "58", "id": "e80229" },
+    { "title": "27 Abr. 2012", "duration": "57", "id": "e80243" },
+    { "title": "26 Abr. 2012", "duration": "59", "id": "e79876" },
+    { "title": "25 Abr. 2012", "duration": "58", "id": "e79877" },
+    { "title": "24 Abr. 2012", "duration": "57", "id": "e79709" },
+    { "title": "23 Abr. 2012", "duration": "58", "id": "e79556" },
+    { "title": "20 Abr. 2012", "duration": "57", "id": "e79339" },
+    { "title": "19 Abr. 2012", "duration": "58", "id": "e79232" },
+    { "title": "18 Abr. 2012", "duration": "58", "id": "e79144" },
+    { "title": "17 Abr. 2012", "duration": "59", "id": "e79029" },
+    { "title": "16 Abr. 2012", "duration": "57", "id": "e78881" },
+    { "title": "12 Abr. 2012", "duration": "59", "id": "e78515" },
+    { "title": "11 Abr. 2012", "duration": "58", "id": "e78407" },
+    { "title": "10 Abr. 2012", "duration": "58", "id": "e78298" },
+    { "title": "09 Abr. 2012", "duration": "59", "id": "e78190" },
+    { "title": "05 Abr. 2012", "duration": "59", "id": "e77942" },
+    { "title": "04 Abr. 2012", "duration": "57", "id": "e77835" },
+    { "title": "03 Abr. 2012", "duration": "58", "id": "e77714" },
+    { "title": "02 Abr. 2012", "duration": "59", "id": "e77600" },
+    { "title": "30 Mar. 2012", "duration": "57", "id": "e77306" },
+    { "title": "29 Mar. 2012", "duration": "59", "id": "e77202" },
+    { "title": "28 Mar. 2012", "duration": "58", "id": "e77192" },
+    { "title": "27 Mar. 2012", "duration": "59", "id": "e76997" },
+    { "title": "26 Mar. 2012", "duration": "59", "id": "e76897" },
+    { "title": "23 Mar. 2012", "duration": "59", "id": "e76632" },
+    { "title": "22 Mar. 2012", "duration": "57", "id": "e76525" },
+    { "title": "21 Mar. 2012", "duration": "55", "id": "e76432" },
+    { "title": "20 Mar. 2012", "duration": "58", "id": "e76334" },
+    { "title": "19 Mar. 2012", "duration": "58", "id": "e76197" },
+    { "title": "16 Mar. 2012", "duration": "58", "id": "e75937" },
+    { "title": "13 Mar. 2012", "duration": "53", "id": "e75587" },
+    { "title": "12 Mar. 2012", "duration": "58", "id": "e75450" },
+    { "title": "09 Mar. 2012", "duration": "57", "id": "e75246" },
+    { "title": "08 Mar. 2012", "duration": "57", "id": "e75094" },
+    { "title": "07 Mar. 2012", "duration": "58", "id": "e75000" },
+    { "title": "06 Mar. 2012", "duration": "57", "id": "e74887" },
+    { "title": "05 Mar. 2012", "duration": "59", "id": "e74763" },
+    { "title": "02 Mar. 2012", "duration": "58", "id": "e74540" },
+    { "title": "01 Mar. 2012", "duration": "58", "id": "e74524" },
+    { "title": "29 Fev. 2012", "duration": "58", "id": "e74337" },
+    { "title": "28 Fev. 2012", "duration": "58", "id": "e74240" },
+    { "title": "27 Fev. 2012", "duration": "55", "id": "e74171" },
+    { "title": "24 Fev. 2012", "duration": "55", "id": "e74006" },
+    { "title": "23 Fev. 2012", "duration": "57", "id": "e73824" },
+    { "title": "22 Fev. 2012", "duration": "58", "id": "e73698" },
+    { "title": "21 Fev. 2012", "duration": "58", "id": "e73699" },
+    { "title": "20 Fev. 2012", "duration": "58", "id": "e73480" },
+    { "title": "17 Fev. 2012", "duration": "59", "id": "e73276" },
+    { "title": "16 Fev. 2012", "duration": "58", "id": "e73179" },
+    { "title": "15 Fev. 2012", "duration": "58", "id": "e73181" },
+    { "title": "14 Fev. 2012", "duration": "58", "id": "e72892" },
+    { "title": "13 Fev. 2012", "duration": "56", "id": "e72797" },
+    { "title": "10 Fev. 2012", "duration": "57", "id": "e72557" },
+    { "title": "09 Fev. 2012", "duration": "59", "id": "e72457" },
+    { "title": "08 Fev. 2012", "duration": "59", "id": "e72458" },
+    { "title": "07 Fev. 2012", "duration": "60", "id": "e72236" },
+    { "title": "06 Fev. 2012", "duration": "58", "id": "e72097" },
+    { "title": "03 Fev. 2012", "duration": "58", "id": "e71885" },
+    { "title": "02 Fev. 2012", "duration": "55", "id": "e71778" },
+    { "title": "01 Fev. 2012", "duration": "59", "id": "e71690" },
+    { "title": "31 Jan. 2012", "duration": "59", "id": "e71578" },
+    { "title": "30 Jan. 2012", "duration": "57", "id": "e71405" },
+    { "title": "27 Jan. 2012", "duration": "59", "id": "e71211" },
+    { "title": "26 Jan. 2012", "duration": "57", "id": "e71093" },
+    { "title": "25 Jan. 2012", "duration": "58", "id": "e70986" },
+    { "title": "24 Jan. 2012", "duration": "59", "id": "e70891" },
+    { "title": "23 Jan. 2012", "duration": "59", "id": "e70779" },
+    { "title": "20 Jan. 2012", "duration": "58", "id": "e70511" },
+    { "title": "19 Jan. 2012", "duration": "58", "id": "e70365" },
+    { "title": "18 Jan. 2012", "duration": "58", "id": "e70279" },
+    { "title": "17 Jan. 2012", "duration": "53", "id": "e70165" },
+    { "title": "16 Jan. 2012", "duration": "58", "id": "e70002" },
+    { "title": "13 Jan. 2012", "duration": "58", "id": "e69778" },
+    { "title": "12 Jan. 2012", "duration": "58", "id": "e69700" },
+    { "title": "11 Jan. 2012", "duration": "58", "id": "e69598" },
+    { "title": "10 Jan. 2012", "duration": "58", "id": "e69487" },
+    { "title": "09 Jan. 2012", "duration": "60", "id": "e69328" },
+    { "title": "06 Jan. 2012", "duration": "58", "id": "e69106" },
+    { "title": "05 Jan. 2012", "duration": "57", "id": "e69107" },
+    { "title": "04 Jan. 2012", "duration": "60", "id": "e68875" },
+    { "title": "03 Jan. 2012", "duration": "60", "id": "e68877" },
+    { "title": "02 Jan. 2012", "duration": "59", "id": "e68675" },
+    { "title": "30 Dez. 2011", "duration": "59", "id": "e68480" },
+    { "title": "29 Dez. 2011", "duration": "58", "id": "e68481" },
+    { "title": "27 Dez. 2011", "duration": "60", "id": "e68267" },
+    { "title": "26 Dez. 2011", "duration": "58", "id": "e68140" },
+    { "title": "23 Dez. 2011", "duration": "58", "id": "e67899" },
+    { "title": "22 Dez. 2011", "duration": "58", "id": "e67910" },
+    { "title": "21 Dez. 2011", "duration": "61", "id": "e67698" },
+    { "title": "20 Dez. 2011", "duration": "58", "id": "e67582" },
+    { "title": "19 Dez. 2011", "duration": "57", "id": "e67481" },
+    { "title": "16 Dez. 2011", "duration": "59", "id": "e67248" },
+    { "title": "15 Dez. 2011", "duration": "58", "id": "e67101" },
+    { "title": "14 Dez. 2011", "duration": "59", "id": "e67014" },
+    { "title": "13 Dez. 2011", "duration": "58", "id": "e66907" },
+    { "title": "12 Dez. 2011", "duration": "57", "id": "e66781" },
+    { "title": "09 Dez. 2011", "duration": "57", "id": "e66544" },
+    { "title": "07 Dez. 2011", "duration": "59", "id": "e66360" },
+    { "title": "05 Dez. 2011", "duration": "57", "id": "e66121" },
+    { "title": "02 Dez. 2011", "duration": "57", "id": "e65871" },
+    { "title": "01 Dez. 2011", "duration": "59", "id": "e65860" },
+    { "title": "30 Nov. 2011", "duration": "58", "id": "e65718" },
+    { "title": "29 Nov. 2011", "duration": "58", "id": "e65635" },
+    { "title": "28 Nov. 2011", "duration": "58", "id": "e65526" },
+    { "title": "25 Nov. 2011", "duration": "58", "id": "e65401" },
+    { "title": "24 Nov. 2011", "duration": "59", "id": "e65084" },
+    { "title": "23 Nov. 2011", "duration": "59", "id": "e65049" },
+    { "title": "21 Nov. 2011", "duration": "58", "id": "e64738" },
+    { "title": "19 Nov. 2011", "duration": "57", "id": "e64884" },
+    { "title": "18 Nov. 2011", "duration": "59", "id": "e64499" },
+    {
+      "title": "17 Nov. 2011 Entrevista com dEUS ",
+      "duration": "55",
+      "id": "e64374"
+    },
+    { "title": "16 Nov. 2011", "duration": "58", "id": "e64294" },
+    { "title": "15 Nov. 2011", "duration": "58", "id": "e64155" },
+    { "title": "14 Nov. 2011", "duration": "57", "id": "e63984" },
+    { "title": "11 Nov. 2011", "duration": "59", "id": "e63799" },
+    { "title": "10 Nov. 2011", "duration": "58", "id": "e63699" },
+    { "title": "09 Nov. 2011", "duration": "58", "id": "e63616" },
+    { "title": "08 Nov. 2011", "duration": "58", "id": "e63554" },
+    { "title": "07 Nov. 2011", "duration": "59", "id": "e63461" },
+    { "title": "04 Nov. 2011", "duration": "58", "id": "e62999" },
+    { "title": "03 Nov. 2011", "duration": "59", "id": "e62860" },
+    { "title": "02 Nov. 2011", "duration": "58", "id": "e62791" },
+    { "title": "01 Nov. 2011", "duration": "58", "id": "e62792" },
+    { "title": "31 Out. 2011", "duration": "58", "id": "e62550" },
+    { "title": "27 Out. 2011", "duration": "60", "id": "e62193" },
+    { "title": "25 Out. 2011", "duration": "59", "id": "e62000" },
+    { "title": "24 Out. 2011", "duration": "58", "id": "e61863" },
+    { "title": "21 Out. 2011", "duration": "59", "id": "e61722" },
+    { "title": "20 Out. 2011", "duration": "59", "id": "e61646" },
+    { "title": "19 Out. 2011", "duration": "59", "id": "e61376" },
+    { "title": "18 Out. 2011", "duration": "60", "id": "e61290" },
+    { "title": "17 Out. 2011", "duration": "57", "id": "e61147" },
+    { "title": "14 Out. 2011", "duration": "58", "id": "e60918" },
+    { "title": "13 Out. 2011", "duration": "59", "id": "e60806" },
+    { "title": "12 Out. 2011", "duration": "60", "id": "e60704" },
+    { "title": "11 Out. 2011", "duration": "60", "id": "e60581" },
+    { "title": "10 Out. 2011", "duration": "57", "id": "e60452" },
+    { "title": "07 Out. 2011", "duration": "57", "id": "e60229" },
+    { "title": "06 Out. 2011", "duration": "58", "id": "e60097" },
+    { "title": "05 Out. 2011", "duration": "58", "id": "e60098" },
+    { "title": "04 Out. 2011", "duration": "58", "id": "e59944" },
+    { "title": "03 Out. 2011", "duration": "57", "id": "e59764" },
+    { "title": "30 Set. 2011", "duration": "58", "id": "e59534" },
+    { "title": "29 Set. 2011", "duration": "57", "id": "e59395" },
+    { "title": "28 Set. 2011", "duration": "58", "id": "e59289" },
+    { "title": "27 Set. 2011", "duration": "59", "id": "e59189" },
+    { "title": "26 Set. 2011", "duration": "59", "id": "e59048" },
+    {
+      "title": "03 Out. 2019\nespecial Dirty Coal Train",
+      "duration": "58m",
+      "id": "e431543"
+    },
+    {
+      "title": "07 Out. 2019\ncom participação de José Anjos",
+      "duration": "58m",
+      "id": "e432564"
+    },
+    { "title": "08 Out. 2019", "duration": "58m", "id": "e432563" },
+    { "title": "09 Out. 2019", "duration": "59m", "id": "e432565" },
+    { "title": "10 Out. 2019", "duration": "59m", "id": "e435107" },
+    {
+      "title": "14 Out. 2019\nCom participação de José Anjos",
+      "duration": "59m",
+      "id": "e435109"
+    },
+    { "title": "15 Out. 2019", "duration": "58m", "id": "e435108" },
+    {
+      "title": "16 Out. 2019\nEntreevista Cancro",
+      "duration": "59m",
+      "id": "e435110"
+    },
+    {
+      "title": "17 Out. 2019\nEntrevista Dead Club",
+      "duration": "57m",
+      "id": "e435112"
+    },
+    {
+      "title": "22 Out. 2019\nCom participação de José Anjos",
+      "duration": "59m",
+      "id": "e435113"
+    },
+    {
+      "title": "22 Out. 2019\nEspecial NIN",
+      "duration": "59m",
+      "id": "e435111"
+    },
+    { "title": "23 Out. 2019", "duration": "57m", "id": "e435114" },
+    { "title": "24 Out. 2019", "duration": "58m", "id": "e436506" },
+    {
+      "title": "28 Out. 2019\ncom participação de José Anjos",
+      "duration": "59m",
+      "id": "e436508"
+    },
+    { "title": "29 Out. 2019", "duration": "58m", "id": "e436509" },
+    {
+      "title": "30 Out. 2019\nespecial Dirty Coal Train",
+      "duration": "58m",
+      "id": "e437439"
+    },
+    {
+      "title": "04 Nov. 2019\ncom participação de José Anjos",
+      "duration": "57m",
+      "id": "e437443"
+    },
+    {
+      "title": "05 Nov. 2019\nentrevista Ela É Uma Musica Tour",
+      "duration": "59m",
+      "id": "e437444"
+    },
+    { "title": "06 Nov. 2019", "duration": "59m", "id": "e437446" },
+    { "title": "07 Nov. 2019", "duration": "58m", "id": "e438541" },
+    {
+      "title": "11 Nov. 2019\ncom participação de José Anjos",
+      "duration": "59m",
+      "id": "e438542"
+    },
+    { "title": "12 Nov. 2019", "duration": "59m", "id": "e438966" },
+    { "title": "13 Nov. 2019", "duration": "59m", "id": "e438969" },
+    { "title": "14 Nov. 2019", "duration": "59m", "id": "e438970" }
+  ]
+}
