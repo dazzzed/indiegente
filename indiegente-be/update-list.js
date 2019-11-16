@@ -1,6 +1,8 @@
 const fs = require('fs');
 const puppeteer = require('puppeteer');
 
+//Make this run every 24h
+
 function extractItems() {
   const extractedElements = document.querySelectorAll('a.vod-audio');
   const items = [];

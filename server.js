@@ -2,7 +2,7 @@
 const express = require('express');
 const path = require('path');
 
-const list = require('/indiegente-be/update-list');
+// const list = require('/indiegente-be/update-list');
 
 const app = express();
 
