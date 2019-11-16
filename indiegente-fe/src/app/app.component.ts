@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Track } from 'ngx-audio-player';
 
-import { pods } from './podcasts/pods.json';
-import { links } from './podcasts/mp3.json';
+import { pods } from '../../../indiegente-be/podcasts/pods.json';
+import { links } from '../../../indiegente-be/podcasts/mp3.json';
 
 import { faSortAmountDownAlt } from '@fortawesome/free-solid-svg-icons';
 
