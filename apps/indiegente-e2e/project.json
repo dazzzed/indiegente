@@ -1,0 +1,28 @@
+{
+  "root": "apps/indiegente-e2e",
+  "sourceRoot": "apps/indiegente-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "apps/indiegente-e2e/cypress.json",
+        "devServerTarget": "indiegente:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "indiegente:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/indiegente-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["indiegente"]
+}
