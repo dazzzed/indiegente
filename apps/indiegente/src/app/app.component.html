@@ -1,9 +1,18 @@
-<div style="text-align: center">
-  <h1>Welcome to indiegente!</h1>
-  <img
-    width="450"
-    src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png"
-    alt="Nx - Smart, Fast and Extensible Build System"
-  />
+<div class="cont">
+  <div>
+    <h2>Indiegente - Nuno Calado</h2>
+    <mat-advanced-audio-player
+      [playlist]="(playlist$ | async) || []"
+      [displayTitle]="msaapDisplayTitle"
+      [autoPlay]="true"
+      muted="muted"
+      [displayPlaylist]="msaapDisplayPlayList"
+      [displayVolumeControls]="msaapDisplayVolumeControls"
+      [expanded]="true"
+      (trackEnded)="loadMore()"
+    ></mat-advanced-audio-player>
+    <!-- <button class="p-1 mat-button" (click)="revertOrder()">
+      <fa-icon [icon]="faSortAmountDownAlt"></fa-icon>
+    </button> -->
+  </div>
 </div>
-<div>Message: {{ hello$ | async | json }}</div>
