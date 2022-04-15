@@ -28,6 +28,8 @@
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/platform-express": "^8.0.0",
+    "@ngrx/store": "^13.1.0",
+    "@ngrx/store-devtools": "^13.1.0",
     "@nrwl/angular": "13.10.2",
     "cheerio": "^1.0.0-rc.10",
     "ngx-audio-player": "^11.0.4",

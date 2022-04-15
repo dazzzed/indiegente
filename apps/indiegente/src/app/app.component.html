@@ -2,7 +2,7 @@
   <div>
     <h2>Indiegente - Nuno Calado</h2>
     <mat-advanced-audio-player
-      [playlist]="(playlist$ | async) || []"
+      [playlist]="playlist!"
       [displayTitle]="msaapDisplayTitle"
       [autoPlay]="true"
       muted="muted"
