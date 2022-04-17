@@ -1,0 +1,26 @@
+# Node.js with Angular
+# Build a Node.js project that uses Angular.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+  - main
+
+pool: TiagosPool
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '12.20'
+    displayName: 'Install Node.js'
+  - task: CmdLine@2
+    inputs:
+      script: |
+        npm install
+        npm run build
+  - task: DockerCompose@0
+    inputs:
+      containerregistrytype: 'Container Registry'
+      dockerComposeFile: '**/docker-compose.yml'
+      action: 'Run a Docker Compose command'
+      dockerComposeCommand: 'up --build -d'
