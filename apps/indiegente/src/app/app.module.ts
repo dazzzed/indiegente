@@ -6,13 +6,14 @@ import { NgxAudioPlayerModule } from 'ngx-audio-player';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { MatSliderModule } from '@angular/material/slider';
 import { StoreModule } from '@ngrx/store';
 import { playlistReducer } from './store/entities/playlist/playlist.reducer';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { BaseUrlInterceptor } from './core/base-url.interceptor';
 
 @NgModule({
   declarations: [AppComponent],
@@ -33,10 +34,16 @@ import { environment } from '../environments/environment';
       enabled: environment.production,
       // Register the ServiceWorker as soon as the application is stable
       // or after 30 seconds (whichever comes first).
-      registrationStrategy: 'registerWhenStable:30000'
+      registrationStrategy: 'registerWhenStable:30000',
     }),
   ],
-  providers: [],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: BaseUrlInterceptor,
+      multi: true,
+    },
+  ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
