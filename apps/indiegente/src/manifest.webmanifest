@@ -1,7 +1,7 @@
 {
   "name": "indiegente",
   "short_name": "indiegente",
-  "theme_color": "#1976d2",
+  "theme_color": "#0bb3c8",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
