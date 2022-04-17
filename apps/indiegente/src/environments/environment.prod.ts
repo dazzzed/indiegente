@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://api.indiegente.tiagocosta.pt',
+  apiUrl: 'https://api.indiegente.tiagocosta.pt',
 };
