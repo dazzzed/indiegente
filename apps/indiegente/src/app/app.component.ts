@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Playlist } from '@indiegente/api-interfaces';
 import {
@@ -23,7 +23,7 @@ import { selectCurrentTrack } from './store/entities/user/user.selector';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit {
+export class AppComponent implements OnInit, AfterViewInit {
   @ViewChild('audioPlayer')
   audioPlayer!: AudioPlayerComponent;
   msaapDisplayTitle = true;
@@ -74,5 +74,26 @@ export class AppComponent implements OnInit {
     this.playlistService.getPlaylist(page).subscribe((pl) => {
       this.playlist = this.playlist.concat(JSON.parse(JSON.stringify(pl)));
     });
+  }
+
+  ngAfterViewInit(): void {
+    if (window.innerWidth < 768) {
+      document
+        .querySelector('.ngx-col .ngx-d-none')
+        ?.classList.remove('ngx-d-none');
+
+      document.querySelector('mat-slider')?.classList.remove('ngx-d-none');
+
+      const fragment: Element = <Element>document.querySelector('.ngx-col');
+
+      document
+        ?.querySelector('.ngx-col')
+        ?.parentNode?.parentNode?.childNodes.item(1)
+        .appendChild(fragment);
+
+      document
+        ?.querySelector('.mat-card .ngx-col')
+        ?.classList.remove('ngx-col');
+    }
   }
 }
