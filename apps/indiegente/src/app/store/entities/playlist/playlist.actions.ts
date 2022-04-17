@@ -15,3 +15,8 @@ export const retrievedTrackList = createAction(
   '[Track List/API] Retrieve Playlist Success',
   props<{ playlist: ReadonlyArray<Track> }>()
 );
+
+export const addPageTracks = createAction(
+  '[Track List/API] Add Playlist Success',
+  props<{ playlist: ReadonlyArray<Track> }>()
+);

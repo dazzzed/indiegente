@@ -4,7 +4,10 @@ import { Playlist } from '@indiegente/api-interfaces';
 import { Store } from '@ngrx/store';
 import { Track } from 'ngx-audio-player';
 import { map, tap } from 'rxjs';
-import { retrievedTrackList } from '../store/entities/playlist/playlist.actions';
+import {
+  addPageTracks,
+  retrievedTrackList,
+} from '../store/entities/playlist/playlist.actions';
 
 @Injectable({
   providedIn: 'root',
@@ -28,7 +31,11 @@ export class PlaylistService {
           }) || []
         );
       }),
-      tap((playlist) => this.store.dispatch(retrievedTrackList({ playlist })))
+      tap((playlist) =>
+        pageNr === 1
+          ? this.store.dispatch(retrievedTrackList({ playlist }))
+          : this.store.dispatch(addPageTracks({ playlist }))
+      )
     );
   }
 }
