@@ -10,6 +10,9 @@ import {
   tap,
   switchMap,
   take,
+  forkJoin,
+  of,
+  delay,
 } from 'rxjs';
 import { AudioPlayerComponent, Track } from 'ngx-audio-player';
 import { Store } from '@ngrx/store';
@@ -51,7 +54,34 @@ export class AppComponent implements OnInit, AfterViewInit {
       .pipe(
         tap((pl) => (this.playlist = JSON.parse(JSON.stringify(pl)))),
         switchMap(() => this.currenTrack$),
-        tap((index) => this.audioPlayer.selectTrack(index))
+        switchMap((trackIndex) => {
+          if (trackIndex > 12) {
+            const pages = [];
+            for (let i = 2; i <= Math.ceil(trackIndex / 12); i++) {
+              pages.push(this.playlistService.getPlaylist(i));
+            }
+            return forkJoin(pages).pipe(
+              tap(
+                (tracks) =>
+                  (this.playlist = this.playlist.concat(
+                    ...JSON.parse(JSON.stringify(tracks))
+                  ))
+              )
+            );
+          } else {
+            return of(null);
+          }
+        }),
+        switchMap(() => this.currenTrack$),
+        delay(10),
+        tap((index) => {
+          this.audioPlayer.selectTrack(index);
+          let i = 0;
+          while (i < Math.ceil(index / 10)) {
+            this.audioPlayer.paginator.nextPage();
+            i++;
+          }
+        })
       )
       .subscribe();
   }
