@@ -6,11 +6,9 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/apps/indiegente",
+        "outputPath": "apps/indiegente/dist",
         "index": "apps/indiegente/src/index.html",
         "main": "apps/indiegente/src/main.ts",
         "polyfills": "apps/indiegente/src/polyfills.ts",
@@ -94,9 +92,7 @@
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": [
-        "coverage/apps/indiegente"
-      ],
+      "outputs": ["coverage/apps/indiegente"],
       "options": {
         "jestConfig": "apps/indiegente/jest.config.js",
         "passWithNoTests": true

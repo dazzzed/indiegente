@@ -5,7 +5,9 @@ WORKDIR /usr/src/app
 
 COPY ./dist/package*.json ./
 
-RUN npm install
+COPY ./dist/decorate-angular-cli.js ./
+
+RUN npm install --force
 
 COPY . .
 
