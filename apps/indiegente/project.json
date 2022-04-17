@@ -18,13 +18,16 @@
         "inlineStyleLanguage": "scss",
         "assets": [
           "apps/indiegente/src/favicon.ico",
-          "apps/indiegente/src/assets"
+          "apps/indiegente/src/assets",
+          "apps/indiegente/src/manifest.webmanifest"
         ],
         "styles": [
           "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
           "apps/indiegente/src/styles.scss"
         ],
-        "scripts": []
+        "scripts": [],
+        "serviceWorker": true,
+        "ngswConfigPath": "apps/indiegente/ngsw-config.json"
       },
       "configurations": {
         "production": {
