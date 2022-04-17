@@ -13,7 +13,7 @@ services:
     ports:
       - 3002:3002
     restart: unless-stopped
-# networks:
-#   default:
-#     external:
-#       name: nginxproxymanager_default
+networks:
+  default:
+    external:
+      name: nginxproxymanager_default
