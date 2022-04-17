@@ -3,7 +3,9 @@ import { setCurrentTrack, setUser } from './user.actions';
 import { User } from './user.model';
 
 export const initialState: Readonly<User> = <User>(
-  JSON.parse(localStorage.getItem('indiegente-user') || '1')
+  JSON.parse(
+    localStorage.getItem('indiegente-user') || '{"currentTrackIndex":1}'
+  )
 );
 
 export const userReducer = createReducer(
