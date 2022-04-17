@@ -8,6 +8,7 @@ import {
   addPageTracks,
   retrievedTrackList,
 } from '../store/entities/playlist/playlist.actions';
+import { setCurrentTrack } from '../store/entities/user/user.actions';
 
 @Injectable({
   providedIn: 'root',
@@ -37,5 +38,9 @@ export class PlaylistService {
           : this.store.dispatch(addPageTracks({ playlist }))
       )
     );
+  }
+
+  public saveState(trackNr: number) {
+    this.store.dispatch(setCurrentTrack({ trackNr }));
   }
 }

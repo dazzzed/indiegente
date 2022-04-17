@@ -14,6 +14,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BaseUrlInterceptor } from './core/base-url.interceptor';
+import { userReducer } from './store/entities/user/user.reducer';
 
 @NgModule({
   declarations: [AppComponent],
@@ -24,7 +25,7 @@ import { BaseUrlInterceptor } from './core/base-url.interceptor';
     NgxAudioPlayerModule,
     FontAwesomeModule,
     MatSliderModule,
-    StoreModule.forRoot({ playlist: playlistReducer }),
+    StoreModule.forRoot({ playlist: playlistReducer, user: userReducer }),
     StoreDevtoolsModule.instrument({
       maxAge: 25, // Retains last 25 states
       // logOnly: environment.production, // Restrict extension to log-only mode
