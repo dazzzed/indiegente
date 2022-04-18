@@ -20,6 +20,7 @@ import { PlaylistService } from './services/playlist.service';
 import { selectPlaylist } from './store/entities/playlist/playlist.selector';
 import { retrievedTrackList } from './store/entities/playlist/playlist.actions';
 import { selectCurrentTrack } from './store/entities/user/user.selector';
+import { SwUpdate } from '@angular/service-worker';
 
 @Component({
   selector: 'indiegente-root',
@@ -43,8 +44,11 @@ export class AppComponent implements OnInit, AfterViewInit {
   constructor(
     private store: Store,
     private playlistService: PlaylistService,
-    private http: HttpClient
+    private http: HttpClient,
+    private swUpdate: SwUpdate
   ) {
+    this.updateClient();
+
     this.currenTrack$ = this.store.select(selectCurrentTrack);
   }
 
@@ -125,5 +129,23 @@ export class AppComponent implements OnInit, AfterViewInit {
         ?.querySelector('.mat-card .ngx-col')
         ?.classList.remove('ngx-col');
     }
+  }
+
+  // PWA Updates Management
+  updateClient() {
+    if (!this.swUpdate.isEnabled) {
+      console.log('Not Enabled');
+      return;
+    }
+    this.swUpdate.available.subscribe((event) => {
+      console.log(`current`, event.current, `available`, event.available);
+      if (confirm('An update is available for the application. Install?')) {
+        this.swUpdate.activateUpdate().then(() => location.reload());
+      }
+    });
+
+    this.swUpdate.activated.subscribe((event) => {
+      console.log(`current`, event.previous, `available`, event.current);
+    });
   }
 }
