@@ -80,7 +80,7 @@ export class AppComponent implements OnInit, AfterViewInit {
         delay(10),
         tap((index) => {
           this.audioPlayer.selectTrack(index);
-          let i = 0;
+          let i = 1;
           while (i < Math.ceil(index / 10)) {
             this.audioPlayer.paginator.nextPage();
             i++;
