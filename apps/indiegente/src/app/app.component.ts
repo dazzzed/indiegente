@@ -13,6 +13,10 @@ import {
   forkJoin,
   of,
   delay,
+  BehaviorSubject,
+  takeWhile,
+  concat,
+  fromEvent,
 } from 'rxjs';
 import { AudioPlayerComponent, Track } from 'ngx-audio-player';
 import { Store } from '@ngrx/store';
@@ -40,6 +44,9 @@ export class AppComponent implements OnInit, AfterViewInit {
   playlist$!: Observable<Track[]>;
   playlist: Track[] = [];
   currenTrack$: Observable<number>;
+  pageChange$: any;
+
+  lastPlayedTrackIndnex!: number;
 
   constructor(
     private store: Store,
@@ -85,13 +92,24 @@ export class AppComponent implements OnInit, AfterViewInit {
             this.audioPlayer.paginator.nextPage();
             i++;
           }
+          this.checkPageChange();
+          this.checkTrackChange();
+          // this.audioPlayer.paginator._changePageSize(this.playlist.length);
         })
       )
       .subscribe();
   }
 
-  loadMore() {
-    this.savePlayingState();
+  playNext() {
+    console.log('playNext');
+
+    if (this.audioPlayer.currentIndex <= this.lastPlayedTrackIndnex) {
+      this.audioPlayer.currentIndex = this.lastPlayedTrackIndnex + 1;
+    }
+    this.lastPlayedTrackIndnex = this.audioPlayer.currentIndex;
+
+    this.playlistService.saveState(this.audioPlayer.currentIndex);
+
     // Plus one for array indexing starting at 0 and another to load before last one plays
     const isLast = this.audioPlayer.currentIndex + 2 === this.playlist.length;
 
@@ -100,13 +118,46 @@ export class AppComponent implements OnInit, AfterViewInit {
       this.loadNextPage(nextPage);
     }
   }
-  savePlayingState() {
-    this.playlistService.saveState(this.audioPlayer.currentIndex);
+
+  checkTrackChange() {
+    document.querySelector('.skip-next')?.addEventListener('click', () => {
+      this.currenTrack$.pipe(take(1)).subscribe((savedIndex) => {
+        if (this.audioPlayer.currentIndex !== savedIndex) {
+          this.playlistService.saveState(this.audioPlayer.currentIndex);
+        } else {
+          this.playNext();
+        }
+      });
+    });
+
+    document
+      .querySelector('.mat-card button')
+      ?.addEventListener('click', () => {
+        this.currenTrack$.pipe(take(1)).subscribe((savedIndex) => {
+          if (this.audioPlayer.currentIndex !== savedIndex) {
+            this.playlistService.saveState(this.audioPlayer.currentIndex);
+          } else {
+            this.playNext();
+          }
+        });
+      });
+
+    document.querySelectorAll('.mat-table').forEach((e) =>
+      e.addEventListener('click', () => {
+        this.currenTrack$.pipe(take(1)).subscribe((savedIndex) => {
+          if (this.audioPlayer.currentIndex !== savedIndex) {
+            this.playlistService.saveState(this.audioPlayer.currentIndex);
+          } else {
+            this.playNext();
+          }
+        });
+      })
+    );
   }
 
   loadNextPage(page: number) {
     this.playlistService.getPlaylist(page).subscribe((pl) => {
-      this.playlist = this.playlist.concat(JSON.parse(JSON.stringify(pl)));
+      this.playlist.push(...JSON.parse(JSON.stringify(pl)));
     });
   }
 
@@ -129,6 +180,37 @@ export class AppComponent implements OnInit, AfterViewInit {
         ?.querySelector('.mat-card .ngx-col')
         ?.classList.remove('ngx-col');
     }
+  }
+
+  checkPageChange() {
+    document
+      .querySelector('.mat-paginator-navigation-next')
+      ?.addEventListener('click', () => {
+        if (
+          this.audioPlayer.paginator.pageIndex ===
+          Math.ceil(this.playlist.length / 12)
+        )
+          this.getNextPagePlaylist();
+      });
+    document
+      .querySelector('.mat-paginator-navigation-last')
+      ?.addEventListener('click', () => {
+        this.getNextPagePlaylist();
+      });
+  }
+
+  getNextPagePlaylist() {
+    this.playlistService
+      .getPlaylist(Math.ceil(this.playlist.length / 12) + 1)
+      .pipe(
+        tap((tracks) => {
+          this.playlist = this.playlist.concat(
+            ...JSON.parse(JSON.stringify(tracks))
+          );
+          // this.audioPlayer.paginator._changePageSize(this.playlist.length);
+        })
+      )
+      .subscribe();
   }
 
   // PWA Updates Management
