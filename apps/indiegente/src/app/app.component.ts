@@ -113,6 +113,9 @@ export class AppComponent implements OnInit {
 
       this.playingTrackIndex = index + 1;
       this.playingTrackEl.play();
+      this.playlist$.pipe(take(1)).subscribe((playlist) => {
+        this.palyingTrack$.next(playlist[index]);
+      });
     }, 100);
   }
 
