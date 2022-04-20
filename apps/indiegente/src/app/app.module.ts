@@ -16,6 +16,7 @@ import { environment } from '../environments/environment';
 import { BaseUrlInterceptor } from './core/base-url.interceptor';
 import { userReducer } from './store/entities/user/user.reducer';
 import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [AppComponent],
@@ -39,6 +40,7 @@ import { MatButtonModule } from '@angular/material/button';
       registrationStrategy: 'registerWhenStable:30000',
     }),
     MatButtonModule,
+    MatIconModule,
   ],
   providers: [
     {

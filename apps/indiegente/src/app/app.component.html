@@ -1,12 +1,36 @@
 <div class="cont">
-  <div>
-    <h2>Indiegente - Nuno Calado</h2>
+  <div class="player">
+    <h3>Indiegente - Nuno Calado</h3>
+    <h2>
+      <marquee>{{ (palyingTrack$ | async)?.title }}</marquee>
+    </h2>
+    <div class="buttons">
+      <button mat-button (click)="playPrevious(playingTrackIndex)">
+        <mat-icon aria-hidden="false" aria-label="Play previous"
+          >navigate_before</mat-icon
+        >
+      </button>
+      <button mat-button (click)="playPause()" class="play-pause">
+        <mat-icon
+          [class.hidden]="playingTrackEl && !playingTrackEl?.paused"
+          aria-hidden="false"
+          aria-label="Play"
+          >play_circle_filled</mat-icon
+        >
 
-    <button mat-button (click)="playPrevious(playingTrackIndex)">
-      Previous
-    </button>
-    <button mat-button (click)="playPause()">Play/Pause</button>
-    <button mat-button (click)="playNext(playingTrackIndex)">Next</button>
+        <mat-icon
+          [class.hidden]="playingTrackEl && playingTrackEl?.paused"
+          aria-hidden="false"
+          aria-label="Pause"
+          >pause_circle_filled</mat-icon
+        >
+      </button>
+      <button mat-button (click)="playNext(playingTrackIndex)">
+        <mat-icon aria-hidden="false" aria-label="Play next"
+          >navigate_next</mat-icon
+        >
+      </button>
+    </div>
 
     <div
       *ngFor="let track of playlist$ | async; let index = index"

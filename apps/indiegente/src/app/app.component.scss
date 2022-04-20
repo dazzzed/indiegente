@@ -1,15 +1,19 @@
-h2 {
-  padding-top: 20px;
-  text-align: center;
-}
-
 .cont {
   background-image: url('../assets/pages.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: repeat-y;
   padding: 0;
+  .player {
+    padding-top: 20px;
+  }
 
+  h3 {
+  }
+  h2,
+  h3 {
+    text-align: center;
+  }
   div {
     background-color: #fff;
     opacity: 0.9;
@@ -21,9 +25,32 @@ h2 {
     .title {
       width: 100%;
       padding: 14px 0;
+      text-align: center;
     }
     audio {
       width: 100%;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+
+    padding: 0 0 20px 0;
+    .hidden {
+      display: none;
+    }
+    mat-icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 2.5rem;
+    }
+    .play-pause {
+      mat-icon {
+        font-size: 3.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
+      }
     }
   }
 }

@@ -25,6 +25,7 @@ import {
   takeWhile,
   concat,
   fromEvent,
+  Subject,
 } from 'rxjs';
 import { AudioPlayerComponent, Track } from 'ngx-audio-player';
 import { Store } from '@ngrx/store';
@@ -52,6 +53,7 @@ export class AppComponent implements OnInit {
   playlist$!: Observable<Track[]>;
   playlist: Track[] = [];
   currenTrack$: Observable<number>;
+  palyingTrack$: Subject<Track> = new Subject();
   playingTrackEl!: HTMLAudioElement;
   pageChange$: any;
 
@@ -71,14 +73,12 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.playlistService
-      .getPlaylist(1)
-      .subscribe(
-        () =>
-          (this.playingTrackEl = <HTMLAudioElement>(
-            this.tracks?.find((_track, i) => i === 0)?.nativeElement
-          ))
+    this.playlistService.getPlaylist(1).subscribe((playList) => {
+      this.playingTrackEl = <HTMLAudioElement>(
+        this.tracks?.find((_track, i) => i === 0)?.nativeElement
       );
+      this.palyingTrack$.next(playList[0]);
+    });
   }
 
   ended(index: number) {
@@ -86,9 +86,13 @@ export class AppComponent implements OnInit {
       if (index + 1 === playlist.length) {
         this.playlistService
           .getPlaylist(Math.ceil(playlist.length / 12) + 1)
-          .subscribe(() => this.playNext(index));
+          .subscribe(() => {
+            this.playNext(index);
+            this.palyingTrack$.next(playlist[index]);
+          });
       } else {
         this.playNext(index);
+        this.palyingTrack$.next(playlist[index]);
       }
     });
   }
@@ -119,6 +123,10 @@ export class AppComponent implements OnInit {
     );
     this.playingTrackIndex = index - 1;
     this.playingTrackEl.play();
+
+    this.playlist$.pipe(take(1)).subscribe((playlist) => {
+      this.palyingTrack$.next(playlist[index]);
+    });
   }
 
   // PWA Updates Management
