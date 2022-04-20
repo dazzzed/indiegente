@@ -15,6 +15,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { BaseUrlInterceptor } from './core/base-url.interceptor';
 import { userReducer } from './store/entities/user/user.reducer';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [AppComponent],
@@ -37,6 +38,7 @@ import { userReducer } from './store/entities/user/user.reducer';
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000',
     }),
+    MatButtonModule,
   ],
   providers: [
     {

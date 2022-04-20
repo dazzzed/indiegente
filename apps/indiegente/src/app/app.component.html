@@ -1,17 +1,26 @@
 <div class="cont">
   <div>
     <h2>Indiegente - Nuno Calado</h2>
-    <mat-advanced-audio-player
-      #audioPlayer
-      [playlist]="playlist!"
-      [displayTitle]="msaapDisplayTitle"
-      [autoPlay]="false"
-      muted="muted"
-      [displayPlaylist]="msaapDisplayPlayList"
-      [displayVolumeControls]="msaapDisplayVolumeControls"
-      [expanded]="true"
-      [startOffset]="80"
-      (trackEnded)="playNext()"
-    ></mat-advanced-audio-player>
+
+    <button mat-button (click)="playPrevious(playingTrackIndex)">
+      Previous
+    </button>
+    <button mat-button (click)="playPause()">Play/Pause</button>
+    <button mat-button (click)="playNext(playingTrackIndex)">Next</button>
+
+    <div
+      *ngFor="let track of playlist$ | async; let index = index"
+      class="track"
+    >
+      <div class="title">{{ track.title }}</div>
+      <audio
+        #trackEl
+        [src]="track.link"
+        [autoplay]="index === 0"
+        [controls]="true"
+        (ended)="ended(index)"
+        (playing)="playingTrackEl = trackEl"
+      ></audio>
+    </div>
   </div>
 </div>

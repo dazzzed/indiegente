@@ -1,4 +1,12 @@
-import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  ElementRef,
+  OnInit,
+  QueryList,
+  ViewChild,
+  ViewChildren,
+} from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Playlist } from '@indiegente/api-interfaces';
 import {
@@ -31,9 +39,9 @@ import { SwUpdate } from '@angular/service-worker';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent implements OnInit, AfterViewInit {
-  @ViewChild('audioPlayer')
-  audioPlayer!: AudioPlayerComponent;
+export class AppComponent implements OnInit {
+  @ViewChildren('trackEl')
+  tracks!: QueryList<ElementRef<HTMLAudioElement>>;
   msaapDisplayTitle = true;
   msaapDisplayPlayList = true;
   msaapPageSizeOptions = [2, 4, 6];
@@ -44,9 +52,11 @@ export class AppComponent implements OnInit, AfterViewInit {
   playlist$!: Observable<Track[]>;
   playlist: Track[] = [];
   currenTrack$: Observable<number>;
+  playingTrackEl!: HTMLAudioElement;
   pageChange$: any;
 
   lastPlayedTrackIndnex!: number;
+  playingTrackIndex = 0;
 
   constructor(
     private store: Store,
@@ -57,160 +67,58 @@ export class AppComponent implements OnInit, AfterViewInit {
     this.updateClient();
 
     this.currenTrack$ = this.store.select(selectCurrentTrack);
+    this.playlist$ = this.store.select(selectPlaylist);
   }
 
   ngOnInit(): void {
     this.playlistService
       .getPlaylist(1)
-      .pipe(
-        tap((pl) => (this.playlist = JSON.parse(JSON.stringify(pl)))),
-        switchMap(() => this.currenTrack$),
-        switchMap((trackIndex) => {
-          if (trackIndex > 12) {
-            const pages = [];
-            for (let i = 2; i <= Math.ceil(trackIndex / 12); i++) {
-              pages.push(this.playlistService.getPlaylist(i));
-            }
-            return forkJoin(pages).pipe(
-              tap(
-                (tracks) =>
-                  (this.playlist = this.playlist.concat(
-                    ...JSON.parse(JSON.stringify(tracks))
-                  ))
-              )
-            );
-          } else {
-            return of(null);
-          }
-        }),
-        switchMap(() => this.currenTrack$),
-        delay(10),
-        tap((index) => {
-          this.audioPlayer.selectTrack(index);
-          let i = 1;
-          while (i < Math.ceil(index / 10)) {
-            this.audioPlayer.paginator.nextPage();
-            i++;
-          }
-          this.checkPageChange();
-          this.checkTrackChange();
-          // this.audioPlayer.paginator._changePageSize(this.playlist.length);
-        })
-      )
-      .subscribe();
+      .subscribe(
+        () =>
+          (this.playingTrackEl = <HTMLAudioElement>(
+            this.tracks?.find((_track, i) => i === 0)?.nativeElement
+          ))
+      );
   }
 
-  playNext() {
-    console.log('playNext');
-
-    if (this.audioPlayer.currentIndex <= this.lastPlayedTrackIndnex) {
-      this.audioPlayer.currentIndex = this.lastPlayedTrackIndnex + 1;
-    }
-    this.lastPlayedTrackIndnex = this.audioPlayer.currentIndex;
-
-    this.playlistService.saveState(this.audioPlayer.currentIndex);
-
-    // Plus one for array indexing starting at 0 and another to load before last one plays
-    const isLast = this.audioPlayer.currentIndex + 2 === this.playlist.length;
-
-    if (isLast) {
-      const nextPage = this.playlist.length / 12 + 1;
-      this.loadNextPage(nextPage);
-    }
-  }
-
-  checkTrackChange() {
-    document.querySelector('.skip-next')?.addEventListener('click', () => {
-      this.currenTrack$.pipe(take(1)).subscribe((savedIndex) => {
-        if (this.audioPlayer.currentIndex !== savedIndex) {
-          this.playlistService.saveState(this.audioPlayer.currentIndex);
-        } else {
-          this.playNext();
-        }
-      });
+  ended(index: number) {
+    this.playlist$.pipe(take(1)).subscribe((playlist) => {
+      if (index + 1 === playlist.length) {
+        this.playlistService
+          .getPlaylist(Math.ceil(playlist.length / 12) + 1)
+          .subscribe(() => this.playNext(index));
+      } else {
+        this.playNext(index);
+      }
     });
+  }
 
-    document
-      .querySelector('.mat-card button')
-      ?.addEventListener('click', () => {
-        this.currenTrack$.pipe(take(1)).subscribe((savedIndex) => {
-          if (this.audioPlayer.currentIndex !== savedIndex) {
-            this.playlistService.saveState(this.audioPlayer.currentIndex);
-          } else {
-            this.playNext();
-          }
-        });
-      });
+  playPause() {
+    this.playingTrackEl.paused
+      ? this.playingTrackEl.play()
+      : this.playingTrackEl.pause();
+  }
 
-    document.querySelectorAll('.mat-table').forEach((e) =>
-      e.addEventListener('click', () => {
-        this.currenTrack$.pipe(take(1)).subscribe((savedIndex) => {
-          if (this.audioPlayer.currentIndex !== savedIndex) {
-            this.playlistService.saveState(this.audioPlayer.currentIndex);
-          } else {
-            this.playNext();
-          }
-        });
-      })
+  playNext(index: number) {
+    this.playingTrackEl.pause();
+
+    setTimeout(() => {
+      this.playingTrackEl = <HTMLAudioElement>(
+        this.tracks?.find((_track, i) => i === index + 1)?.nativeElement
+      );
+
+      this.playingTrackIndex = index + 1;
+      this.playingTrackEl.play();
+    }, 100);
+  }
+
+  playPrevious(index: number) {
+    this.playingTrackEl.pause();
+    this.playingTrackEl = <HTMLAudioElement>(
+      this.tracks?.find((_track, i) => i === index - 1)?.nativeElement
     );
-  }
-
-  loadNextPage(page: number) {
-    this.playlistService.getPlaylist(page).subscribe((pl) => {
-      this.playlist.push(...JSON.parse(JSON.stringify(pl)));
-    });
-  }
-
-  ngAfterViewInit(): void {
-    if (window.innerWidth < 768) {
-      document
-        .querySelector('.ngx-col .ngx-d-none')
-        ?.classList.remove('ngx-d-none');
-
-      document.querySelector('mat-slider')?.classList.remove('ngx-d-none');
-
-      const fragment: Element = <Element>document.querySelector('.ngx-col');
-
-      document
-        ?.querySelector('.ngx-col')
-        ?.parentNode?.parentNode?.childNodes.item(1)
-        .appendChild(fragment);
-
-      document
-        ?.querySelector('.mat-card .ngx-col')
-        ?.classList.remove('ngx-col');
-    }
-  }
-
-  checkPageChange() {
-    document
-      .querySelector('.mat-paginator-navigation-next')
-      ?.addEventListener('click', () => {
-        if (
-          this.audioPlayer.paginator.pageIndex ===
-          Math.ceil(this.playlist.length / 12)
-        )
-          this.getNextPagePlaylist();
-      });
-    document
-      .querySelector('.mat-paginator-navigation-last')
-      ?.addEventListener('click', () => {
-        this.getNextPagePlaylist();
-      });
-  }
-
-  getNextPagePlaylist() {
-    this.playlistService
-      .getPlaylist(Math.ceil(this.playlist.length / 12) + 1)
-      .pipe(
-        tap((tracks) => {
-          this.playlist = this.playlist.concat(
-            ...JSON.parse(JSON.stringify(tracks))
-          );
-          // this.audioPlayer.paginator._changePageSize(this.playlist.length);
-        })
-      )
-      .subscribe();
+    this.playingTrackIndex = index - 1;
+    this.playingTrackEl.play();
   }
 
   // PWA Updates Management
