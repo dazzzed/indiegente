@@ -14,7 +14,7 @@
   h3 {
     text-align: center;
   }
-  div {
+  .bg-color {
     background-color: #fff;
     opacity: 0.9;
     height: 100%;
@@ -52,5 +52,13 @@
         height: 3.5rem;
       }
     }
+  }
+
+  .load-more {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
   }
 }

@@ -1,35 +1,37 @@
 <div class="cont">
-  <div class="player">
-    <h3>Antena 3 - Indiegente - Nuno Calado</h3>
-    <h2>
-      <marquee>{{ (palyingTrack$ | async)?.title }}</marquee>
-    </h2>
-    <div class="buttons">
-      <button mat-button (click)="playPrevious(playingTrackIndex)">
-        <mat-icon aria-hidden="false" aria-label="Play previous"
-          >navigate_before</mat-icon
-        >
-      </button>
-      <button mat-button (click)="playPause()" class="play-pause">
-        <mat-icon
-          [class.hidden]="playingTrackEl && !playingTrackEl?.paused"
-          aria-hidden="false"
-          aria-label="Play"
-          >play_circle_filled</mat-icon
-        >
+  <div class="bg-color">
+    <div class="player">
+      <h3>Antena 3 - Indiegente - Nuno Calado</h3>
+      <h2>
+        <marquee>{{ (palyingTrack$ | async)?.title }}</marquee>
+      </h2>
+      <div class="buttons">
+        <button mat-button (click)="playPrevious(playingTrackIndex)">
+          <mat-icon aria-hidden="false" aria-label="Play previous"
+            >navigate_before</mat-icon
+          >
+        </button>
+        <button mat-button (click)="playPause()" class="play-pause">
+          <mat-icon
+            [class.hidden]="playingTrackEl && !playingTrackEl?.paused"
+            aria-hidden="false"
+            aria-label="Play"
+            >play_circle_filled</mat-icon
+          >
 
-        <mat-icon
-          [class.hidden]="playingTrackEl && playingTrackEl?.paused"
-          aria-hidden="false"
-          aria-label="Pause"
-          >pause_circle_filled</mat-icon
-        >
-      </button>
-      <button mat-button (click)="playNext(playingTrackIndex)">
-        <mat-icon aria-hidden="false" aria-label="Play next"
-          >navigate_next</mat-icon
-        >
-      </button>
+          <mat-icon
+            [class.hidden]="playingTrackEl && playingTrackEl?.paused"
+            aria-hidden="false"
+            aria-label="Pause"
+            >pause_circle_filled</mat-icon
+          >
+        </button>
+        <button mat-button (click)="playNext(playingTrackIndex)">
+          <mat-icon aria-hidden="false" aria-label="Play next"
+            >navigate_next</mat-icon
+          >
+        </button>
+      </div>
     </div>
 
     <div
@@ -45,6 +47,14 @@
         (ended)="ended(index)"
         (playing)="playingTrackEl = trackEl"
       ></audio>
+    </div>
+
+    <div class="load-more">
+      <button mat-button (click)="loadNextPage()">
+        <mat-icon aria-hidden="false" aria-label="Play next"
+          >add_circle</mat-icon
+        >
+      </button>
     </div>
   </div>
 </div>

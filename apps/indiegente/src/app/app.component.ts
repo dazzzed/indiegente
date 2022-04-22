@@ -119,6 +119,14 @@ export class AppComponent implements OnInit {
     }, 100);
   }
 
+  loadNextPage() {
+    this.playlist$.pipe(take(1)).subscribe((playlist) => {
+      this.playlistService
+        .getPlaylist(Math.ceil(playlist.length / 12) + 1)
+        .subscribe();
+    });
+  }
+
   playPrevious(index: number) {
     this.playingTrackEl.pause();
     this.playingTrackEl = <HTMLAudioElement>(
