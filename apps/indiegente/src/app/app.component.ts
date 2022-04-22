@@ -26,6 +26,7 @@ import {
   concat,
   fromEvent,
   Subject,
+  iif,
 } from 'rxjs';
 import { AudioPlayerComponent, Track } from 'ngx-audio-player';
 import { Store } from '@ngrx/store';
@@ -34,6 +35,7 @@ import { selectPlaylist } from './store/entities/playlist/playlist.selector';
 import { retrievedTrackList } from './store/entities/playlist/playlist.actions';
 import { selectCurrentTrack } from './store/entities/user/user.selector';
 import { SwUpdate } from '@angular/service-worker';
+import { setCurrentTrack } from './store/entities/user/user.actions';
 
 @Component({
   selector: 'indiegente-root',
@@ -59,6 +61,7 @@ export class AppComponent implements OnInit {
 
   lastPlayedTrackIndnex!: number;
   playingTrackIndex = 0;
+  lastPlayedTrackIndex$: Observable<number>;
 
   constructor(
     private store: Store,
@@ -70,15 +73,27 @@ export class AppComponent implements OnInit {
 
     this.currenTrack$ = this.store.select(selectCurrentTrack);
     this.playlist$ = this.store.select(selectPlaylist);
+    this.lastPlayedTrackIndex$ = this.store.select(selectCurrentTrack);
   }
 
   ngOnInit(): void {
-    this.playlistService.getPlaylist(1).subscribe((playList) => {
-      this.playingTrackEl = <HTMLAudioElement>(
-        this.tracks?.find((_track, i) => i === 0)?.nativeElement
-      );
-      this.palyingTrack$.next(playList[0]);
-    });
+    this.playlistService
+      .getPlaylist(1)
+      .pipe(
+        switchMap(() => this.lastPlayedTrackIndex$),
+        switchMap((lastPlayedTrackIndex) => {
+          if (lastPlayedTrackIndex > 12) {
+            const reqs = [];
+
+            for (let i = 2; i <= Math.ceil(lastPlayedTrackIndex / 12); i++) {
+              reqs.push(this.playlistService.getPlaylist(i));
+            }
+            return forkJoin(reqs);
+          }
+          return of(null);
+        })
+      )
+      .subscribe(console.log);
   }
 
   ended(index: number) {
@@ -97,6 +112,22 @@ export class AppComponent implements OnInit {
     });
   }
 
+  updatestate(trackEl: HTMLAudioElement, index: number) {
+    if (this.playingTrackEl && this.playingTrackIndex !== index)
+      this.playingTrackEl.pause();
+
+    this.playingTrackEl = trackEl;
+    this.playingTrackIndex = index;
+    this.playlist$.pipe(take(1)).subscribe((playlist) => {
+      this.palyingTrack$.next(playlist[index]);
+    });
+    this.updateStoredLastTrackIndex();
+  }
+
+  updateStoredLastTrackIndex() {
+    this.store.dispatch(setCurrentTrack({ trackNr: this.playingTrackIndex }));
+  }
+
   playPause() {
     this.playingTrackEl.paused
       ? this.playingTrackEl.play()
@@ -113,6 +144,7 @@ export class AppComponent implements OnInit {
 
       this.playingTrackIndex = index + 1;
       this.playingTrackEl.play();
+      this.updateStoredLastTrackIndex();
       this.playlist$.pipe(take(1)).subscribe((playlist) => {
         this.palyingTrack$.next(playlist[index]);
       });
@@ -134,7 +166,7 @@ export class AppComponent implements OnInit {
     );
     this.playingTrackIndex = index - 1;
     this.playingTrackEl.play();
-
+    this.updateStoredLastTrackIndex();
     this.playlist$.pipe(take(1)).subscribe((playlist) => {
       this.palyingTrack$.next(playlist[index]);
     });
