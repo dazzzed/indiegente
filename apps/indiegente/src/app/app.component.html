@@ -46,7 +46,9 @@
       <audio
         #trackEl
         [src]="track.link"
-        [autoplay]="index === 0"
+        [autoplay]="
+          (lastPlayedTrackIndex$ | async) === undefined && index === 0
+        "
         [controls]="true"
         (ended)="ended(index)"
         (playing)="updatestate(trackEl, index)"
