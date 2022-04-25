@@ -15,8 +15,7 @@
     text-align: center;
   }
   .bg-color {
-    background-color: #fff;
-    opacity: 0.9;
+    background-color: rgba($color: #fff, $alpha: 0.9);
     height: 100%;
   }
 
@@ -57,8 +56,30 @@
   .load-more {
     margin-top: 24px;
     margin-bottom: 24px;
-    width: 100vw;
-    display: flex;
-    align-items: center;
+    text-align: center;
+  }
+  .playing-track {
+    position: fixed;
+    top: 175px;
+    z-index: 999;
+    background: #fff;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    padding: 14px 0;
+    width: 100%;
+    audio {
+      width: calc(100% - 28px);
+      margin: 0 14px;
+    }
+  }
+
+  .player {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+  }
+
+  .tracklist {
+    padding-top: 136px;
   }
 }

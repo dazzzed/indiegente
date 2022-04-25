@@ -37,23 +37,25 @@
         </button>
       </div>
     </div>
-
-    <div
-      *ngFor="let track of playlist$ | async; let index = index"
-      class="track"
-    >
-      <div class="title">{{ track.title }} - {{ index }}</div>
-      <audio
-        #trackEl
-        [src]="track.link"
-        [autoplay]="
-          (lastPlayedTrackIndex$ | async) === undefined && index === 0
-        "
-        [controls]="true"
-        (ended)="ended(index)"
-        (playing)="updatestate(trackEl, index)"
-        (load)="index === 0 ? (playingTrackEl = trackEl) : null"
-      ></audio>
+    <div class="tracklist">
+      <div
+        *ngFor="let track of playlist$ | async; let index = index"
+        class="track"
+        [class.playing-track]="index === (lastPlayedTrackIndex$ | async)"
+      >
+        <div class="title">{{ track.title }} - {{ index }}</div>
+        <audio
+          #trackEl
+          [src]="track.link"
+          [autoplay]="
+            (lastPlayedTrackIndex$ | async) === undefined && index === 0
+          "
+          [controls]="true"
+          (ended)="ended(index)"
+          (playing)="updatestate(trackEl, index)"
+          (load)="index === 0 ? (playingTrackEl = trackEl) : null"
+        ></audio>
+      </div>
     </div>
 
     <div class="load-more">
