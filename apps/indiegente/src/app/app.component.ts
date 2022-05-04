@@ -80,7 +80,7 @@ export class AppComponent implements OnInit {
     this.playlistService
       .getPlaylist(1)
       .pipe(
-        switchMap(() => this.lastPlayedTrackIndex$),
+        switchMap(() => this.lastPlayedTrackIndex$.pipe(take(1))),
         switchMap((lastPlayedTrackIndex) => {
           if (lastPlayedTrackIndex > 12) {
             const reqs = [];
@@ -97,19 +97,24 @@ export class AppComponent implements OnInit {
   }
 
   ended(index: number) {
-    this.playlist$.pipe(take(1)).subscribe((playlist) => {
-      if (index + 1 === playlist.length) {
-        this.playlistService
-          .getPlaylist(Math.ceil(playlist.length / 12) + 1)
-          .subscribe(() => {
+    this.playlist$
+      .pipe(
+        take(1),
+        tap((playlist) => {
+          if (index + 1 === playlist.length) {
+            this.playlistService
+              .getPlaylist(Math.ceil(playlist.length / 12) + 1)
+              .subscribe(() => {
+                this.playNext(index);
+                this.palyingTrack$.next(playlist[index]);
+              });
+          } else {
             this.playNext(index);
             this.palyingTrack$.next(playlist[index]);
-          });
-      } else {
-        this.playNext(index);
-        this.palyingTrack$.next(playlist[index]);
-      }
-    });
+          }
+        })
+      )
+      .subscribe();
   }
 
   updatestate(trackEl: HTMLAudioElement, index: number) {
