@@ -123,6 +123,7 @@ export class AppComponent implements OnInit {
 
     this.playingTrackEl = trackEl;
     this.playingTrackIndex = index;
+    this.playingTrackEl.play();
     this.playlist$.pipe(take(1)).subscribe((playlist) => {
       this.palyingTrack$.next(playlist[index]);
     });

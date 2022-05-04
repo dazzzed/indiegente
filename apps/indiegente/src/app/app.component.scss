@@ -28,7 +28,9 @@
     }
     audio {
       width: 100%;
+      display: none;
     }
+    border-bottom: 1px solid black;
   }
 
   .buttons {
@@ -69,6 +71,7 @@
     audio {
       width: calc(100% - 28px);
       margin: 0 14px;
+      display: block;
     }
   }
 

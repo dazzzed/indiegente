@@ -43,7 +43,21 @@
         class="track"
         [class.playing-track]="index === (lastPlayedTrackIndex$ | async)"
       >
-        <div class="title">{{ track.title }} - {{ index }}</div>
+        <div class="title">
+          <button
+            mat-button
+            (click)="updatestate(trackEl, index)"
+            class="play-pause"
+          >
+            <mat-icon
+              [class.hidden]="playingTrackEl && !playingTrackEl?.paused"
+              aria-hidden="false"
+              aria-label="Play"
+              >play_circle_filled</mat-icon
+            >
+          </button>
+          {{ track.title }} - {{ index }}
+        </div>
         <audio
           #trackEl
           [src]="track.link"
