@@ -28,7 +28,6 @@ import {
   Subject,
   iif,
 } from 'rxjs';
-import { AudioPlayerComponent, Track } from 'ngx-audio-player';
 import { Store } from '@ngrx/store';
 import { PlaylistService } from './services/playlist.service';
 import { selectPlaylist } from './store/entities/playlist/playlist.selector';
@@ -36,6 +35,7 @@ import { retrievedTrackList } from './store/entities/playlist/playlist.actions';
 import { selectCurrentTrack } from './store/entities/user/user.selector';
 import { SwUpdate } from '@angular/service-worker';
 import { setCurrentTrack } from './store/entities/user/user.actions';
+import { Track } from './store/entities/playlist/playlist.model';
 
 @Component({
   selector: 'indiegente-root',
