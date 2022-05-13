@@ -2,12 +2,12 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Playlist } from '@indiegente/api-interfaces';
 import { Store } from '@ngrx/store';
-import { Track } from 'ngx-audio-player';
 import { map, tap } from 'rxjs';
 import {
   addPageTracks,
   retrievedTrackList,
 } from '../store/entities/playlist/playlist.actions';
+import { Track } from '../store/entities/playlist/playlist.model';
 import { setCurrentTrack } from '../store/entities/user/user.actions';
 
 @Injectable({
@@ -21,13 +21,13 @@ export class PlaylistService {
       map((p) => {
         return (
           p.map((ep, i) => {
-            const track = new Track();
-
-            track.link = ep.url;
-            track.index = i;
-            track.pageNr = pageNr;
-            track.title = ep.label;
-            track.duration = Number(ep.duration.trim().replace('min', ''));
+            const track: Track = {
+              link: ep.url,
+              index: i,
+              pageNr: pageNr,
+              title: ep.label,
+              duration: Number(ep.duration.trim().replace('min', '')),
+            };
 
             return track;
           }) || []
