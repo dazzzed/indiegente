@@ -24,7 +24,7 @@
           >
 
           <mat-icon
-            [class.hidden]="playingTrackEl && playingTrackEl?.paused"
+            [class.hidden]="!playingTrackEl || playingTrackEl?.paused"
             aria-hidden="false"
             aria-label="Pause"
             >pause_circle_filled</mat-icon
@@ -44,7 +44,7 @@
         [class.playing-track]="index === (lastPlayedTrackIndex$ | async)"
       >
         <div class="title">
-          <button
+          <!-- <button
             mat-button
             (click)="updatestate(trackEl, index)"
             class="play-pause"
@@ -55,7 +55,7 @@
               aria-label="Play"
               >play_circle_filled</mat-icon
             >
-          </button>
+          </button> -->
           {{ track.title }} - {{ index }}
         </div>
         <audio

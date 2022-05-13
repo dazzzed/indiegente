@@ -25,6 +25,7 @@ export class PlaylistService {
 
             track.link = ep.url;
             track.index = i;
+            track.pageNr = pageNr;
             track.title = ep.label;
             track.duration = Number(ep.duration.trim().replace('min', ''));
 

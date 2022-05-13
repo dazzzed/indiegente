@@ -8,5 +8,11 @@ export const initialState: ReadonlyArray<Track> = [];
 export const playlistReducer = createReducer(
   initialState,
   on(retrievedTrackList, (state, { playlist }) => playlist),
-  on(addPageTracks, (state, { playlist }) => [...state, ...playlist])
+  on(addPageTracks, (state, { playlist }) => {
+    console.log('added: ' + playlist[0].title);
+
+    return [...state, ...playlist]
+      .sort((a, b) => a.index - b.index)
+      .sort((a, b) => a.pageNr - b.pageNr);
+  })
 );
