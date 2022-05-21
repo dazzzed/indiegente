@@ -46,7 +46,7 @@ export class AppComponent implements OnInit {
 
   playlist$!: Observable<Track[]>;
   playlist: Track[] = [];
-  currenTrack$: Observable<{ index: number; time: number }>;
+  currenTrack$: Observable<{ index: number; time: number; title: string }>;
   palyingTrack$: Subject<Track> = new Subject();
   playingTrackEl!: HTMLAudioElement;
   pageChange$: any;
@@ -105,7 +105,7 @@ export class AppComponent implements OnInit {
         ),
         switchMap(({ pl, track }) => {
           this.playingTrackTime = track.time;
-          this.playingTrackIndex = track.index;
+          this.playingTrackIndex = pl.findIndex((t) => t.title === track.title);
           return this.tracks.changes;
         }),
         tap((els: QueryList<ElementRef<HTMLAudioElement>>) => {
@@ -155,12 +155,15 @@ export class AppComponent implements OnInit {
   }
 
   updateStoredLastTrackIndex() {
-    this.store.dispatch(
-      setCurrentTrack({
-        trackNr: this.playingTrackIndex,
-        time: this.playingTrackEl.currentTime,
-      })
-    );
+    this.playlist$.pipe(take(1)).subscribe((playlist) => {
+      this.store.dispatch(
+        setCurrentTrack({
+          trackNr: this.playingTrackIndex,
+          time: this.playingTrackEl.currentTime,
+          title: playlist[this.playingTrackIndex].title,
+        })
+      );
+    });
   }
 
   playPause() {

@@ -12,10 +12,10 @@ export const initialState: Readonly<User> = <User>(
 export const userReducer = createReducer(
   initialState,
   on(setUser, (state, { user }) => user),
-  on(setCurrentTrack, (state, { trackNr, time }) => {
+  on(setCurrentTrack, (state, { trackNr, time, title }) => {
     const userState: User = {
       ...state,
-      currentTrack: { index: trackNr, time },
+      currentTrack: { index: trackNr, time, title },
     };
     console.log(userState);
 
