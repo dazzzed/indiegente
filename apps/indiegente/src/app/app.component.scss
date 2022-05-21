@@ -21,6 +21,8 @@
 
   .track {
     padding: 0 14px;
+
+    width: 100%;
     .title {
       width: 100%;
       padding: 14px 0;
@@ -67,7 +69,7 @@
     background: #fff;
     box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
     padding: 14px 0;
-    width: 100%;
+    right: 0;
     audio {
       width: calc(100% - 28px);
       margin: 0 14px;

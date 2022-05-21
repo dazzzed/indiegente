@@ -4,17 +4,18 @@ import { User } from './user.model';
 
 export const initialState: Readonly<User> = <User>(
   JSON.parse(
-    localStorage.getItem('indiegente-user') || '{"currentTrackIndex":1}'
+    localStorage.getItem('indiegente-user') ||
+      '{"currentTrack":{"index":1, "time": 0}}'
   )
 );
 
 export const userReducer = createReducer(
   initialState,
   on(setUser, (state, { user }) => user),
-  on(setCurrentTrack, (state, { trackNr }) => {
-    const userState = {
+  on(setCurrentTrack, (state, { trackNr, time }) => {
+    const userState: User = {
       ...state,
-      currentTrackIndex: trackNr,
+      currentTrack: { index: trackNr, time },
     };
     console.log(userState);
 

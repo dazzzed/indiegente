@@ -40,8 +40,4 @@ export class PlaylistService {
       )
     );
   }
-
-  public saveState(trackNr: number) {
-    this.store.dispatch(setCurrentTrack({ trackNr }));
-  }
 }

@@ -1,38 +1,30 @@
 import {
-  AfterViewInit,
+  ChangeDetectorRef,
   Component,
   ElementRef,
   OnInit,
   QueryList,
-  ViewChild,
   ViewChildren,
 } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Playlist } from '@indiegente/api-interfaces';
 import {
-  expand,
-  map,
-  mergeMap,
   Observable,
-  share,
   tap,
   switchMap,
   take,
   forkJoin,
   of,
-  delay,
-  BehaviorSubject,
-  takeWhile,
-  concat,
-  fromEvent,
   Subject,
-  iif,
+  fromEvent,
+  first,
 } from 'rxjs';
 import { Store } from '@ngrx/store';
 import { PlaylistService } from './services/playlist.service';
 import { selectPlaylist } from './store/entities/playlist/playlist.selector';
-import { retrievedTrackList } from './store/entities/playlist/playlist.actions';
-import { selectCurrentTrack } from './store/entities/user/user.selector';
+import {
+  selectCurrentTrack,
+  selectCurrentTrackIndex,
+} from './store/entities/user/user.selector';
 import { SwUpdate } from '@angular/service-worker';
 import { setCurrentTrack } from './store/entities/user/user.actions';
 import { Track } from './store/entities/playlist/playlist.model';
@@ -54,7 +46,7 @@ export class AppComponent implements OnInit {
 
   playlist$!: Observable<Track[]>;
   playlist: Track[] = [];
-  currenTrack$: Observable<number>;
+  currenTrack$: Observable<{ index: number; time: number }>;
   palyingTrack$: Subject<Track> = new Subject();
   playingTrackEl!: HTMLAudioElement;
   pageChange$: any;
@@ -62,21 +54,34 @@ export class AppComponent implements OnInit {
   lastPlayedTrackIndnex!: number;
   playingTrackIndex = 0;
   lastPlayedTrackIndex$: Observable<number>;
+  playingTrackTime = 0;
 
   constructor(
     private store: Store,
     private playlistService: PlaylistService,
     private http: HttpClient,
-    private swUpdate: SwUpdate
+    private swUpdate: SwUpdate,
+    private cdr: ChangeDetectorRef
   ) {
     this.updateClient();
 
     this.currenTrack$ = this.store.select(selectCurrentTrack);
     this.playlist$ = this.store.select(selectPlaylist);
-    this.lastPlayedTrackIndex$ = this.store.select(selectCurrentTrack);
+    this.lastPlayedTrackIndex$ = this.store.select(selectCurrentTrackIndex);
   }
 
   ngOnInit(): void {
+    this.setupPlayer();
+    this.saveStateOnclose();
+  }
+
+  saveStateOnclose() {
+    fromEvent(window, 'beforeunload')
+      .pipe(tap(() => this.updateStoredLastTrackIndex()))
+      .subscribe();
+  }
+
+  private setupPlayer() {
     this.playlistService
       .getPlaylist(1)
       .pipe(
@@ -91,6 +96,25 @@ export class AppComponent implements OnInit {
             return forkJoin(reqs);
           }
           return of(null);
+        }),
+        switchMap(() =>
+          forkJoin({
+            pl: this.playlist$.pipe(first()),
+            track: this.currenTrack$.pipe(first()),
+          })
+        ),
+        switchMap(({ pl, track }) => {
+          this.playingTrackTime = track.time;
+          this.playingTrackIndex = track.index;
+          return this.tracks.changes;
+        }),
+        tap((els: QueryList<ElementRef<HTMLAudioElement>>) => {
+          const playTrack = <HTMLAudioElement>(
+            els.get(this.playingTrackIndex)?.nativeElement
+          );
+          playTrack.currentTime = this.playingTrackTime;
+          this.playingTrackEl = playTrack;
+          this.cdr.detectChanges();
         })
       )
       .subscribe(console.log);
@@ -131,7 +155,12 @@ export class AppComponent implements OnInit {
   }
 
   updateStoredLastTrackIndex() {
-    this.store.dispatch(setCurrentTrack({ trackNr: this.playingTrackIndex }));
+    this.store.dispatch(
+      setCurrentTrack({
+        trackNr: this.playingTrackIndex,
+        time: this.playingTrackEl.currentTime,
+      })
+    );
   }
 
   playPause() {
@@ -149,6 +178,7 @@ export class AppComponent implements OnInit {
       );
 
       this.playingTrackIndex = index + 1;
+      this.playingTrackTime = 0;
       this.playingTrackEl.play();
       this.updateStoredLastTrackIndex();
       this.playlist$.pipe(take(1)).subscribe((playlist) => {
@@ -171,6 +201,7 @@ export class AppComponent implements OnInit {
       this.tracks?.find((_track, i) => i === index - 1)?.nativeElement
     );
     this.playingTrackIndex = index - 1;
+    this.playingTrackTime = 0;
     this.playingTrackEl.play();
     this.updateStoredLastTrackIndex();
     this.playlist$.pipe(take(1)).subscribe((playlist) => {

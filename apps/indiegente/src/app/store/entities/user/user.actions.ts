@@ -5,5 +5,5 @@ export const setUser = createAction('[User] Set User', props<{ user: User }>());
 
 export const setCurrentTrack = createAction(
   '[User] Set User CurentTrack',
-  props<{ trackNr: number }>()
+  props<{ trackNr: number; time: number }>()
 );

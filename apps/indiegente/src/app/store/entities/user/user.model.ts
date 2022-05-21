@@ -1,4 +1,7 @@
 export interface User {
   username: string;
-  currentTrackIndex: number;
+  currentTrack: {
+    index: number;
+    time: number;
+  };
 }

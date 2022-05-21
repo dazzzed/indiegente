@@ -5,5 +5,10 @@ export const selectUser = createFeatureSelector<User>('user');
 
 export const selectCurrentTrack = createSelector(
   selectUser,
-  (user) => user.currentTrackIndex
+  (user) => user.currentTrack
+);
+
+export const selectCurrentTrackIndex = createSelector(
+  selectUser,
+  (user) => user.currentTrack?.index
 );

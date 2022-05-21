@@ -3,11 +3,7 @@
     <div class="player">
       <h3>Antena 3 - Indiegente - Nuno Calado</h3>
       <h2>
-        <marquee
-          >Playing: -
-          {{ lastPlayedTrackIndex$ | async }}
-          - {{ (palyingTrack$ | async)?.title }}</marquee
-        >
+        <marquee>{{ (palyingTrack$ | async)?.title }}</marquee>
       </h2>
       <div class="buttons">
         <button mat-button (click)="playPrevious(playingTrackIndex)">
@@ -38,10 +34,12 @@
       </div>
     </div>
     <div class="tracklist">
-      <div
+      <button
+        mat-button
         *ngFor="let track of playlist$ | async; let index = index"
         class="track"
-        [class.playing-track]="index === (lastPlayedTrackIndex$ | async)"
+        [class.playing-track]="index === playingTrackIndex"
+        (click)="updatestate(trackEl, index)"
       >
         <div class="title">
           <!-- <button
@@ -69,7 +67,7 @@
           (playing)="updatestate(trackEl, index)"
           (load)="index === 0 ? (playingTrackEl = trackEl) : null"
         ></audio>
-      </div>
+      </button>
     </div>
 
     <div class="load-more">
