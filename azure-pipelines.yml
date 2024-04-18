@@ -11,7 +11,7 @@ pool: TiagosPool
 steps:
   - task: NodeTool@0
     inputs:
-      versionSpec: '18.13'
+      versionSpec: '12.20'
     displayName: 'Install Node.js'
   - task: CmdLine@2
     inputs:
