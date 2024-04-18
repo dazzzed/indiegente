@@ -15,5 +15,5 @@ services:
     restart: unless-stopped
 networks:
   default:
-    external:
-      name: nginxproxymanager_default
+    name: nginxproxymanager_default
+    external: true
